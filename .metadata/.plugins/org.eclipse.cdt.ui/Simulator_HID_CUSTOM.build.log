@@ -1,28 +1,10 @@
-13:45:06 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
+13:45:44 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
 make -j7 all 
-arm-none-eabi-gcc "../USB_DEVICE/App/usbd_custom_hid_if.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"USB_DEVICE/App/usbd_custom_hid_if.d" -MT"USB_DEVICE/App/usbd_custom_hid_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_DEVICE/App/usbd_custom_hid_if.o"
-../USB_DEVICE/App/usbd_custom_hid_if.c:135:3: warning: excess elements in array initializer
-  135 |   0xC0    /*     END_COLLECTION              */
-      |   ^~~~
-../USB_DEVICE/App/usbd_custom_hid_if.c:135:3: note: (near initialization for 'CUSTOM_HID_ReportDesc_FS')
-../USB_DEVICE/App/usbd_custom_hid_if.c:177:3: warning: initialization of 'int8_t (*)(uint8_t *)' {aka 'signed char (*)(unsigned char *)'} from incompatible pointer type 'int8_t (*)(uint8_t,  uint8_t)' {aka 'signed char (*)(unsigned char,  unsigned char)'} [-Wincompatible-pointer-types]
-  177 |   CUSTOM_HID_OutEvent_FS
-      |   ^~~~~~~~~~~~~~~~~~~~~~
-../USB_DEVICE/App/usbd_custom_hid_if.c:177:3: note: (near initialization for 'USBD_CustomHID_fops_FS.OutEvent')
-arm-none-eabi-gcc -o "Simulator_HID_CUSTOM.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/STM32L073CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Simulator_HID_CUSTOM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Simulator_HID_CUSTOM.elf
- 
 arm-none-eabi-size   Simulator_HID_CUSTOM.elf 
-arm-none-eabi-objdump -h -S  Simulator_HID_CUSTOM.elf  > "Simulator_HID_CUSTOM.list"
-arm-none-eabi-objcopy  -O binary  Simulator_HID_CUSTOM.elf  "Simulator_HID_CUSTOM.bin"
    text	   data	    bss	    dec	    hex	filename
   38444	    516	   3876	  42836	   a754	Simulator_HID_CUSTOM.elf
 Finished building: default.size.stdout
  
-Finished building: Simulator_HID_CUSTOM.bin
- 
-Finished building: Simulator_HID_CUSTOM.list
- 
 
-13:45:07 Build Finished. 0 errors, 2 warnings. (took 1s.347ms)
+13:45:44 Build Finished. 0 errors, 0 warnings. (took 465ms)
 

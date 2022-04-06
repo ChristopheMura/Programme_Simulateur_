@@ -23,3 +23,10 @@ Finished building: Simulator_HID_CUSTOM.bin
  
 Finished building: Simulator_HID_CUSTOM.list
  
+13:45:44 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
+make -j7 all 
+arm-none-eabi-size   Simulator_HID_CUSTOM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38444	    516	   3876	  42836	   a754	Simulator_HID_CUSTOM.elf
+Finished building: default.size.stdout
+ 
