@@ -14,3 +14,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/chris
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-04-06 13:30:37.715
 !MESSAGE Indexed 'Simulator_HID_CUSTOM' (22 sources, 82 headers) in 3.65 sec: 4,549 declarations; 25,049 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0068%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-06 13:35:23.592
+!MESSAGE Indexed 'HID_CUSTOM_SIMULATEUR' (37 sources, 101 headers) in 3.05 sec: 7,026 declarations; 44,502 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0039%)
