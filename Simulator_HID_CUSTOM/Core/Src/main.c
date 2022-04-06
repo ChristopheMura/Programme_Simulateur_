@@ -22,16 +22,37 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usbd_customhid.h"
+#include "stm32l0xx_it.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
+typedef struct{
+	uint8_t hat0;
+	uint8_t hat1;
+	uint8_t hat2;
+	uint8_t key3;
+	uint8_t but0;
+	uint8_t but1;
+	uint8_t but2;
+	uint8_t but3;
+	uint16_t x;
+	uint16_t y;
+	uint16_t z;
+	uint16_t rx;
+	uint16_t ry;
+}pumaHID;
+
+pumaHID pumahid;
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define VREFINT_CAL_ADDR ((uint16_t*)(uint32_t)0x1FFFF7BA)
+#define ADC_IRQ ADC1_IRQn
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -45,7 +66,41 @@ ADC_HandleTypeDef hadc;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+extern USBD_CUSTOM_HID_HandleTypeDef hUsbDeviceFS;
 
+unsigned int uiAnalogData[5];
+
+unsigned char i = 0;
+char adcUpdated;
+
+unsigned char msg[10];
+
+float Vdd;
+
+GPIO_PinState BP_1;
+GPIO_PinState BP_3;
+GPIO_PinState hat_switch;
+
+GPIO_PinState hat_north;
+GPIO_PinState hat_west;
+
+GPIO_PinState BP_2;
+GPIO_PinState BP_4;
+GPIO_PinState hat_south;
+
+GPIO_PinState BP_5;
+GPIO_PinState BP_6;
+
+GPIO_PinState BP_7;
+GPIO_PinState BP_8;
+
+GPIO_PinState BP_11;
+GPIO_PinState BP_20;
+
+GPIO_PinState BP_21;
+GPIO_PinState BP_30;
+
+GPIO_PinState CH;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -54,12 +109,37 @@ static void MX_GPIO_Init(void);
 static void MX_ADC_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
+void ADC_Select_CH(char choix);
+
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+/*void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* cat){
+
+	 if((ADC1->ISR & ADC_ISR_OVR)== 1)
+	    printf("OVR ERR");
+
+	 uiAnalogData[i]= HAL_ADC_GetValue(&hadc);
+	i++;
+
+	if (i == 5){//when #conversion > 1000 reset count. This will cause overwrite of SRAM storage locations
+		HAL_ADC_Stop_IT (&hadc);
+		i=0;
+	}
+
+	if( i%2==0 )  //every two conversion restart ADC w/interrupts
+		HAL_ADC_Start_IT(&hadc);   //start adc conversion and use interrupts when EOC occurs
+
+}*/
+
+/*
+void ADC_IRQHandler()
+{
+    HAL_ADC_IRQHandler(&hadc);
+}*/
 /* USER CODE END 0 */
 
 /**
@@ -69,6 +149,22 @@ static void MX_USART2_UART_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+
+
+	pumahid.hat0 = 0x00;
+	pumahid.hat1 = 0x00;
+	pumahid.hat2 = 0x00;
+	pumahid.key3 = 0x00;
+	pumahid.but0 = 0x00;
+	pumahid.but1 = 0x00;
+	pumahid.but2 = 0x00;
+	pumahid.but3 = 0x00;
+	pumahid.x = 0x0000;
+	pumahid.y = 0x0000;
+	pumahid.z = 0x0000;
+	pumahid.rx = 0x0000;
+	pumahid.ry = 0x0000;
 
   /* USER CODE END 1 */
 
@@ -95,15 +191,63 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
+  //HAL_ADC_Start_IT(&hadc);
+  //HAL_NVIC_EnableIRQ(ADC_IRQ);
+  //HAL_NVIC_SetPriority(ADC_IRQ, 0, 0);
+  //HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, PinState)
+  //HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);
+	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);
+	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);
+
+	  HAL_ADC_Start(&hadc);
+	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
+	  uiAnalogData[0] = HAL_ADC_GetValue(&hadc);
+	  HAL_ADC_Stop(&hadc);
+
+	  /*if (uiAnalogData[0] <= 30)
+		  uiAnalogData[0] = 0;
+
+	  uiAnalogData[0] = (uiAnalogData[0]*256)/4096;*/
+
+	  if (BP_5 == 0 /*&& CH == 1*/) pumahid.hat0 = 0x01;
+	  else pumahid.hat0 = 0x00;
+	  if (BP_6 == 0) pumahid.hat1 = 0x02;
+	  else pumahid.hat1 = 0x00;
+
+	  pumahid.x = 255;
+
+	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+
+
+
+	  /*if (adcUpdated)
+	  {
+		  adcUpdated = 0;
+	  }*/
+
+
+
+	  //HAL_Delay(100);
+	  //USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+	  //HAL_Delay(10);//
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  //HAL_Delay(100);
+	  //HAL_ADC_ConvCpltCallBack(&hadc);
+	  //sprintf(msg, "resultat_0 %hu \n", uiAnalogData[0]);
+
+	  //HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
   }
   /* USER CODE END 3 */
 }
@@ -304,12 +448,10 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pins : PB0 PB1 PB2 PB10
                            PB11 PB13 PB14 PB15
-                           PB3 PB4 PB5 PB6
-                           PB7 */
+                           PB3 PB4 PB5 PB6 */
   GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_10
                           |GPIO_PIN_11|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15
-                          |GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6
-                          |GPIO_PIN_7;
+                          |GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
@@ -337,6 +479,45 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void ADC_Select_CH(char choix)
+{
+	ADC_ChannelConfTypeDef sConfig = {0};
+
+	switch(choix)
+	{
+	case(0):
+			sConfig.Channel = ADC_CHANNEL_0;
+			sConfig.Rank = 1;
+			break;
+
+	case(1):
+			sConfig.Channel = ADC_CHANNEL_1;
+			sConfig.Rank = 1;
+			break;
+
+	case(4):
+			sConfig.Channel = ADC_CHANNEL_4;
+			sConfig.Rank = 1;
+			break;
+
+	case(5):
+			sConfig.Channel = ADC_CHANNEL_5;
+			sConfig.Rank = 1;
+			break;
+
+	case(6):
+			sConfig.Channel = ADC_CHANNEL_6;
+			sConfig.Rank = 1;
+			break;
+	}
+
+
+	if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+	{
+		Error_Handler();
+	}
+}
 
 /* USER CODE END 4 */
 
