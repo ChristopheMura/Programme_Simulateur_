@@ -208,10 +208,10 @@ int main(void)
 	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);
 	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);
 
-	  HAL_ADC_Start(&hadc);
+	  /*HAL_ADC_Start(&hadc);
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
 	  uiAnalogData[0] = HAL_ADC_GetValue(&hadc);
-	  HAL_ADC_Stop(&hadc);
+	  HAL_ADC_Stop(&hadc);*/
 
 	  /*if (uiAnalogData[0] <= 30)
 		  uiAnalogData[0] = 0;
@@ -223,12 +223,12 @@ int main(void)
 	  if (BP_6 == 0) pumahid.hat1 = 0x02;
 	  else pumahid.hat1 = 0x00;
 
-	  pumahid.x = uiAnalogData[0];
+	  pumahid.x = 255;
 
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
 
-	  HAL_Delay(100);
+
 	  /*if (adcUpdated)
 	  {
 		  adcUpdated = 0;

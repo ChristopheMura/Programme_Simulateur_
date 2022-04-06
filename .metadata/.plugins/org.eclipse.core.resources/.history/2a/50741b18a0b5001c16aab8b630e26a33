@@ -219,9 +219,9 @@ int main(void)
 	  uiAnalogData[0] = (uiAnalogData[0]*256)/4096;*/
 
 	  if (BP_5 == 0 /*&& CH == 1*/) pumahid.hat0 = 0x01;
-	  else pumahid.hat0 = 0x00;
+	  else pumahid.hat0 = 0x04;
 	  if (BP_6 == 0) pumahid.hat1 = 0x02;
-	  else pumahid.hat1 = 0x00;
+	  else pumahid.hat1 = 0x03;
 
 	  pumahid.x = uiAnalogData[0];
 

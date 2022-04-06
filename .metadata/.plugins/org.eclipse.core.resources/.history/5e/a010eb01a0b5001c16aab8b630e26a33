@@ -228,7 +228,7 @@ int main(void)
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
 
-	  HAL_Delay(100);
+
 	  /*if (adcUpdated)
 	  {
 		  adcUpdated = 0;
