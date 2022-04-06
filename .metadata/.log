@@ -1,0 +1,16 @@
+!SESSION 2022-04-06 13:26:58.404 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/christophemura/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/christophemura/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-04-06 13:29:24.883
+!MESSAGE Log4j initialized with config file /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-04-06 13:29:37.974
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-06 13:30:37.715
+!MESSAGE Indexed 'Simulator_HID_CUSTOM' (22 sources, 82 headers) in 3.65 sec: 4,549 declarations; 25,049 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0068%)
