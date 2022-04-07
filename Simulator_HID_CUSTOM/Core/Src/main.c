@@ -75,7 +75,7 @@ float Vdd;
 
 GPIO_PinState BP_1;
 GPIO_PinState BP_3;
-GPIO_PinState hat_switch;
+GPIO_PinState hat_east;
 
 GPIO_PinState hat_north;
 GPIO_PinState hat_west;
@@ -203,6 +203,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   /* USER CODE END 2 */
 
@@ -212,8 +213,28 @@ int main(void)
   {
 
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);
+
+	  BP_1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
+	  BP_3 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);
+	  hat_east = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4);
+
+	  hat_north = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3);
+	  hat_west = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15);
+
+	  BP_2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9);
+	  BP_4 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);
+	  hat_south = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_15);
+
 	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);
 	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);
+
+	  BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);
+	  BP_8 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);
+
+	  BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);
+	  BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);
+	  BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
+	  BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);
 
 	  HAL_ADC_Start(&hadc);
 	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);
@@ -224,23 +245,48 @@ int main(void)
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
 	  HAL_ADC_Stop(&hadc);
 
-	  if (BP_5 == 0 /*&& CH == 1*/) pumahid.hat0 = 0x01;
-	  else pumahid.hat0 = 0x00;
-	  if (BP_6 == 0) pumahid.hat1 = 0x02;
-	  else pumahid.hat1 = 0x00;
+	  //if (BP_5 == 0) pumahid.hat0 = 0x01;
+	  //else pumahid.hat0 = 0x00;
+	  //if (BP_6 == 0) pumahid.hat1 = 0x02;
+	  //else pumahid.hat1 = 0x00;
+	  if (hat_north == 0) pumahid.hat0 = 0;
+	  else if (hat_west == 0) pumahid.hat0 = 6;
+	  else if (hat_east == 0) pumahid.hat0 = 2;
+	  else if (hat_south == 0) pumahid.hat0 = 4;
+	  else pumahid.hat0 = 7;
+
+	  if (BP_1 == 1) pumahid.but0 = 0x01;
+	  else pumahid.but0 = 0x05;
+	  if (BP_3 == 1) pumahid.but0 = 0x03;
+	  else pumahid.but0 = 0x05;
+
+	  if (BP_2 == 1) pumahid.but1 = 0x01;
+	  else pumahid.but1 = 0x05;
+	  if (BP_4 == 1) pumahid.but1 = 0x03;
+	  else pumahid.but1 = 0x05;
+
+	  if (BP_7 == 1) pumahid.but2 = 1;
+	  else if (BP_8 == 1) pumahid.but2 = 2;
+	  else pumahid.but2 = 3;
+
+	  if (BP_20 == 1) pumahid.but3 = 1;
+	  else if (BP_11 == 1) pumahid.but3 = 2;
+	  else if (BP_21 == 1) pumahid.but3 = 3;
+	  else if (BP_30 == 1) pumahid.but3 = 4;
+	  else pumahid.but3 = 5;
 
 
 	  ADC_VAL[0] -= 1620;					// AXE X
 	  if (ADC_VAL[0] < 0) ADC_VAL[0] = 0;
-	  ADC_VAL[0] = (ADC_VAL[0]*255)/530;
+	  ADC_VAL[0] = (ADC_VAL[0]*255)/600;
 
 	  ADC_VAL[1] -= 1810;					// AXE Y
 	  if (ADC_VAL[1] < 0) ADC_VAL[1] = 0;
 	  ADC_VAL[1] = (ADC_VAL[1]*255)/485;
 
-	  ADC_VAL[2] -= 1880;					// AXE Z
+	  ADC_VAL[2] -= 1870;					// AXE Z
 	  if (ADC_VAL[3] < 0) ADC_VAL[2] = 0;
-	  ADC_VAL[2] = (ADC_VAL[2]*255)/733;
+	  ADC_VAL[2] = (ADC_VAL[2]*255)/760;
 
 	  /*ADC_VAL[3] -= 2940;					// PEDAL X ROTATION
 	  if (ADC_VAL[3] < 0) ADC_VAL[3] = 0;
@@ -253,13 +299,13 @@ int main(void)
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
 	  pumahid.z = ADC_VAL[2];
-	  pumahid.rx = ADC_VAL[3];
-	  pumahid.ry = ADC_VAL[4];
+	  //pumahid.rx = ADC_VAL[3];
+	  //pumahid.ry = ADC_VAL[4];
 
 
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
-	  HAL_Delay(100);
+	  HAL_Delay(10);
 
 	  sprintf(msg, "AXE X = %hu | AXE Y = %hu | AXE Z = %hu | PEDAL X = %hu | COLLECTIVE = %hu \n", ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], ADC_VAL[3], ADC_VAL[4]);
 	  HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
@@ -473,20 +519,26 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : PA7 PA8 PA9 PA15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_15;
+  /*Configure GPIO pins : PA7 PA8 PA9 */
+  GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PB0 PB1 PB2 PB10
-                           PB11 PB13 PB14 PB15
-                           PB3 PB4 PB5 PB6 */
+                           PB11 PB13 PB14 PB5
+                           PB6 CH_Pin */
   GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_10
-                          |GPIO_PIN_11|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15
-                          |GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
+                          |GPIO_PIN_11|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_5
+                          |GPIO_PIN_6|CH_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PB15 PB3 PB4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_15|GPIO_PIN_3|GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PA10 */
@@ -496,11 +548,11 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : CH_Pin */
-  GPIO_InitStruct.Pin = CH_Pin;
+  /*Configure GPIO pin : PA15 */
+  GPIO_InitStruct.Pin = GPIO_PIN_15;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(CH_GPIO_Port, &GPIO_InitStruct);
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pin : EN_Pin */
   GPIO_InitStruct.Pin = EN_Pin;
