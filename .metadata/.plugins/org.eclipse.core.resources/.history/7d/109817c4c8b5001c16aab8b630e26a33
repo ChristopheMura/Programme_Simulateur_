@@ -68,6 +68,8 @@ UART_HandleTypeDef huart2;
 /* USER CODE BEGIN PV */
 extern USBD_CUSTOM_HID_HandleTypeDef hUsbDeviceFS;
 
+uint32_t val0, val1;
+
 unsigned char i = 0;
 char msg[10];
 char adcUpdated;
@@ -114,25 +116,9 @@ void ADC_Select_CH(char choix);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-/*void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* cat)
-{
+/*void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* cat){
 
-
-
-	switch(i){
-		case(0):
-
-				val0 = HAL_ADC_GetValue(&hadc);
-				i++;
-				break;
-		case(1):
-				val1 = HAL_ADC_GetValue(&hadc);
-				i++;
-				break;
-	}
-	if (i >= 2) i=0;*/
-
-	 /*if((ADC1->ISR & ADC_ISR_OVR)== 1)
+	 if((ADC1->ISR & ADC_ISR_OVR)== 1)
 	    printf("OVR ERR");
 
 	 uiAnalogData[i]= HAL_ADC_GetValue(&hadc);
@@ -144,9 +130,9 @@ void ADC_Select_CH(char choix);
 	}
 
 	if( i%2==0 )  //every two conversion restart ADC w/interrupts
-		HAL_ADC_Start_IT(&hadc);   //start adc conversion and use interrupts when EOC occurs*/
+		HAL_ADC_Start_IT(&hadc);   //start adc conversion and use interrupts when EOC occurs
 
-//}
+}*/
 
 /*
 void ADC_IRQHandler()
@@ -162,8 +148,6 @@ void ADC_IRQHandler()
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
-	uint32_t ADC_VAL[5];
 
 	pumahid.hat0 = 0x00;
 	pumahid.hat1 = 0x00;
@@ -203,6 +187,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   /* USER CODE END 2 */
 
@@ -215,12 +200,7 @@ int main(void)
 	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);
 	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);
 
-	  HAL_ADC_Start(&hadc);
-	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);
-	  ADC_VAL[1] = HAL_ADC_GetValue(&hadc);
-	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
-	  HAL_ADC_Stop(&hadc);
-
+	  HAL_ADC_Start_IT(&hadc);
 
 	  /*HAL_ADC_Start(&hadc);
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
@@ -237,7 +217,7 @@ int main(void)
 	  if (BP_6 == 0) pumahid.hat1 = 0x02;
 	  else pumahid.hat1 = 0x00;
 
-	  pumahid.x = 255;
+	  pumahid.x = uiAnalogData[0];
 
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
@@ -342,7 +322,7 @@ static void MX_ADC_Init(void)
   hadc.Init.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
   hadc.Init.ScanConvMode = ADC_SCAN_DIRECTION_FORWARD;
   hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc.Init.ContinuousConvMode = ENABLE;
+  hadc.Init.ContinuousConvMode = DISABLE;
   hadc.Init.DiscontinuousConvMode = DISABLE;
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc.Init.ExternalTrigConv = ADC_SOFTWARE_START;

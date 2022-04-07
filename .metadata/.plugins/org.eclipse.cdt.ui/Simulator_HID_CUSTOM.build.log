@@ -1,9 +1,9 @@
-13:52:56 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
+18:48:05 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:228:31: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  228 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+../Core/Src/main.c:237:31: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
+  237 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
       |                               ^~~~~~~~~~~~~
       |                               |
       |                               USBD_CUSTOM_HID_HandleTypeDef * {aka struct <anonymous> *}
@@ -11,8 +11,8 @@ In file included from ../Core/Src/main.c:25:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:140:56: note: expected 'USBD_HandleTypeDef *' {aka 'struct _USBD_HandleTypeDef *'} but argument is of type 'USBD_CUSTOM_HID_HandleTypeDef *' {aka 'struct <anonymous> *'}
   140 | uint8_t USBD_CUSTOM_HID_SendReport(USBD_HandleTypeDef *pdev,
       |                                    ~~~~~~~~~~~~~~~~~~~~^~~~
-../Core/Src/main.c:228:46: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  228 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+../Core/Src/main.c:237:46: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
+  237 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
       |                                              ^~~~~~~~
       |                                              |
       |                                              pumaHID * {aka struct <anonymous> *}
@@ -27,7 +27,7 @@ arm-none-eabi-size   Simulator_HID_CUSTOM.elf
 arm-none-eabi-objdump -h -S  Simulator_HID_CUSTOM.elf  > "Simulator_HID_CUSTOM.list"
 arm-none-eabi-objcopy  -O binary  Simulator_HID_CUSTOM.elf  "Simulator_HID_CUSTOM.bin"
    text	   data	    bss	    dec	    hex	filename
-  38516	    516	   3876	  42908	   a79c	Simulator_HID_CUSTOM.elf
+  37708	    516	   3868	  42092	   a46c	Simulator_HID_CUSTOM.elf
 Finished building: default.size.stdout
  
 Finished building: Simulator_HID_CUSTOM.bin
@@ -35,5 +35,5 @@ Finished building: Simulator_HID_CUSTOM.bin
 Finished building: Simulator_HID_CUSTOM.list
  
 
-13:52:57 Build Finished. 0 errors, 2 warnings. (took 1s.93ms)
+18:48:06 Build Finished. 0 errors, 2 warnings. (took 1s.47ms)
 
