@@ -69,7 +69,6 @@ UART_HandleTypeDef huart2;
 extern USBD_CUSTOM_HID_HandleTypeDef hUsbDeviceFS;
 
 unsigned char i = 0;
-char msg[10];
 char adcUpdated;
 
 float Vdd;
@@ -163,7 +162,8 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
-	uint32_t ADC_VAL[5];
+	uint16_t ADC_VAL[5];
+	char msg[80];
 
 	pumahid.hat0 = 0x00;
 	pumahid.hat1 = 0x00;
@@ -218,31 +218,52 @@ int main(void)
 	  HAL_ADC_Start(&hadc);
 	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);
 	  ADC_VAL[1] = HAL_ADC_GetValue(&hadc);
+	  ADC_VAL[2] = HAL_ADC_GetValue(&hadc);
+	  ADC_VAL[3] = HAL_ADC_GetValue(&hadc);
+	  ADC_VAL[4] = HAL_ADC_GetValue(&hadc);
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
 	  HAL_ADC_Stop(&hadc);
-
-
-	  /*HAL_ADC_Start(&hadc);
-	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
-	  uiAnalogData[0] = HAL_ADC_GetValue(&hadc);
-	  HAL_ADC_Stop(&hadc);*/
-
-	  /*if (uiAnalogData[0] <= 30)
-		  uiAnalogData[0] = 0;
-
-	  uiAnalogData[0] = (uiAnalogData[0]*256)/4096;*/
 
 	  if (BP_5 == 0 /*&& CH == 1*/) pumahid.hat0 = 0x01;
 	  else pumahid.hat0 = 0x00;
 	  if (BP_6 == 0) pumahid.hat1 = 0x02;
 	  else pumahid.hat1 = 0x00;
 
-	  pumahid.x = 255;
+
+	  ADC_VAL[0] -= 1620;					// AXE X
+	  if (ADC_VAL[0] < 0) ADC_VAL[0] = 0;
+	  ADC_VAL[0] = (ADC_VAL[0]*255)/530;
+
+	  ADC_VAL[1] -= 1810;					// AXE Y
+	  if (ADC_VAL[1] < 0) ADC_VAL[1] = 0;
+	  ADC_VAL[1] = (ADC_VAL[1]*255)/485;
+
+	  ADC_VAL[2] -= 1880;					// AXE Z
+	  if (ADC_VAL[3] < 0) ADC_VAL[2] = 0;
+	  ADC_VAL[2] = (ADC_VAL[2]*255)/733;
+
+	  /*ADC_VAL[3] -= 2940;					// PEDAL X ROTATION
+	  if (ADC_VAL[3] < 0) ADC_VAL[3] = 0;
+	  ADC_VAL[3] = (ADC_VAL[3]*255)/108;*/
+
+	  /*ADC_VAL[4] -= 2320;					// COLLECTIVE Y ROTATION
+	  if (ADC_VAL[4] < 0) ADC_VAL[4] = 0;
+	  ADC_VAL[4] = (ADC_VAL[4]*255)/108;*/
+
+	  pumahid.x = ADC_VAL[0];
+	  pumahid.y = ADC_VAL[1];
+	  pumahid.z = ADC_VAL[2];
+	  pumahid.rx = ADC_VAL[3];
+	  pumahid.ry = ADC_VAL[4];
+
 
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
-
 	  HAL_Delay(100);
+
+	  sprintf(msg, "AXE X = %hu | AXE Y = %hu | AXE Z = %hu | PEDAL X = %hu | COLLECTIVE = %hu \n", ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], ADC_VAL[3], ADC_VAL[4]);
+	  HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
+
 	  /*if (adcUpdated)
 	  {
 		  adcUpdated = 0;
@@ -491,45 +512,6 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
-void ADC_Select_CH(char choix)
-{
-	ADC_ChannelConfTypeDef sConfig = {0};
-
-	switch(choix)
-	{
-	case(0):
-			sConfig.Channel = ADC_CHANNEL_0;
-			sConfig.Rank = 1;
-			break;
-
-	case(1):
-			sConfig.Channel = ADC_CHANNEL_1;
-			sConfig.Rank = 1;
-			break;
-
-	case(4):
-			sConfig.Channel = ADC_CHANNEL_4;
-			sConfig.Rank = 1;
-			break;
-
-	case(5):
-			sConfig.Channel = ADC_CHANNEL_5;
-			sConfig.Rank = 1;
-			break;
-
-	case(6):
-			sConfig.Channel = ADC_CHANNEL_6;
-			sConfig.Rank = 1;
-			break;
-	}
-
-
-	if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
-	{
-		Error_Handler();
-	}
-}
 
 /* USER CODE END 4 */
 

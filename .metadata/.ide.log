@@ -1712,3 +1712,9 @@
 2022-04-07 08:34:35,231 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3774mS.
 2022-04-07 08:34:35,232 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
 2022-04-07 08:34:35,236 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-07 10:01:10,289 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-04-07 10:01:10,297 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-04-07 10:01:10,299 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-04-07 10:01:12,544 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-04-07 10:01:12,546 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-04-07 10:01:12,547 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com

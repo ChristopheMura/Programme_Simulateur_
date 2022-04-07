@@ -1,9 +1,9 @@
-18:48:05 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
+10:17:32 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:237:31: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  237 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+../Core/Src/main.c:271:31: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
+  271 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
       |                               ^~~~~~~~~~~~~
       |                               |
       |                               USBD_CUSTOM_HID_HandleTypeDef * {aka struct <anonymous> *}
@@ -11,8 +11,8 @@ In file included from ../Core/Src/main.c:25:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:140:56: note: expected 'USBD_HandleTypeDef *' {aka 'struct _USBD_HandleTypeDef *'} but argument is of type 'USBD_CUSTOM_HID_HandleTypeDef *' {aka 'struct <anonymous> *'}
   140 | uint8_t USBD_CUSTOM_HID_SendReport(USBD_HandleTypeDef *pdev,
       |                                    ~~~~~~~~~~~~~~~~~~~~^~~~
-../Core/Src/main.c:237:46: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  237 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+../Core/Src/main.c:271:46: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
+  271 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
       |                                              ^~~~~~~~
       |                                              |
       |                                              pumaHID * {aka struct <anonymous> *}
@@ -20,6 +20,18 @@ In file included from ../Core/Src/main.c:25:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:141:45: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'pumaHID *' {aka 'struct <anonymous> *'}
   141 |                                    uint8_t *report,
       |                                    ~~~~~~~~~^~~~~~
+../Core/Src/main.c:276:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  276 |    HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
+      |                               ^~~~
+      |                               |
+      |                               char (*)[80]
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:281,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:1488:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char (*)[80]'
+ 1488 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
 arm-none-eabi-gcc -o "Simulator_HID_CUSTOM.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/STM32L073CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Simulator_HID_CUSTOM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Simulator_HID_CUSTOM.elf
  
@@ -27,7 +39,7 @@ arm-none-eabi-size   Simulator_HID_CUSTOM.elf
 arm-none-eabi-objdump -h -S  Simulator_HID_CUSTOM.elf  > "Simulator_HID_CUSTOM.list"
 arm-none-eabi-objcopy  -O binary  Simulator_HID_CUSTOM.elf  "Simulator_HID_CUSTOM.bin"
    text	   data	    bss	    dec	    hex	filename
-  37708	    516	   3868	  42092	   a46c	Simulator_HID_CUSTOM.elf
+  41532	    516	   3844	  45892	   b344	Simulator_HID_CUSTOM.elf
 Finished building: default.size.stdout
  
 Finished building: Simulator_HID_CUSTOM.bin
@@ -35,5 +47,5 @@ Finished building: Simulator_HID_CUSTOM.bin
 Finished building: Simulator_HID_CUSTOM.list
  
 
-18:48:06 Build Finished. 0 errors, 2 warnings. (took 1s.47ms)
+10:17:34 Build Finished. 0 errors, 3 warnings. (took 1s.154ms)
 
