@@ -160,3 +160,6 @@ java.io.FileNotFoundException: /Users/christophemura/Documents/IUT/S4/Programme/
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-04-07 16:05:37.537
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@742b71fa): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
