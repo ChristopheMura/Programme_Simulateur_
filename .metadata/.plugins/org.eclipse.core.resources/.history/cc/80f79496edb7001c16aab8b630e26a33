@@ -195,13 +195,13 @@ int main(void)
 	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);			// Lecture bouton 5 rouge
 	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);			// Lecture bouton 6 rouge
 
-	  BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);			// Lecture switch rouge position haut
+	  BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);			// Lecture switch rouge positon haut
 	  BP_8 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);			// Lecture switch rouge position bas
 
-	  BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);			// Lecture swtich noir config 1 position haut
-	  BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);			// Lecture switch noir config 1 position bas
-	  BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);			// Lecture switch noir config 2 position haut
-	  BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);			// Lecture switch noir config 2 position bas
+	  BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);
+	  BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);
+	  BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
+	  BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);
 
 	  /******************** CONVERSION DES DONNEES ANALOGIQUE ********************/
 
@@ -215,20 +215,20 @@ int main(void)
 	  HAL_ADC_Stop(&hadc);									// Stop la conversion
 
 
-	  if (hat_north == 0) pumahid.hat0 = 0x00;				// Appuie sur chapeau nord
-	  else if (hat_west == 0) pumahid.hat0 = 0x06;			// Appuie sur chapeau ouest
-	  else if (hat_east == 0) pumahid.hat0 = 0x02;			// Appuie sur chapeau est
-	  else if (hat_south == 0) pumahid.hat0 = 0x04;			// Appuie sur chapeau sud
-	  else pumahid.hat0 = 0x07;
+	  if (hat_north == 0) pumahid.hat0 = 0;
+	  else if (hat_west == 0) pumahid.hat0 = 6;
+	  else if (hat_east == 0) pumahid.hat0 = 2;
+	  else if (hat_south == 0) pumahid.hat0 = 4;
+	  else pumahid.hat0 = 7;
 
-	  if (BP_1 == 0) pumahid.but0 = 0x01;					// Appuie sur bouton 1
-	  else if (BP_3 == 0) pumahid.but0 = 0x02;				// Appuie sur bouton 3
-	  else if (BP_2 == 0) pumahid.but0 = 0x04;				// Appuie sur bouton 2
-	  else if (BP_4 == 0) pumahid.but0 = 0X08;				// Appuie sur bouton 4
+	  if (BP_1 == 0) pumahid.but0 = 0x01;		// Appuie sur bouton 1
+	  else if (BP_3 == 0) pumahid.but0 = 0x02;	// Appuie sur bouton 3
+	  else if (BP_2 == 0) pumahid.but0 = 0x04;	// Appuie sur bouton 2
+	  else if (BP_4 == 0) pumahid.but0 = 0X08;	// Appuie sur bouton 4
 	  else pumahid.but0 = 0x10;
 
-	  if (BP_5 == 0) pumahid.but1 = 0x01;					// Appuie sur bouton 5
-	  else if (BP_6 == 0) pumahid.but1 = 0x02;				// Appuie sur bouton 6
+	  if (BP_5 == 0) pumahid.but1 = 0x01;		// Appuie sur bouton 5
+	  else if (BP_6 == 0) pumahid.but1 = 0x02;	// Appuie sur bouton 6
 	  else pumahid.but1 = 0x04;
 
 
@@ -248,27 +248,27 @@ int main(void)
 	  else pumahid.but3 = 5;*/
 
 
-	  ADC_VAL[0] -= 1725;											// AXE X
+	  ADC_VAL[0] -= 1725;					// AXE X
 	  if (ADC_VAL[0] < 0 | ADC_VAL[0] > 60000) ADC_VAL[0] = 0;
 	  ADC_VAL[0] = (ADC_VAL[0]*255)/511;
 	  if (ADC_VAL[0] > 255 & ADC_VAL[0] < 50000) ADC_VAL[0] = 255;
 
-	  ADC_VAL[1] -= 1766;											// AXE Y
+	  ADC_VAL[1] -= 1766;					// AXE Y
 	  if (ADC_VAL[1] < 0 | ADC_VAL[1] > 60000) ADC_VAL[1] = 0;
 	  ADC_VAL[1] = (ADC_VAL[1]*255)/490;
 	  if (ADC_VAL[1] > 255 & ADC_VAL[1] < 50000) ADC_VAL[1] = 255;
 
-	  ADC_VAL[2] -= 1850;											// COLLECTIVE AXE Z
+	  ADC_VAL[2] -= 1850;					// COLLECTIVE AXE Z
 	  if (ADC_VAL[2] < 0 | ADC_VAL[2] > 60000) ADC_VAL[2] = 0;
 	  ADC_VAL[2] = (ADC_VAL[2]*255)/700;
 	  if (ADC_VAL[2] > 255 & ADC_VAL[2] < 50000) ADC_VAL[2] = 255;
 
-	  ADC_VAL[3] -= 3912;											// PEDAL X ROTATION
+	  ADC_VAL[3] -= 3912;					// PEDAL X ROTATION
 	  if (ADC_VAL[3] < 0 | ADC_VAL[3] > 60000) ADC_VAL[3] = 0;
 	  ADC_VAL[3] = (ADC_VAL[3]*255)/38;
 	  if (ADC_VAL[3] > 255 & ADC_VAL[3] < 50000) ADC_VAL[3] = 255;
 
-	  ADC_VAL[4] -= 2264;											// COLLECTIVE Y ROTATION
+	  ADC_VAL[4] -= 2264;					// COLLECTIVE Y ROTATION
 	  if (ADC_VAL[4] < 0 | ADC_VAL[4] > 60000) ADC_VAL[4] = 0;
 	  ADC_VAL[4] = (ADC_VAL[4]*255)/104;
 	  if (ADC_VAL[4] > 255 & ADC_VAL[4] < 50000) ADC_VAL[4] = 255;
