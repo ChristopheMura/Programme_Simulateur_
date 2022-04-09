@@ -2552,3 +2552,676 @@
 2022-04-08 11:34:54,886 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3141mS.
 2022-04-08 11:34:54,889 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
 2022-04-08 11:34:54,898 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:10:47,283 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-08 16:10:52,981 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 789313176 Bytes (1006632960)
+2022-04-08 16:10:58,087 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 535575512 Bytes (1006632960)
+2022-04-08 16:10:58,490 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:10:58,490 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:10:58,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:10:58,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:10:58,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:10:58,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:10:58,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:10:58,492 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:10:58,493 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:10:58,825 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:10:58,914 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:10:59,084 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:10:59,189 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:10:59,509 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:10:59,610 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:10:59,615 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:10:59,711 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:10:59,718 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:10:59,822 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:10:59,829 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:10:59,949 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:11:00,712 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:11:00,722 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:11:00,737 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:11:00,857 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:11:00,864 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:11:00,962 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:11:00,969 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:11:01,070 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:11:01,075 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:11:01,206 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:11:01,211 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:11:01,314 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:11:01,320 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:11:01,433 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:11:01,440 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:11:01,541 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:11:01,546 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:11:01,656 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:11:01,669 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:11:01,788 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:11:01,795 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:11:01,887 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:11:01,905 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:11:02,055 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:11:02,060 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:11:02,157 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:11:02,167 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:11:02,285 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:11:02,349 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:11:02,465 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:11:02,470 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:11:02,666 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:11:04,351 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 561mS.
+2022-04-08 16:11:04,362 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:11:04,886 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:11:07,550 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3188mS.
+2022-04-08 16:11:07,551 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:11:07,560 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:13:34,929 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 651488632 Bytes (1011875840)
+2022-04-08 16:13:35,373 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:13:35,373 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:13:35,373 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:13:35,373 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:13:35,373 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:13:35,374 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:13:35,374 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:13:35,374 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:13:35,375 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:13:35,896 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:13:36,019 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:13:36,212 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:13:36,396 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:13:36,737 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:13:36,824 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:13:36,830 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:13:37,014 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:13:37,017 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:13:37,155 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:13:37,157 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:13:37,272 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:13:37,915 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:13:37,920 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:13:37,928 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:13:38,035 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:13:38,041 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:13:38,147 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:13:38,152 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:13:38,263 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:13:38,267 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:13:38,394 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:13:38,403 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:13:38,509 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:13:38,517 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:13:38,634 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:13:38,642 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:13:38,798 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:13:38,801 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:13:38,911 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:13:38,924 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:13:39,047 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:13:39,051 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:13:39,148 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:13:39,163 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:13:39,396 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:13:39,401 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:13:39,497 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:13:39,508 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:13:39,625 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:13:39,676 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:13:39,792 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:13:39,801 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:13:40,003 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:13:41,355 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 403mS.
+2022-04-08 16:13:41,367 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:13:42,090 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:13:44,135 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2768mS.
+2022-04-08 16:13:44,136 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:13:44,149 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:14:39,398 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-08 16:14:41,368 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-08 16:14:44,353 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 675887480 Bytes (1011875840)
+2022-04-08 16:14:57,327 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 567593608 Bytes (1011875840)
+2022-04-08 16:14:57,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:14:57,754 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:14:57,755 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:14:57,755 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:14:57,755 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:14:57,755 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:14:57,756 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:14:57,756 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:14:57,757 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:14:58,139 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:14:58,244 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:14:58,443 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:14:58,646 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:14:59,002 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:14:59,098 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:14:59,100 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:14:59,199 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:14:59,201 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:14:59,391 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:14:59,396 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:14:59,513 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:15:00,176 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:15:00,188 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:15:00,197 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:15:00,309 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:15:00,312 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:15:00,408 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:15:00,413 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:15:00,516 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:15:00,522 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:15:00,650 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:15:00,657 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:15:00,754 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:15:00,762 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:15:00,877 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:15:00,887 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:15:00,992 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:15:01,001 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:15:01,156 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:15:01,168 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:15:01,289 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:15:01,293 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:15:01,392 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:15:01,410 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:15:01,658 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:15:01,661 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:15:01,758 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:15:01,771 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:15:01,893 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:15:01,946 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:15:02,063 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:15:02,070 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:15:02,262 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:15:03,481 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 395mS.
+2022-04-08 16:15:03,491 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:15:04,059 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:15:06,161 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2670mS.
+2022-04-08 16:15:06,162 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:15:06,166 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:18:23,929 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-08 16:18:27,938 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 612718408 Bytes (1011875840)
+2022-04-08 16:18:29,819 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 648763672 Bytes (1011875840)
+2022-04-08 16:18:30,357 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:18:30,358 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:18:30,358 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:18:30,358 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:18:30,358 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:18:30,358 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:18:30,359 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:18:30,359 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:18:30,360 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:18:30,854 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:18:31,001 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:18:31,250 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:18:31,486 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:18:31,876 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:18:32,002 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:18:32,008 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:18:32,121 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:18:32,127 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:18:32,274 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:18:32,277 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:18:32,411 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:18:33,253 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:18:33,262 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:18:33,275 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:18:33,404 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:18:33,410 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:18:33,512 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:18:33,521 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:18:33,629 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:18:33,637 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:18:33,775 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:18:33,780 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:18:33,893 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:18:33,898 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:18:34,022 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:18:34,027 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:18:34,138 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:18:34,143 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:18:34,263 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:18:34,277 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:18:34,407 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:18:34,411 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:18:34,532 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:18:34,544 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:18:34,769 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:18:34,773 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:18:34,927 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:18:34,953 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:18:35,114 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:18:35,180 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:18:35,322 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:18:35,331 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:18:35,607 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:18:36,846 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 307mS.
+2022-04-08 16:18:36,856 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:18:37,731 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:18:39,875 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3019mS.
+2022-04-08 16:18:39,877 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:18:39,884 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:19:09,490 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 595869088 Bytes (1011875840)
+2022-04-08 16:19:09,940 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:19:09,941 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:19:09,941 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:19:09,942 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:19:09,942 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:19:09,942 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:19:09,943 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:19:09,943 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:19:09,944 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:19:10,405 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:19:10,533 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:19:10,774 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:19:10,960 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:19:11,384 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:19:11,487 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:19:11,491 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:19:11,593 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:19:11,596 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:19:11,714 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:19:11,719 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:19:11,835 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:19:12,568 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:19:12,579 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:19:12,591 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:19:12,703 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:19:12,709 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:19:12,803 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:19:12,806 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:19:12,904 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:19:12,907 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:19:13,032 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:19:13,037 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:19:13,195 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:19:13,202 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:19:13,315 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:19:13,323 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:19:13,428 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:19:13,433 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:19:13,547 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:19:13,560 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:19:13,677 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:19:13,685 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:19:13,786 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:19:13,799 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:19:13,959 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:19:13,964 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:19:14,056 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:19:14,065 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:19:14,173 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:19:14,230 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:19:14,336 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:19:14,341 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:19:14,524 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:19:15,728 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 355mS.
+2022-04-08 16:19:15,738 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:19:16,386 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:19:18,460 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2723mS.
+2022-04-08 16:19:18,461 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:19:18,468 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:20:11,384 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-08 16:20:20,148 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 547280824 Bytes (1015021568)
+2022-04-08 16:20:21,989 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 590798776 Bytes (1015021568)
+2022-04-08 16:20:22,746 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:20:22,747 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:20:22,748 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:20:22,748 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:20:22,748 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:20:22,748 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:20:22,749 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:20:22,749 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:20:22,750 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:20:23,194 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:20:23,317 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:20:23,526 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:20:23,747 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:20:24,131 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:20:24,242 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:20:24,246 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:20:24,355 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:20:24,360 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:20:24,545 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:20:24,551 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:20:24,683 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:20:25,353 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:20:25,361 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:20:25,370 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:20:25,484 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:20:25,490 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:20:25,584 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:20:25,590 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:20:25,693 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:20:25,698 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:20:25,826 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:20:25,831 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:20:25,935 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:20:25,939 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:20:26,063 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:20:26,071 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:20:26,175 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:20:26,179 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:20:26,357 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:20:26,373 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:20:26,516 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:20:26,521 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:20:26,647 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:20:26,667 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:20:26,903 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:20:26,907 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:20:27,041 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:20:27,054 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:20:27,196 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:20:27,256 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:20:27,480 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:20:27,484 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:20:27,707 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:20:29,054 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 296mS.
+2022-04-08 16:20:29,067 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:20:29,702 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:20:31,807 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2740mS.
+2022-04-08 16:20:31,808 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:20:31,818 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:20:42,614 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 638737344 Bytes (1015021568)
+2022-04-08 16:20:42,956 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:20:42,956 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:20:42,956 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:20:42,956 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:20:42,956 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:20:42,957 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:20:42,957 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:20:42,959 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:20:42,960 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:20:43,498 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:20:43,620 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:20:43,808 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:20:43,944 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:20:44,349 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:20:44,529 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:20:44,532 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:20:44,648 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:20:44,652 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:20:44,778 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:20:44,781 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:20:44,919 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:20:45,703 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:20:45,713 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:20:45,723 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:20:45,839 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:20:45,846 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:20:45,944 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:20:45,947 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:20:46,049 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:20:46,053 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:20:46,186 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:20:46,192 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:20:46,295 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:20:46,300 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:20:46,413 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:20:46,419 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:20:46,518 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:20:46,525 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:20:46,634 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:20:46,645 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:20:46,769 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:20:46,775 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:20:46,871 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:20:46,891 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:20:47,043 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:20:47,046 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:20:47,141 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:20:47,148 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:20:47,291 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:20:47,345 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:20:47,446 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:20:47,452 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:20:47,654 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:20:48,795 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 300mS.
+2022-04-08 16:20:48,863 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:20:49,359 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:20:51,519 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2656mS.
+2022-04-08 16:20:51,521 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:20:51,530 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:30:18,104 [INFO] Gpio:254 - dependency for GPIO [ADC, SYS, USART2, USB]
+2022-04-08 16:37:05,519 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 599556248 Bytes (1021313024)
+2022-04-08 16:37:07,249 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 673482904 Bytes (1021313024)
+2022-04-08 16:37:07,575 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:37:07,575 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:37:07,575 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:37:07,575 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:37:07,576 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:37:07,576 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:37:07,576 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:37:07,576 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:37:07,577 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:37:07,908 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:37:08,002 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:37:08,162 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:37:08,259 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:37:08,661 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:37:08,755 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:37:08,757 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:37:08,851 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:37:08,856 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:37:08,963 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:37:08,965 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:37:09,087 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:37:09,851 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:37:09,858 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:37:09,865 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:37:09,982 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:37:09,988 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:37:10,094 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:37:10,100 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:37:10,200 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:37:10,207 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:37:10,345 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:37:10,349 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:37:10,451 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:37:10,456 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:37:10,577 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:37:10,584 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:37:10,682 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:37:10,687 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:37:10,796 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:37:10,809 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:37:10,921 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:37:10,928 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:37:11,078 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:37:11,098 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:37:11,296 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:37:11,298 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:37:11,440 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:37:11,465 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:37:11,628 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:37:11,719 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:37:11,876 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:37:11,885 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:37:12,206 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:37:13,300 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 286mS.
+2022-04-08 16:37:13,307 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:37:14,099 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:37:16,352 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3045mS.
+2022-04-08 16:37:16,354 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:37:16,361 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:37:35,813 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 665861312 Bytes (1021313024)
+2022-04-08 16:37:36,223 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:37:36,224 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:37:36,224 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:37:36,224 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:37:36,224 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:37:36,225 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:37:36,225 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:37:36,226 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:37:36,228 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:37:36,653 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:37:36,768 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:37:36,972 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:37:37,152 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:37:37,495 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:37:37,599 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:37:37,603 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:37:37,705 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:37:37,707 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:37:37,828 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:37:37,831 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:37:37,950 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:37:38,737 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:37:38,744 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:37:38,753 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:37:38,868 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:37:38,873 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:37:38,974 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:37:38,980 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:37:39,080 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:37:39,085 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:37:39,217 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:37:39,221 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:37:39,322 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:37:39,327 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:37:39,443 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:37:39,446 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:37:39,545 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:37:39,550 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:37:39,656 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:37:39,671 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:37:39,787 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:37:39,792 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:37:39,891 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:37:39,908 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:37:40,061 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:37:40,068 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:37:40,158 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:37:40,167 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:37:40,391 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:37:40,464 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:37:40,601 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:37:40,606 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:37:40,836 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:37:41,997 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 306mS.
+2022-04-08 16:37:42,005 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:37:42,741 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:37:44,792 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2787mS.
+2022-04-08 16:37:44,793 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-04-08 16:37:44,803 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 16:57:03,349 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 547879400 Bytes (1021313024)
+2022-04-08 16:57:07,958 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 617517840 Bytes (1021313024)
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 16:57:08,512 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 16:57:08,513 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 16:57:08,930 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 16:57:09,048 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 16:57:09,261 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 16:57:09,456 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 16:57:09,940 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 16:57:10,050 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 16:57:10,056 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 16:57:10,164 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 16:57:10,167 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 16:57:10,288 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 16:57:10,290 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 16:57:10,429 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 16:57:11,342 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:57:11,349 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 16:57:11,365 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 16:57:11,478 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 16:57:11,485 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 16:57:11,581 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 16:57:11,586 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 16:57:11,680 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 16:57:11,685 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 16:57:11,815 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 16:57:11,818 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 16:57:11,923 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 16:57:11,929 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 16:57:12,058 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 16:57:12,063 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 16:57:12,161 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 16:57:12,167 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 16:57:12,276 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 16:57:12,285 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 16:57:12,405 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 16:57:12,410 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 16:57:12,510 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 16:57:12,523 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 16:57:12,679 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 16:57:12,683 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 16:57:12,779 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 16:57:12,794 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 16:57:12,920 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 16:57:12,972 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 16:57:13,079 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 16:57:13,084 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 16:57:13,369 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 16:57:14,668 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 299mS.
+2022-04-08 16:57:14,674 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 16:57:15,346 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 16:57:17,755 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3081mS.
+2022-04-08 16:57:17,758 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 2mS.
+2022-04-08 16:57:17,769 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 17:14:54,827 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 789554704 Bytes (1021313024)
+2022-04-08 17:14:59,336 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 533809232 Bytes (1021313024)
+2022-04-08 17:14:59,763 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: ADC
+2022-04-08 17:14:59,763 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-08 17:14:59,763 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-04-08 17:14:59,763 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2022-04-08 17:14:59,763 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB
+2022-04-08 17:14:59,764 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-08 17:14:59,764 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-04-08 17:14:59,765 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-08 17:14:59,766 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2022-04-08 17:15:00,236 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp_save
+2022-04-08 17:15:00,357 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/license.tmp
+2022-04-08 17:15:00,555 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp_save
+2022-04-08 17:15:00,738 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/gpio.tmp
+2022-04-08 17:15:01,132 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp_save
+2022-04-08 17:15:01,335 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_vars.tmp
+2022-04-08 17:15:01,340 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp_save
+2022-04-08 17:15:01,449 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_inc.tmp
+2022-04-08 17:15:01,451 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp_save
+2022-04-08 17:15:01,578 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_HalInit.tmp
+2022-04-08 17:15:01,581 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp_save
+2022-04-08 17:15:01,700 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/usb_Msp.tmp
+2022-04-08 17:15:02,400 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 17:15:02,409 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2022-04-08 17:15:02,424 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c_save
+2022-04-08 17:15:02,552 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.c
+2022-04-08 17:15:02,559 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h_save
+2022-04-08 17:15:02,676 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usb_device.h
+2022-04-08 17:15:02,681 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h_save
+2022-04-08 17:15:02,797 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.h
+2022-04-08 17:15:02,802 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c_save
+2022-04-08 17:15:02,951 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/Target/usbd_conf.c
+2022-04-08 17:15:02,957 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h_save
+2022-04-08 17:15:03,079 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.h
+2022-04-08 17:15:03,088 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c_save
+2022-04-08 17:15:03,264 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_desc.c
+2022-04-08 17:15:03,269 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h_save
+2022-04-08 17:15:03,378 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.h
+2022-04-08 17:15:03,385 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c_save
+2022-04-08 17:15:03,508 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/USB_DEVICE/App/usbd_custom_hid_if.c
+2022-04-08 17:15:03,521 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c_save
+2022-04-08 17:15:03,731 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_it.c
+2022-04-08 17:15:03,736 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h_save
+2022-04-08 17:15:03,841 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_it.h
+2022-04-08 17:15:03,864 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c_save
+2022-04-08 17:15:04,043 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/stm32l0xx_hal_msp.c
+2022-04-08 17:15:04,044 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp_save
+2022-04-08 17:15:04,145 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/MXTmpFiles/system.tmp
+2022-04-08 17:15:04,153 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h_save
+2022-04-08 17:15:04,275 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/stm32l0xx_hal_conf.h
+2022-04-08 17:15:04,339 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h_save
+2022-04-08 17:15:04,451 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Inc/main.h
+2022-04-08 17:15:04,459 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c_save
+2022-04-08 17:15:04,638 [INFO] CodeEngine:257 - Generated code: /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/Core/Src/main.c
+2022-04-08 17:15:05,993 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 433mS.
+2022-04-08 17:15:06,003 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-04-08 17:15:06,568 [INFO] ConfigFileManager:1273 - The Die is : DIE447
+2022-04-08 17:15:09,055 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3052mS.
+2022-04-08 17:15:09,056 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-08 17:15:09,068 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.

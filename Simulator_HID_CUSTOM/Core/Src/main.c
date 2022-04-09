@@ -122,7 +122,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
 	uint32_t ADC_VAL[5];
-	//uint32_t ADC_VAL1, ADC_VAL2, ADC_VAL3, ADC_VAL4, ADC_VAL5;
 	char msg[80];
 
 	pumahid.hat0 = 0x00;
@@ -165,20 +164,13 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
-
-  ADC_VAL[0] = HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
-  ADC_VAL[1] = HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
-  ADC_VAL[2] = HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
-  ADC_VAL[3] = HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
-  ADC_VAL[4] = HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
-
+  HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);
 
 	  BP_1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
@@ -202,6 +194,8 @@ int main(void)
 	  BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);
 	  BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
 	  BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);
+
+
 
 	  HAL_ADC_Start(&hadc);
 	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);
@@ -228,38 +222,47 @@ int main(void)
 	  else if (BP_6 == 0) pumahid.but1 = 0x02;	// Appuie sur bouton 6
 	  else pumahid.but1 = 0x04;
 
-// -------------------------------------------------------------------------------------------- //
 
-	  if (BP_7 == 1) pumahid.but2 = 1;			// Appuie sur bouton 7
-	  else if (BP_8 == 1) pumahid.but2 = 2;		// Appuie sur bouton 8
-	  else pumahid.but2 = 3;
+	  if (BP_7 == 0)
+	  {
+		  if (BP_11 == 0) pumahid.but2 = 0x01;
+		  if (BP_20 == 0) pumahid.but2 = 0x02; // À revoir
+	  }
+	  /*if (BP_7 == 0 & BP_11 == 0) pumahid.but2 = 0x01;			// Appuie sur bouton 7
+	  else if (BP_7 == 0 & BP_30 == 0) pumahid.but2 == 0x02;		// Appuie sur bouton 8
+	  else pumahid.but2 = 0x04;*/
 
-	  if (BP_20 == 1) pumahid.but3 = 1;
+	  /*if (BP_20 == 1) pumahid.but3 = 1;
 	  else if (BP_11 == 1) pumahid.but3 = 2;
 	  else if (BP_21 == 1) pumahid.but3 = 3;
 	  else if (BP_30 == 1) pumahid.but3 = 4;
-	  else pumahid.but3 = 5;
+	  else pumahid.but3 = 5;*/
 
 
-	  ADC_VAL[0] -= 1633;					// AXE X
-	  if (ADC_VAL[0] < 0) ADC_VAL[0] = 0;
-	  ADC_VAL[0] = (ADC_VAL[0]*255)/520;
+	  ADC_VAL[0] -= 1725;					// AXE X
+	  if (ADC_VAL[0] < 0 | ADC_VAL[0] > 60000) ADC_VAL[0] = 0;
+	  ADC_VAL[0] = (ADC_VAL[0]*255)/511;
+	  if (ADC_VAL[0] > 255 & ADC_VAL[0] < 50000) ADC_VAL[0] = 255;
 
-	  ADC_VAL[1] -= 1825;					// AXE Y
-	  if (ADC_VAL[1] < 0) ADC_VAL[1] = 0;
+	  ADC_VAL[1] -= 1766;					// AXE Y
+	  if (ADC_VAL[1] < 0 | ADC_VAL[1] > 60000) ADC_VAL[1] = 0;
 	  ADC_VAL[1] = (ADC_VAL[1]*255)/490;
+	  if (ADC_VAL[1] > 255 & ADC_VAL[1] < 50000) ADC_VAL[1] = 255;
 
-	  ADC_VAL[2] -= 1870;					// AXE Z
-	  if (ADC_VAL[2] < 0) ADC_VAL[2] = 0;
-	  ADC_VAL[2] = (ADC_VAL[2]*255)/760;
+	  ADC_VAL[2] -= 1850;					// COLLECTIVE AXE Z
+	  if (ADC_VAL[2] < 0 | ADC_VAL[2] > 60000) ADC_VAL[2] = 0;
+	  ADC_VAL[2] = (ADC_VAL[2]*255)/700;
+	  if (ADC_VAL[2] > 255 & ADC_VAL[2] < 50000) ADC_VAL[2] = 255;
 
-	  ADC_VAL[3] -= 1680;					// PEDAL X ROTATION
-	  if (ADC_VAL[3] < 0) ADC_VAL[3] = 0;
-	  ADC_VAL[3] = (ADC_VAL[3]*255)/120;
+	  ADC_VAL[3] -= 3912;					// PEDAL X ROTATION
+	  if (ADC_VAL[3] < 0 | ADC_VAL[3] > 60000) ADC_VAL[3] = 0;
+	  ADC_VAL[3] = (ADC_VAL[3]*255)/38;
+	  if (ADC_VAL[3] > 255 & ADC_VAL[3] < 50000) ADC_VAL[3] = 255;
 
-	  /*ADC_VAL[4] -= 2320;					// COLLECTIVE Y ROTATION
-	  if (ADC_VAL[4] < 0) ADC_VAL[4] = 0;
-	  ADC_VAL[4] = (ADC_VAL[4]*255)/108;*/
+	  ADC_VAL[4] -= 2264;					// COLLECTIVE Y ROTATION
+	  if (ADC_VAL[4] < 0 | ADC_VAL[4] > 60000) ADC_VAL[4] = 0;
+	  ADC_VAL[4] = (ADC_VAL[4]*255)/104;
+	  if (ADC_VAL[4] > 255 & ADC_VAL[4] < 50000) ADC_VAL[4] = 255;
 
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
@@ -267,14 +270,16 @@ int main(void)
 	  pumahid.rx = ADC_VAL[3];
 	  pumahid.ry = ADC_VAL[4];
 
-
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
 	  HAL_Delay(10);
-	  //AXE X = %hu | AXE Y = %hu | AXE Z = %hu |
-	  sprintf(msg, " PEDAL X = %hu | COLLECTIVE = %hu \n", /*ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], */ADC_VAL[3], ADC_VAL[4]);
-	  HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
 
+	  //sprintf(msg, " PEDAL X = %hu | COLLECTIVE = %hu\n", /*ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], */ADC_VAL[3], ADC_VAL[1]);
+	  //HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
+
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
@@ -465,33 +470,27 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : BP30_Pin */
-  GPIO_InitStruct.Pin = BP30_Pin;
+  /*Configure GPIO pins : BP30_Pin BP4_Pin BP2_Pin HAT_WEST_Pin */
+  GPIO_InitStruct.Pin = BP30_Pin|BP4_Pin|BP2_Pin|HAT_WEST_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(BP30_GPIO_Port, &GPIO_InitStruct);
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : BP21_Pin BP11_Pin BP20_Pin BP8_Pin
-                           BP7_Pin BP5_Pin BP6_Pin CH_Pin */
-  GPIO_InitStruct.Pin = BP21_Pin|BP11_Pin|BP20_Pin|BP8_Pin
-                          |BP7_Pin|BP5_Pin|BP6_Pin|CH_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : HAT_SOUTH_Pin HAT_NORTH_Pin HAT_EAST_Pin BP3_Pin
+  /*Configure GPIO pins : BP21_Pin BP11_Pin BP8_Pin BP7_Pin
+                           HAT_SOUTH_Pin HAT_NORTH_Pin HAT_EAST_Pin BP3_Pin
                            BP1_Pin */
-  GPIO_InitStruct.Pin = HAT_SOUTH_Pin|HAT_NORTH_Pin|HAT_EAST_Pin|BP3_Pin
+  GPIO_InitStruct.Pin = BP21_Pin|BP11_Pin|BP8_Pin|BP7_Pin
+                          |HAT_SOUTH_Pin|HAT_NORTH_Pin|HAT_EAST_Pin|BP3_Pin
                           |BP1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : BP4_Pin BP2_Pin HAT_WEST_Pin */
-  GPIO_InitStruct.Pin = BP4_Pin|BP2_Pin|HAT_WEST_Pin;
+  /*Configure GPIO pins : BP20_Pin BP5_Pin BP6_Pin CH_Pin */
+  GPIO_InitStruct.Pin = BP20_Pin|BP5_Pin|BP6_Pin|CH_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PA10 */
   GPIO_InitStruct.Pin = GPIO_PIN_10;

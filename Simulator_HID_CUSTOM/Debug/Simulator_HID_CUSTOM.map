@@ -18,32 +18,12 @@ Archive member included to satisfy reference by file (symbol)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-malloc.o) (_malloc_r)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
-                              ./Core/Src/main.o (sprintf)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-strlen.o)
-                              ./Core/Src/main.o (strlen)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o) (errno)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o) (memcpy)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
-/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
-                              /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o) (__gnu_thumb1_case_shi)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
                               ./Core/Src/main.o (__aeabi_uidiv)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -3178,6 +3158,8 @@ Discarded input sections
                 0x0000000000000000       0x10 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .text.HAL_UART_MspDeInit
                 0x0000000000000000       0x10 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+ .text.HAL_UART_Transmit
+                0x0000000000000000      0x150 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .text.HAL_UART_Receive
                 0x0000000000000000      0x1dc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .text.HAL_UART_Transmit_IT
@@ -4894,24 +4876,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .text._sprintf_r
-                0x0000000000000000       0x38 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-strlen.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-strlen.o)
  .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
  .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
  .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .text.__ssprint_r
-                0x0000000000000000      0x100 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
  .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
  .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
@@ -4938,23 +4905,6 @@ Discarded input sections
                 0x0000000000000000        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_release
                 0x0000000000000000        0x2 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .text          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
- .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
  .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .bss           0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .data          0x0000000000000000        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -5061,695 +5011,651 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c0                . = ALIGN (0x4)
 
-.text           0x00000000080000c0     0xa1d0
+.text           0x00000000080000c0     0x9a2c
                 0x00000000080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080000c0       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
- .text          0x0000000008000108        0xe /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-strlen.o)
-                0x0000000008000108                strlen
- *fill*         0x0000000008000116        0x2 
- .text          0x0000000008000118       0x14 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
-                0x0000000008000118                __gnu_thumb1_case_shi
- .text          0x000000000800012c      0x114 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
-                0x000000000800012c                __udivsi3
-                0x000000000800012c                __aeabi_uidiv
-                0x0000000008000238                __aeabi_uidivmod
- .text          0x0000000008000240        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000008000240                __aeabi_ldiv0
-                0x0000000008000240                __aeabi_idiv0
- .text          0x0000000008000244       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000008000244                __aeabi_uldivmod
- .text          0x0000000008000284       0x50 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
-                0x0000000008000284                __aeabi_lmul
-                0x0000000008000284                __muldi3
- .text          0x00000000080002d4      0x198 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x00000000080002d4                __udivmoddi4
- .text          0x000000000800046c       0x18 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
-                0x000000000800046c                __clzdi2
- .text          0x0000000008000484       0x3c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
-                0x0000000008000484                __clzsi2
+ .text          0x0000000008000108      0x114 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x0000000008000108                __udivsi3
+                0x0000000008000108                __aeabi_uidiv
+                0x0000000008000214                __aeabi_uidivmod
+ .text          0x000000000800021c        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000000000800021c                __aeabi_ldiv0
+                0x000000000800021c                __aeabi_idiv0
+ .text          0x0000000008000220       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008000220                __aeabi_uldivmod
+ .text          0x0000000008000260       0x50 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                0x0000000008000260                __aeabi_lmul
+                0x0000000008000260                __muldi3
+ .text          0x00000000080002b0      0x198 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00000000080002b0                __udivmoddi4
+ .text          0x0000000008000448       0x18 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                0x0000000008000448                __clzdi2
+ .text          0x0000000008000460       0x3c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                0x0000000008000460                __clzsi2
  *(.text*)
- .text.main     0x00000000080004c0      0x550 ./Core/Src/main.o
-                0x00000000080004c0                main
+ .text.main     0x000000000800049c      0x5f4 ./Core/Src/main.o
+                0x000000000800049c                main
  .text.SystemClock_Config
-                0x0000000008000a10       0xf4 ./Core/Src/main.o
-                0x0000000008000a10                SystemClock_Config
+                0x0000000008000a90       0xf4 ./Core/Src/main.o
+                0x0000000008000a90                SystemClock_Config
  .text.MX_ADC_Init
-                0x0000000008000b04      0x140 ./Core/Src/main.o
+                0x0000000008000b84      0x140 ./Core/Src/main.o
  .text.MX_USART2_UART_Init
-                0x0000000008000c44       0x60 ./Core/Src/main.o
+                0x0000000008000cc4       0x60 ./Core/Src/main.o
  .text.MX_GPIO_Init
-                0x0000000008000ca4      0x150 ./Core/Src/main.o
+                0x0000000008000d24      0x130 ./Core/Src/main.o
  .text.Error_Handler
-                0x0000000008000df4        0xa ./Core/Src/main.o
-                0x0000000008000df4                Error_Handler
- *fill*         0x0000000008000dfe        0x2 
+                0x0000000008000e54        0xa ./Core/Src/main.o
+                0x0000000008000e54                Error_Handler
+ *fill*         0x0000000008000e5e        0x2 
  .text.HAL_MspInit
-                0x0000000008000e00       0x28 ./Core/Src/stm32l0xx_hal_msp.o
-                0x0000000008000e00                HAL_MspInit
+                0x0000000008000e60       0x28 ./Core/Src/stm32l0xx_hal_msp.o
+                0x0000000008000e60                HAL_MspInit
  .text.HAL_ADC_MspInit
-                0x0000000008000e28       0x78 ./Core/Src/stm32l0xx_hal_msp.o
-                0x0000000008000e28                HAL_ADC_MspInit
+                0x0000000008000e88       0x78 ./Core/Src/stm32l0xx_hal_msp.o
+                0x0000000008000e88                HAL_ADC_MspInit
  .text.HAL_UART_MspInit
-                0x0000000008000ea0       0x88 ./Core/Src/stm32l0xx_hal_msp.o
-                0x0000000008000ea0                HAL_UART_MspInit
+                0x0000000008000f00       0x88 ./Core/Src/stm32l0xx_hal_msp.o
+                0x0000000008000f00                HAL_UART_MspInit
  .text.NMI_Handler
-                0x0000000008000f28        0x6 ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f28                NMI_Handler
+                0x0000000008000f88        0x6 ./Core/Src/stm32l0xx_it.o
+                0x0000000008000f88                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008000f2e        0x6 ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f2e                HardFault_Handler
+                0x0000000008000f8e        0x6 ./Core/Src/stm32l0xx_it.o
+                0x0000000008000f8e                HardFault_Handler
  .text.SVC_Handler
-                0x0000000008000f34        0xa ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f34                SVC_Handler
+                0x0000000008000f94        0xa ./Core/Src/stm32l0xx_it.o
+                0x0000000008000f94                SVC_Handler
  .text.PendSV_Handler
-                0x0000000008000f3e        0xa ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f3e                PendSV_Handler
+                0x0000000008000f9e        0xa ./Core/Src/stm32l0xx_it.o
+                0x0000000008000f9e                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008000f48        0xe ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f48                SysTick_Handler
- *fill*         0x0000000008000f56        0x2 
+                0x0000000008000fa8        0xe ./Core/Src/stm32l0xx_it.o
+                0x0000000008000fa8                SysTick_Handler
+ *fill*         0x0000000008000fb6        0x2 
  .text.USB_IRQHandler
-                0x0000000008000f58       0x18 ./Core/Src/stm32l0xx_it.o
-                0x0000000008000f58                USB_IRQHandler
- .text._sbrk    0x0000000008000f70       0x6c ./Core/Src/sysmem.o
-                0x0000000008000f70                _sbrk
+                0x0000000008000fb8       0x18 ./Core/Src/stm32l0xx_it.o
+                0x0000000008000fb8                USB_IRQHandler
+ .text._sbrk    0x0000000008000fd0       0x6c ./Core/Src/sysmem.o
+                0x0000000008000fd0                _sbrk
  .text.SystemInit
-                0x0000000008000fdc        0xa ./Core/Src/system_stm32l0xx.o
-                0x0000000008000fdc                SystemInit
- *fill*         0x0000000008000fe6        0x2 
+                0x000000000800103c        0xa ./Core/Src/system_stm32l0xx.o
+                0x000000000800103c                SystemInit
+ *fill*         0x0000000008001046        0x2 
  .text.Reset_Handler
-                0x0000000008000fe8       0x50 ./Core/Startup/startup_stm32l073cztx.o
-                0x0000000008000fe8                Reset_Handler
+                0x0000000008001048       0x50 ./Core/Startup/startup_stm32l073cztx.o
+                0x0000000008001048                Reset_Handler
  .text.Default_Handler
-                0x0000000008001038        0x2 ./Core/Startup/startup_stm32l073cztx.o
-                0x0000000008001038                LPTIM1_IRQHandler
-                0x0000000008001038                ADC1_COMP_IRQHandler
-                0x0000000008001038                PVD_IRQHandler
-                0x0000000008001038                I2C1_IRQHandler
-                0x0000000008001038                RCC_CRS_IRQHandler
-                0x0000000008001038                SPI1_IRQHandler
-                0x0000000008001038                TIM6_DAC_IRQHandler
-                0x0000000008001038                EXTI2_3_IRQHandler
-                0x0000000008001038                I2C2_IRQHandler
-                0x0000000008001038                RTC_IRQHandler
-                0x0000000008001038                LCD_IRQHandler
-                0x0000000008001038                DMA1_Channel4_5_6_7_IRQHandler
-                0x0000000008001038                TIM3_IRQHandler
-                0x0000000008001038                EXTI4_15_IRQHandler
-                0x0000000008001038                DMA1_Channel1_IRQHandler
-                0x0000000008001038                USART4_5_IRQHandler
-                0x0000000008001038                Default_Handler
-                0x0000000008001038                TIM22_IRQHandler
-                0x0000000008001038                TIM7_IRQHandler
-                0x0000000008001038                EXTI0_1_IRQHandler
-                0x0000000008001038                I2C3_IRQHandler
-                0x0000000008001038                SPI2_IRQHandler
-                0x0000000008001038                TIM21_IRQHandler
-                0x0000000008001038                WWDG_IRQHandler
-                0x0000000008001038                TIM2_IRQHandler
-                0x0000000008001038                DMA1_Channel2_3_IRQHandler
-                0x0000000008001038                USART2_IRQHandler
-                0x0000000008001038                FLASH_IRQHandler
-                0x0000000008001038                USART1_IRQHandler
-                0x0000000008001038                RNG_LPUART1_IRQHandler
-                0x0000000008001038                TSC_IRQHandler
- *fill*         0x000000000800103a        0x2 
+                0x0000000008001098        0x2 ./Core/Startup/startup_stm32l073cztx.o
+                0x0000000008001098                LPTIM1_IRQHandler
+                0x0000000008001098                ADC1_COMP_IRQHandler
+                0x0000000008001098                PVD_IRQHandler
+                0x0000000008001098                I2C1_IRQHandler
+                0x0000000008001098                RCC_CRS_IRQHandler
+                0x0000000008001098                SPI1_IRQHandler
+                0x0000000008001098                TIM6_DAC_IRQHandler
+                0x0000000008001098                EXTI2_3_IRQHandler
+                0x0000000008001098                I2C2_IRQHandler
+                0x0000000008001098                RTC_IRQHandler
+                0x0000000008001098                LCD_IRQHandler
+                0x0000000008001098                DMA1_Channel4_5_6_7_IRQHandler
+                0x0000000008001098                TIM3_IRQHandler
+                0x0000000008001098                EXTI4_15_IRQHandler
+                0x0000000008001098                DMA1_Channel1_IRQHandler
+                0x0000000008001098                USART4_5_IRQHandler
+                0x0000000008001098                Default_Handler
+                0x0000000008001098                TIM22_IRQHandler
+                0x0000000008001098                TIM7_IRQHandler
+                0x0000000008001098                EXTI0_1_IRQHandler
+                0x0000000008001098                I2C3_IRQHandler
+                0x0000000008001098                SPI2_IRQHandler
+                0x0000000008001098                TIM21_IRQHandler
+                0x0000000008001098                WWDG_IRQHandler
+                0x0000000008001098                TIM2_IRQHandler
+                0x0000000008001098                DMA1_Channel2_3_IRQHandler
+                0x0000000008001098                USART2_IRQHandler
+                0x0000000008001098                FLASH_IRQHandler
+                0x0000000008001098                USART1_IRQHandler
+                0x0000000008001098                RNG_LPUART1_IRQHandler
+                0x0000000008001098                TSC_IRQHandler
+ *fill*         0x000000000800109a        0x2 
  .text.HAL_Init
-                0x000000000800103c       0x40 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
-                0x000000000800103c                HAL_Init
+                0x000000000800109c       0x40 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x000000000800109c                HAL_Init
  .text.HAL_InitTick
-                0x000000000800107c       0x68 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
-                0x000000000800107c                HAL_InitTick
+                0x00000000080010dc       0x68 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x00000000080010dc                HAL_InitTick
  .text.HAL_IncTick
-                0x00000000080010e4       0x24 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
-                0x00000000080010e4                HAL_IncTick
+                0x0000000008001144       0x24 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x0000000008001144                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008001108       0x14 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
-                0x0000000008001108                HAL_GetTick
+                0x0000000008001168       0x14 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x0000000008001168                HAL_GetTick
  .text.HAL_Delay
-                0x000000000800111c       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
-                0x000000000800111c                HAL_Delay
+                0x000000000800117c       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x000000000800117c                HAL_Delay
  .text.HAL_ADC_Init
-                0x0000000008001164      0x2e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x0000000008001164                HAL_ADC_Init
+                0x00000000080011c4      0x2e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x00000000080011c4                HAL_ADC_Init
  .text.HAL_ADC_Start
-                0x000000000800144c       0xa8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x000000000800144c                HAL_ADC_Start
+                0x00000000080014ac       0xa8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x00000000080014ac                HAL_ADC_Start
  .text.HAL_ADC_Stop
-                0x00000000080014f4       0x80 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x00000000080014f4                HAL_ADC_Stop
+                0x0000000008001554       0x80 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x0000000008001554                HAL_ADC_Stop
  .text.HAL_ADC_PollForConversion
-                0x0000000008001574      0x138 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x0000000008001574                HAL_ADC_PollForConversion
+                0x00000000080015d4      0x138 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x00000000080015d4                HAL_ADC_PollForConversion
  .text.HAL_ADC_GetValue
-                0x00000000080016ac       0x16 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x00000000080016ac                HAL_ADC_GetValue
- *fill*         0x00000000080016c2        0x2 
+                0x000000000800170c       0x16 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x000000000800170c                HAL_ADC_GetValue
+ *fill*         0x0000000008001722        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x00000000080016c4      0x140 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
-                0x00000000080016c4                HAL_ADC_ConfigChannel
+                0x0000000008001724      0x140 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x0000000008001724                HAL_ADC_ConfigChannel
  .text.ADC_Enable
-                0x0000000008001804       0xd0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x0000000008001864       0xd0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
  .text.ADC_Disable
-                0x00000000080018d4       0xce ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x0000000008001934       0xce ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
  .text.ADC_ConversionStop
-                0x00000000080019a2       0x98 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
- *fill*         0x0000000008001a3a        0x2 
+                0x0000000008001a02       0x98 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+ *fill*         0x0000000008001a9a        0x2 
  .text.ADC_DelayMicroSecond
-                0x0000000008001a3c       0x40 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+                0x0000000008001a9c       0x40 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
  .text.HAL_ADCEx_Calibration_Start
-                0x0000000008001a7c      0x13c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.o
-                0x0000000008001a7c                HAL_ADCEx_Calibration_Start
+                0x0000000008001adc      0x13c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.o
+                0x0000000008001adc                HAL_ADCEx_Calibration_Start
  .text.__NVIC_EnableIRQ
-                0x0000000008001bb8       0x34 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001c18       0x34 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .text.__NVIC_SetPriority
-                0x0000000008001bec       0xdc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001c4c       0xdc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .text.SysTick_Config
-                0x0000000008001cc8       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001d28       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .text.HAL_NVIC_SetPriority
-                0x0000000008001d10       0x2a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
-                0x0000000008001d10                HAL_NVIC_SetPriority
+                0x0000000008001d70       0x2a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001d70                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008001d3a       0x20 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
-                0x0000000008001d3a                HAL_NVIC_EnableIRQ
+                0x0000000008001d9a       0x20 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001d9a                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008001d5a       0x1a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
-                0x0000000008001d5a                HAL_SYSTICK_Config
+                0x0000000008001dba       0x1a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x0000000008001dba                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x0000000008001d74      0x2fc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
-                0x0000000008001d74                HAL_GPIO_Init
+                0x0000000008001dd4      0x2fc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                0x0000000008001dd4                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x0000000008002070       0x3a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
-                0x0000000008002070                HAL_GPIO_ReadPin
+                0x00000000080020d0       0x3a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                0x00000000080020d0                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x00000000080020aa       0x3a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
-                0x00000000080020aa                HAL_GPIO_WritePin
+                0x000000000800210a       0x3a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                0x000000000800210a                HAL_GPIO_WritePin
  .text.HAL_PCD_Init
-                0x00000000080020e4      0x220 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x00000000080020e4                HAL_PCD_Init
+                0x0000000008002144      0x220 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002144                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x0000000008002304       0x4a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x0000000008002304                HAL_PCD_Start
- *fill*         0x000000000800234e        0x2 
+                0x0000000008002364       0x4a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002364                HAL_PCD_Start
+ *fill*         0x00000000080023ae        0x2 
  .text.HAL_PCD_IRQHandler
-                0x0000000008002350      0x2f8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x0000000008002350                HAL_PCD_IRQHandler
+                0x00000000080023b0      0x2f8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x00000000080023b0                HAL_PCD_IRQHandler
  .text.HAL_PCD_SetAddress
-                0x0000000008002648       0x56 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x0000000008002648                HAL_PCD_SetAddress
+                0x00000000080026a8       0x56 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x00000000080026a8                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x000000000800269e       0xf0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x000000000800269e                HAL_PCD_EP_Open
+                0x00000000080026fe       0xf0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x00000000080026fe                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x000000000800278e       0xa2 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x000000000800278e                HAL_PCD_EP_Close
+                0x00000000080027ee       0xa2 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x00000000080027ee                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x0000000008002830       0x88 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x0000000008002830                HAL_PCD_EP_Receive
+                0x0000000008002890       0x88 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002890                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_Transmit
-                0x00000000080028b8       0x92 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x00000000080028b8                HAL_PCD_EP_Transmit
+                0x0000000008002918       0x92 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002918                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x000000000800294a       0xb8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x000000000800294a                HAL_PCD_EP_SetStall
+                0x00000000080029aa       0xb8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x00000000080029aa                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x0000000008002a02       0xbc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
-                0x0000000008002a02                HAL_PCD_EP_ClrStall
- *fill*         0x0000000008002abe        0x2 
+                0x0000000008002a62       0xbc ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002a62                HAL_PCD_EP_ClrStall
+ *fill*         0x0000000008002b1e        0x2 
  .text.PCD_EP_ISR_Handler
-                0x0000000008002ac0      0x7e4 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008002b20      0x7e4 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
  .text.HAL_PCD_EP_DB_Receive
-                0x00000000080032a4      0x238 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x0000000008003304      0x238 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
  .text.HAL_PCD_EP_DB_Transmit
-                0x00000000080034dc      0x7b4 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+                0x000000000800353c      0x7b4 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
  .text.HAL_PCDEx_PMAConfig
-                0x0000000008003c90       0x9c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
-                0x0000000008003c90                HAL_PCDEx_PMAConfig
+                0x0000000008003cf0       0x9c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
+                0x0000000008003cf0                HAL_PCDEx_PMAConfig
  .text.HAL_PCDEx_ActivateLPM
-                0x0000000008003d2c       0x54 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
-                0x0000000008003d2c                HAL_PCDEx_ActivateLPM
+                0x0000000008003d8c       0x54 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
+                0x0000000008003d8c                HAL_PCDEx_ActivateLPM
  .text.HAL_PCDEx_LPM_Callback
-                0x0000000008003d80       0x16 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
-                0x0000000008003d80                HAL_PCDEx_LPM_Callback
- *fill*         0x0000000008003d96        0x2 
+                0x0000000008003de0       0x16 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
+                0x0000000008003de0                HAL_PCDEx_LPM_Callback
+ *fill*         0x0000000008003df6        0x2 
  .text.HAL_RCC_OscConfig
-                0x0000000008003d98      0x7a8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x0000000008003d98                HAL_RCC_OscConfig
+                0x0000000008003df8      0x7a8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x0000000008003df8                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x0000000008004540      0x290 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x0000000008004540                HAL_RCC_ClockConfig
+                0x00000000080045a0      0x290 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x00000000080045a0                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x00000000080047d0      0x14c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x00000000080047d0                HAL_RCC_GetSysClockFreq
+                0x0000000008004830      0x14c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x0000000008004830                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x000000000800491c       0x14 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x000000000800491c                HAL_RCC_GetHCLKFreq
+                0x000000000800497c       0x14 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x000000000800497c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008004930       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x0000000008004930                HAL_RCC_GetPCLK1Freq
+                0x0000000008004990       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x0000000008004990                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x000000000800495c       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
-                0x000000000800495c                HAL_RCC_GetPCLK2Freq
+                0x00000000080049bc       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x00000000080049bc                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x0000000008004988      0x2e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
-                0x0000000008004988                HAL_RCCEx_PeriphCLKConfig
+                0x00000000080049e8      0x2e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+                0x00000000080049e8                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_UART_Init
-                0x0000000008004c70       0xa8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x0000000008004c70                HAL_UART_Init
- .text.HAL_UART_Transmit
-                0x0000000008004d18      0x150 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x0000000008004d18                HAL_UART_Transmit
+                0x0000000008004cd0       0xa8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x0000000008004cd0                HAL_UART_Init
  .text.UART_SetConfig
-                0x0000000008004e68      0x57c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x0000000008004e68                UART_SetConfig
+                0x0000000008004d78      0x57c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x0000000008004d78                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x00000000080053e4      0x168 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x00000000080053e4                UART_AdvFeatureConfig
+                0x00000000080052f4      0x168 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x00000000080052f4                UART_AdvFeatureConfig
  .text.UART_CheckIdleState
-                0x000000000800554c       0x90 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x000000000800554c                UART_CheckIdleState
+                0x000000000800545c       0x90 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x000000000800545c                UART_CheckIdleState
  .text.UART_WaitOnFlagUntilTimeout
-                0x00000000080055dc      0x188 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
-                0x00000000080055dc                UART_WaitOnFlagUntilTimeout
+                0x00000000080054ec      0x188 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x00000000080054ec                UART_WaitOnFlagUntilTimeout
  .text.USB_EnableGlobalInt
-                0x0000000008005764       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008005764                USB_EnableGlobalInt
+                0x0000000008005674       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008005674                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x0000000008005790       0x34 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008005790                USB_DisableGlobalInt
+                0x00000000080056a0       0x34 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x00000000080056a0                USB_DisableGlobalInt
  .text.USB_DevInit
-                0x00000000080057c4       0x58 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x00000000080057c4                USB_DevInit
+                0x00000000080056d4       0x58 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x00000000080056d4                USB_DevInit
  .text.USB_ActivateEndpoint
-                0x000000000800581c      0x6e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x000000000800581c                USB_ActivateEndpoint
+                0x000000000800572c      0x6e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x000000000800572c                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x0000000008005f04      0x380 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008005f04                USB_DeactivateEndpoint
+                0x0000000008005e14      0x380 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008005e14                USB_DeactivateEndpoint
  .text.USB_EPStartXfer
-                0x0000000008006284     0x1174 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008006284                USB_EPStartXfer
+                0x0000000008006194     0x1174 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008006194                USB_EPStartXfer
  .text.USB_EPSetStall
-                0x00000000080073f8       0xa0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x00000000080073f8                USB_EPSetStall
+                0x0000000008007308       0xa0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008007308                USB_EPSetStall
  .text.USB_EPClearStall
-                0x0000000008007498      0x164 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008007498                USB_EPClearStall
+                0x00000000080073a8      0x164 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x00000000080073a8                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x00000000080075fc       0x28 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x00000000080075fc                USB_SetDevAddress
+                0x000000000800750c       0x28 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x000000000800750c                USB_SetDevAddress
  .text.USB_DevConnect
-                0x0000000008007624       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008007624                USB_DevConnect
+                0x0000000008007534       0x2c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008007534                USB_DevConnect
  .text.USB_ReadInterrupts
-                0x0000000008007650       0x1c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x0000000008007650                USB_ReadInterrupts
+                0x0000000008007560       0x1c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008007560                USB_ReadInterrupts
  .text.USB_WritePMA
-                0x000000000800766c       0x88 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x000000000800766c                USB_WritePMA
+                0x000000000800757c       0x88 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x000000000800757c                USB_WritePMA
  .text.USB_ReadPMA
-                0x00000000080076f4       0x9e ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
-                0x00000000080076f4                USB_ReadPMA
+                0x0000000008007604       0x9e ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+                0x0000000008007604                USB_ReadPMA
  .text.USBD_CUSTOM_HID_Init
-                0x0000000008007792       0x9a ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x00000000080076a2       0x9a ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_DeInit
-                0x000000000800782c       0x6c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x000000000800773c       0x6c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_Setup
-                0x0000000008007898      0x220 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x00000000080077a8      0x220 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_SendReport
-                0x0000000008007ab8       0x50 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
-                0x0000000008007ab8                USBD_CUSTOM_HID_SendReport
+                0x00000000080079c8       0x50 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x00000000080079c8                USBD_CUSTOM_HID_SendReport
  .text.USBD_CUSTOM_HID_GetFSCfgDesc
-                0x0000000008007b08       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007a18       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_GetHSCfgDesc
-                0x0000000008007b24       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007a34       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_GetOtherSpeedCfgDesc
-                0x0000000008007b40       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007a50       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_DataIn
-                0x0000000008007b5c       0x24 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007a6c       0x24 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_DataOut
-                0x0000000008007b80       0x3e ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007a90       0x3e ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_EP0_RxReady
-                0x0000000008007bbe       0x3a ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007ace       0x3a ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_GetDeviceQualifierDesc
-                0x0000000008007bf8       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007b08       0x1c ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .text.USBD_CUSTOM_HID_RegisterInterface
-                0x0000000008007c14       0x36 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
-                0x0000000008007c14                USBD_CUSTOM_HID_RegisterInterface
+                0x0000000008007b24       0x36 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008007b24                USBD_CUSTOM_HID_RegisterInterface
  .text.USBD_Init
-                0x0000000008007c4a       0x62 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007c4a                USBD_Init
+                0x0000000008007b5a       0x62 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007b5a                USBD_Init
  .text.USBD_RegisterClass
-                0x0000000008007cac       0x40 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007cac                USBD_RegisterClass
+                0x0000000008007bbc       0x40 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007bbc                USBD_RegisterClass
  .text.USBD_Start
-                0x0000000008007cec       0x1a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007cec                USBD_Start
+                0x0000000008007bfc       0x1a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007bfc                USBD_Start
  .text.USBD_RunTestMode
-                0x0000000008007d06       0x12 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007d06                USBD_RunTestMode
+                0x0000000008007c16       0x12 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007c16                USBD_RunTestMode
  .text.USBD_SetClassConfig
-                0x0000000008007d18       0x4e ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007d18                USBD_SetClassConfig
+                0x0000000008007c28       0x4e ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007c28                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x0000000008007d66       0x2c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007d66                USBD_ClrClassConfig
- *fill*         0x0000000008007d92        0x2 
+                0x0000000008007c76       0x2c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007c76                USBD_ClrClassConfig
+ *fill*         0x0000000008007ca2        0x2 
  .text.USBD_LL_SetupStage
-                0x0000000008007d94       0xbc ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007d94                USBD_LL_SetupStage
+                0x0000000008007ca4       0xbc ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007ca4                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x0000000008007e50      0x104 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007e50                USBD_LL_DataOutStage
+                0x0000000008007d60      0x104 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007d60                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x0000000008007f54      0x17a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008007f54                USBD_LL_DataInStage
+                0x0000000008007e64      0x17a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007e64                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x00000000080080ce       0x90 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x00000000080080ce                USBD_LL_Reset
+                0x0000000008007fde       0x90 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008007fde                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x000000000800815e       0x20 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x000000000800815e                USBD_LL_SetSpeed
- *fill*         0x000000000800817e        0x2 
+                0x000000000800806e       0x20 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x000000000800806e                USBD_LL_SetSpeed
+ *fill*         0x000000000800808e        0x2 
  .text.USBD_LL_Suspend
-                0x0000000008008180       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x0000000008008180                USBD_LL_Suspend
+                0x0000000008008090       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x0000000008008090                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x00000000080081b0       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x00000000080081b0                USBD_LL_Resume
+                0x00000000080080c0       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x00000000080080c0                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x00000000080081e0       0x3c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                0x00000000080081e0                USBD_LL_SOF
+                0x00000000080080f0       0x3c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                0x00000000080080f0                USBD_LL_SOF
  .text.USBD_StdDevReq
-                0x000000000800821c       0xe4 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x000000000800821c                USBD_StdDevReq
+                0x000000000800812c       0xe4 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x000000000800812c                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x0000000008008300       0xae ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x0000000008008300                USBD_StdItfReq
+                0x0000000008008210       0xae ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008210                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x00000000080083ae      0x36c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x00000000080083ae                USBD_StdEPReq
- *fill*         0x000000000800871a        0x2 
+                0x00000000080082be      0x36c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x00000000080082be                USBD_StdEPReq
+ *fill*         0x000000000800862a        0x2 
  .text.USBD_GetDescriptor
-                0x000000000800871c      0x364 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x000000000800862c      0x364 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_SetAddress
-                0x0000000008008a80       0xa8 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008990       0xa8 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_SetConfig
-                0x0000000008008b28      0x148 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008a38      0x148 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_GetConfig
-                0x0000000008008c70       0x76 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008b80       0x76 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_GetStatus
-                0x0000000008008ce6       0x74 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008bf6       0x74 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_SetFeature
-                0x0000000008008d5a       0x2c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008c6a       0x2c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_ClrFeature
-                0x0000000008008d86       0x4c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008c96       0x4c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_ParseSetupRequest
-                0x0000000008008dd2       0x76 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x0000000008008dd2                USBD_ParseSetupRequest
+                0x0000000008008ce2       0x76 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008ce2                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x0000000008008e48       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x0000000008008e48                USBD_CtlError
+                0x0000000008008d58       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008d58                USBD_CtlError
  .text.USBD_GetString
-                0x0000000008008e6e       0x9c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                0x0000000008008e6e                USBD_GetString
+                0x0000000008008d7e       0x9c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008d7e                USBD_GetString
  .text.USBD_GetLen
-                0x0000000008008f0a       0x3a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008008e1a       0x3a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .text.USBD_CtlSendData
-                0x0000000008008f44       0x40 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008008f44                USBD_CtlSendData
+                0x0000000008008e54       0x40 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008e54                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x0000000008008f84       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008008f84                USBD_CtlContinueSendData
+                0x0000000008008e94       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008e94                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x0000000008008faa       0x48 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008008faa                USBD_CtlPrepareRx
+                0x0000000008008eba       0x48 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008eba                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x0000000008008ff2       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008008ff2                USBD_CtlContinueRx
+                0x0000000008008f02       0x26 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008f02                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x0000000008009018       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008009018                USBD_CtlSendStatus
+                0x0000000008008f28       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008f28                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x0000000008009040       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                0x0000000008009040                USBD_CtlReceiveStatus
+                0x0000000008008f50       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                0x0000000008008f50                USBD_CtlReceiveStatus
  .text.MX_USB_DEVICE_Init
-                0x0000000008009068       0x68 ./USB_DEVICE/App/usb_device.o
-                0x0000000008009068                MX_USB_DEVICE_Init
+                0x0000000008008f78       0x68 ./USB_DEVICE/App/usb_device.o
+                0x0000000008008f78                MX_USB_DEVICE_Init
  .text.CUSTOM_HID_Init_FS
-                0x00000000080090d0        0xc ./USB_DEVICE/App/usbd_custom_hid_if.o
+                0x0000000008008fe0        0xc ./USB_DEVICE/App/usbd_custom_hid_if.o
  .text.CUSTOM_HID_DeInit_FS
-                0x00000000080090dc        0xc ./USB_DEVICE/App/usbd_custom_hid_if.o
+                0x0000000008008fec        0xc ./USB_DEVICE/App/usbd_custom_hid_if.o
  .text.CUSTOM_HID_OutEvent_FS
-                0x00000000080090e8       0x1c ./USB_DEVICE/App/usbd_custom_hid_if.o
+                0x0000000008008ff8       0x1c ./USB_DEVICE/App/usbd_custom_hid_if.o
  .text.USBD_FS_DeviceDescriptor
-                0x0000000008009104       0x24 ./USB_DEVICE/App/usbd_desc.o
-                0x0000000008009104                USBD_FS_DeviceDescriptor
+                0x0000000008009014       0x24 ./USB_DEVICE/App/usbd_desc.o
+                0x0000000008009014                USBD_FS_DeviceDescriptor
  .text.USBD_FS_LangIDStrDescriptor
-                0x0000000008009128       0x24 ./USB_DEVICE/App/usbd_desc.o
-                0x0000000008009128                USBD_FS_LangIDStrDescriptor
+                0x0000000008009038       0x24 ./USB_DEVICE/App/usbd_desc.o
+                0x0000000008009038                USBD_FS_LangIDStrDescriptor
  .text.USBD_FS_ProductStrDescriptor
-                0x000000000800914c       0x44 ./USB_DEVICE/App/usbd_desc.o
-                0x000000000800914c                USBD_FS_ProductStrDescriptor
+                0x000000000800905c       0x44 ./USB_DEVICE/App/usbd_desc.o
+                0x000000000800905c                USBD_FS_ProductStrDescriptor
  .text.USBD_FS_ManufacturerStrDescriptor
-                0x0000000008009190       0x2c ./USB_DEVICE/App/usbd_desc.o
-                0x0000000008009190                USBD_FS_ManufacturerStrDescriptor
+                0x00000000080090a0       0x2c ./USB_DEVICE/App/usbd_desc.o
+                0x00000000080090a0                USBD_FS_ManufacturerStrDescriptor
  .text.USBD_FS_SerialStrDescriptor
-                0x00000000080091bc       0x28 ./USB_DEVICE/App/usbd_desc.o
-                0x00000000080091bc                USBD_FS_SerialStrDescriptor
+                0x00000000080090cc       0x28 ./USB_DEVICE/App/usbd_desc.o
+                0x00000000080090cc                USBD_FS_SerialStrDescriptor
  .text.USBD_FS_ConfigStrDescriptor
-                0x00000000080091e4       0x44 ./USB_DEVICE/App/usbd_desc.o
-                0x00000000080091e4                USBD_FS_ConfigStrDescriptor
+                0x00000000080090f4       0x44 ./USB_DEVICE/App/usbd_desc.o
+                0x00000000080090f4                USBD_FS_ConfigStrDescriptor
  .text.USBD_FS_InterfaceStrDescriptor
-                0x0000000008009228       0x44 ./USB_DEVICE/App/usbd_desc.o
-                0x0000000008009228                USBD_FS_InterfaceStrDescriptor
+                0x0000000008009138       0x44 ./USB_DEVICE/App/usbd_desc.o
+                0x0000000008009138                USBD_FS_InterfaceStrDescriptor
  .text.Get_SerialNum
-                0x000000000800926c       0x5c ./USB_DEVICE/App/usbd_desc.o
+                0x000000000800917c       0x5c ./USB_DEVICE/App/usbd_desc.o
  .text.IntToUnicode
-                0x00000000080092c8       0x96 ./USB_DEVICE/App/usbd_desc.o
- *fill*         0x000000000800935e        0x2 
+                0x00000000080091d8       0x96 ./USB_DEVICE/App/usbd_desc.o
+ *fill*         0x000000000800926e        0x2 
  .text.HAL_PCD_MspInit
-                0x0000000008009360       0x40 ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009360                HAL_PCD_MspInit
+                0x0000000008009270       0x40 ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009270                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x00000000080093a0       0x2a ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080093a0                HAL_PCD_SetupStageCallback
+                0x00000000080092b0       0x2a ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080092b0                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x00000000080093ca       0x42 ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080093ca                HAL_PCD_DataOutStageCallback
+                0x00000000080092da       0x42 ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080092da                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x000000000800940c       0x3c ./USB_DEVICE/Target/usbd_conf.o
-                0x000000000800940c                HAL_PCD_DataInStageCallback
+                0x000000000800931c       0x3c ./USB_DEVICE/Target/usbd_conf.o
+                0x000000000800931c                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x0000000008009448       0x1e ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009448                HAL_PCD_SOFCallback
+                0x0000000008009358       0x1e ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009358                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x0000000008009466       0x48 ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009466                HAL_PCD_ResetCallback
- *fill*         0x00000000080094ae        0x2 
+                0x0000000008009376       0x48 ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009376                HAL_PCD_ResetCallback
+ *fill*         0x00000000080093be        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x00000000080094b0       0x38 ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080094b0                HAL_PCD_SuspendCallback
+                0x00000000080093c0       0x38 ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080093c0                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x00000000080094e8       0x3c ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080094e8                HAL_PCD_ResumeCallback
+                0x00000000080093f8       0x3c ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080093f8                HAL_PCD_ResumeCallback
  .text.USBD_LL_Init
-                0x0000000008009524       0xb0 ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009524                USBD_LL_Init
+                0x0000000008009434       0xb0 ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009434                USBD_LL_Init
  .text.USBD_LL_Start
-                0x00000000080095d4       0x4a ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080095d4                USBD_LL_Start
+                0x00000000080094e4       0x4a ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080094e4                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x000000000800961e       0x6e ./USB_DEVICE/Target/usbd_conf.o
-                0x000000000800961e                USBD_LL_OpenEP
+                0x000000000800952e       0x6e ./USB_DEVICE/Target/usbd_conf.o
+                0x000000000800952e                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x000000000800968c       0x56 ./USB_DEVICE/Target/usbd_conf.o
-                0x000000000800968c                USBD_LL_CloseEP
+                0x000000000800959c       0x56 ./USB_DEVICE/Target/usbd_conf.o
+                0x000000000800959c                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x00000000080096e2       0x56 ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080096e2                USBD_LL_StallEP
+                0x00000000080095f2       0x56 ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080095f2                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x0000000008009738       0x56 ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009738                USBD_LL_ClearStallEP
+                0x0000000008009648       0x56 ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009648                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x000000000800978e       0x62 ./USB_DEVICE/Target/usbd_conf.o
-                0x000000000800978e                USBD_LL_IsStallEP
+                0x000000000800969e       0x62 ./USB_DEVICE/Target/usbd_conf.o
+                0x000000000800969e                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x00000000080097f0       0x56 ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080097f0                USBD_LL_SetUSBAddress
+                0x0000000008009700       0x56 ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009700                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x0000000008009846       0x6e ./USB_DEVICE/Target/usbd_conf.o
-                0x0000000008009846                USBD_LL_Transmit
+                0x0000000008009756       0x6e ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009756                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x00000000080098b4       0x6e ./USB_DEVICE/Target/usbd_conf.o
-                0x00000000080098b4                USBD_LL_PrepareReceive
+                0x00000000080097c4       0x6e ./USB_DEVICE/Target/usbd_conf.o
+                0x00000000080097c4                USBD_LL_PrepareReceive
  .text.SystemClockConfig_Resume
-                0x0000000008009922        0xe ./USB_DEVICE/Target/usbd_conf.o
+                0x0000000008009832        0xe ./USB_DEVICE/Target/usbd_conf.o
  .text.USBD_Get_USB_Status
-                0x0000000008009930       0x6e ./USB_DEVICE/Target/usbd_conf.o
- *fill*         0x000000000800999e        0x2 
- .text.__errno  0x00000000080099a0        0xc /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-errno.o)
-                0x00000000080099a0                __errno
+                0x0000000008009840       0x6e ./USB_DEVICE/Target/usbd_conf.o
+ *fill*         0x00000000080098ae        0x2 
+ .text.__errno  0x00000000080098b0        0xc /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x00000000080098b0                __errno
  .text.__libc_init_array
-                0x00000000080099ac       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-                0x00000000080099ac                __libc_init_array
- .text.malloc   0x00000000080099f4       0x14 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-malloc.o)
-                0x00000000080099f4                malloc
- .text.free     0x0000000008009a08       0x14 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-malloc.o)
-                0x0000000008009a08                free
- .text.memset   0x0000000008009a1c       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
-                0x0000000008009a1c                memset
- .text._free_r  0x0000000008009a2c       0x94 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000008009a2c                _free_r
+                0x00000000080098bc       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000080098bc                __libc_init_array
+ .text.malloc   0x0000000008009904       0x14 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-malloc.o)
+                0x0000000008009904                malloc
+ .text.free     0x0000000008009918       0x14 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-malloc.o)
+                0x0000000008009918                free
+ .text.memset   0x000000000800992c       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x000000000800992c                memset
+ .text._free_r  0x000000000800993c       0x94 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000800993c                _free_r
  .text._malloc_r
-                0x0000000008009ac0       0xbc /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008009ac0                _malloc_r
- .text._sbrk_r  0x0000000008009b7c       0x24 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
-                0x0000000008009b7c                _sbrk_r
- .text.sprintf  0x0000000008009ba0       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
-                0x0000000008009ba0                sprintf
-                0x0000000008009ba0                siprintf
+                0x00000000080099d0       0xbc /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080099d0                _malloc_r
+ .text._sbrk_r  0x0000000008009a8c       0x24 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000008009a8c                _sbrk_r
  .text.__malloc_lock
-                0x0000000008009be0       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008009be0                __malloc_lock
+                0x0000000008009ab0       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008009ab0                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008009bf0       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008009bf0                __malloc_unlock
- .text.__ssputs_r
-                0x0000000008009c00       0xc4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008009c00                __ssputs_r
- .text._svfprintf_r
-                0x0000000008009cc4      0x200 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008009cc4                _svfprintf_r
-                0x0000000008009cc4                _svfiprintf_r
- .text._printf_common
-                0x0000000008009ec4       0xde /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008009ec4                _printf_common
- *fill*         0x0000000008009fa2        0x2 
- .text._printf_i
-                0x0000000008009fa4      0x224 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008009fa4                _printf_i
+                0x0000000008009ac0       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008009ac0                __malloc_unlock
  .text.__retarget_lock_acquire_recursive
-                0x000000000800a1c8        0x2 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x000000000800a1c8                __retarget_lock_acquire_recursive
+                0x0000000008009ad0        0x2 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008009ad0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800a1ca        0x2 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x000000000800a1ca                __retarget_lock_release_recursive
- .text.memchr   0x000000000800a1cc       0x16 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
-                0x000000000800a1cc                memchr
- .text.memcpy   0x000000000800a1e2       0x12 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000800a1e2                memcpy
- .text.memmove  0x000000000800a1f4       0x26 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
-                0x000000000800a1f4                memmove
- .text._realloc_r
-                0x000000000800a21a       0x4c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
-                0x000000000800a21a                _realloc_r
- .text._malloc_usable_size_r
-                0x000000000800a266       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
-                0x000000000800a266                _malloc_usable_size_r
+                0x0000000008009ad2        0x2 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008009ad2                __retarget_lock_release_recursive
  *(.glue_7)
- .glue_7        0x000000000800a276        0x0 linker stubs
+ .glue_7        0x0000000008009ad4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800a276        0x0 linker stubs
+ .glue_7t       0x0000000008009ad4        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x000000000800a276        0x2 
- .eh_frame      0x000000000800a278        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008009ad4        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x000000000800a278        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crti.o
-                0x000000000800a278                _init
- .init          0x000000000800a27c        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
+ .init          0x0000000008009ad4        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000008009ad4                _init
+ .init          0x0000000008009ad8        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x000000000800a284        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crti.o
-                0x000000000800a284                _fini
- .fini          0x000000000800a288        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
-                0x000000000800a290                . = ALIGN (0x4)
-                0x000000000800a290                _etext = .
+ .fini          0x0000000008009ae0        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000008009ae0                _fini
+ .fini          0x0000000008009ae4        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
+                0x0000000008009aec                . = ALIGN (0x4)
+                0x0000000008009aec                _etext = .
 
-.vfp11_veneer   0x000000000800a290        0x0
- .vfp11_veneer  0x000000000800a290        0x0 linker stubs
+.vfp11_veneer   0x0000000008009aec        0x0
+ .vfp11_veneer  0x0000000008009aec        0x0 linker stubs
 
-.v4_bx          0x000000000800a290        0x0
- .v4_bx         0x000000000800a290        0x0 linker stubs
+.v4_bx          0x0000000008009aec        0x0
+ .v4_bx         0x0000000008009aec        0x0 linker stubs
 
-.iplt           0x000000000800a290        0x0
- .iplt          0x000000000800a290        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000008009aec        0x0
+ .iplt          0x0000000008009aec        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x000000000800a290      0x1ac
-                0x000000000800a290                . = ALIGN (0x4)
+.rodata         0x0000000008009aec      0x154
+                0x0000000008009aec                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x000000000800a290       0x24 ./Core/Src/main.o
- .rodata        0x000000000800a2b4       0x55 ./USB_DEVICE/App/usbd_desc.o
+ .rodata        0x0000000008009aec       0x55 ./USB_DEVICE/App/usbd_desc.o
  *(.rodata*)
- *fill*         0x000000000800a309        0x3 
+ *fill*         0x0000000008009b41        0x3 
  .rodata.AHBPrescTable
-                0x000000000800a30c       0x10 ./Core/Src/system_stm32l0xx.o
-                0x000000000800a30c                AHBPrescTable
+                0x0000000008009b44       0x10 ./Core/Src/system_stm32l0xx.o
+                0x0000000008009b44                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800a31c        0x8 ./Core/Src/system_stm32l0xx.o
-                0x000000000800a31c                APBPrescTable
+                0x0000000008009b54        0x8 ./Core/Src/system_stm32l0xx.o
+                0x0000000008009b54                APBPrescTable
  .rodata.PLLMulTable
-                0x000000000800a324        0x9 ./Core/Src/system_stm32l0xx.o
-                0x000000000800a324                PLLMulTable
- *fill*         0x000000000800a32d        0x3 
+                0x0000000008009b5c        0x9 ./Core/Src/system_stm32l0xx.o
+                0x0000000008009b5c                PLLMulTable
+ *fill*         0x0000000008009b65        0x3 
  .rodata.UART_SetConfig
-                0x000000000800a330       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+                0x0000000008009b68       0x48 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .rodata.USBD_CUSTOM_HID_Setup
-                0x000000000800a378       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+                0x0000000008009bb0       0x30 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
  .rodata.USBD_StdDevReq
-                0x000000000800a3a8       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008009be0       0x28 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
  .rodata.USBD_GetDescriptor
-                0x000000000800a3d0       0x38 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .rodata._svfprintf_r.str1.1
-                0x000000000800a408       0x11 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .rodata._printf_i.str1.1
-                0x000000000800a419       0x22 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800a43c                . = ALIGN (0x4)
- *fill*         0x000000000800a43b        0x1 
+                0x0000000008009c08       0x38 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                0x0000000008009c40                . = ALIGN (0x4)
 
-.ARM.extab      0x000000000800a43c        0x0
-                0x000000000800a43c                . = ALIGN (0x4)
+.ARM.extab      0x0000000008009c40        0x0
+                0x0000000008009c40                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800a43c                . = ALIGN (0x4)
+                0x0000000008009c40                . = ALIGN (0x4)
 
-.ARM            0x000000000800a43c        0x8
-                0x000000000800a43c                . = ALIGN (0x4)
-                0x000000000800a43c                __exidx_start = .
+.ARM            0x0000000008009c40        0x8
+                0x0000000008009c40                . = ALIGN (0x4)
+                0x0000000008009c40                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800a43c        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x000000000800a444                __exidx_end = .
-                0x000000000800a444                . = ALIGN (0x4)
+ .ARM.exidx     0x0000000008009c40        0x8 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008009c48                __exidx_end = .
+                0x0000000008009c48                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000800a444        0x0
- .rel.iplt      0x000000000800a444        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008009c48        0x0
+ .rel.iplt      0x0000000008009c48        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.preinit_array  0x000000000800a444        0x0
-                0x000000000800a444                . = ALIGN (0x4)
-                0x000000000800a444                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008009c48        0x0
+                0x0000000008009c48                . = ALIGN (0x4)
+                0x0000000008009c48                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800a444                PROVIDE (__preinit_array_end = .)
-                0x000000000800a444                . = ALIGN (0x4)
+                0x0000000008009c48                PROVIDE (__preinit_array_end = .)
+                0x0000000008009c48                . = ALIGN (0x4)
 
-.init_array     0x000000000800a444        0x4
-                0x000000000800a444                . = ALIGN (0x4)
-                0x000000000800a444                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008009c48        0x4
+                0x0000000008009c48                . = ALIGN (0x4)
+                0x0000000008009c48                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800a444        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000000800a448                PROVIDE (__init_array_end = .)
-                0x000000000800a448                . = ALIGN (0x4)
+ .init_array    0x0000000008009c48        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000008009c4c                PROVIDE (__init_array_end = .)
+                0x0000000008009c4c                . = ALIGN (0x4)
 
-.fini_array     0x000000000800a448        0x4
-                0x000000000800a448                . = ALIGN (0x4)
+.fini_array     0x0000000008009c4c        0x4
+                0x0000000008009c4c                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800a448        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x0000000008009c4c        0x4 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800a44c                . = ALIGN (0x4)
-                0x000000000800a44c                _sidata = LOADADDR (.data)
+                0x0000000008009c50                . = ALIGN (0x4)
+                0x0000000008009c50                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x1fc load address 0x000000000800a44c
+.data           0x0000000020000000      0x1fc load address 0x0000000008009c50
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -5811,11 +5717,11 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                 0x00000000200001fc                . = ALIGN (0x4)
                 0x00000000200001fc                _edata = .
 
-.igot.plt       0x00000000200001fc        0x0 load address 0x000000000800a648
+.igot.plt       0x00000000200001fc        0x0 load address 0x0000000008009e4c
  .igot.plt      0x00000000200001fc        0x0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtbegin.o
                 0x00000000200001fc                . = ALIGN (0x4)
 
-.bss            0x00000000200001fc      0x904 load address 0x000000000800a648
+.bss            0x00000000200001fc      0x904 load address 0x0000000008009e4c
                 0x00000000200001fc                _sbss = .
                 0x00000000200001fc                __bss_start__ = _sbss
  *(.bss)
@@ -5882,7 +5788,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                 0x0000000020000b00                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000b00      0x600 load address 0x000000000800a648
+                0x0000000020000b00      0x600 load address 0x0000000008009e4c
                 0x0000000020000b00                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x0000000020000b00                PROVIDE (_end = .)
@@ -5971,47 +5877,27 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .ARM.attributes
                 0x00000000000005c0       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000005ec       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
+                0x00000000000005ec       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000618       0x1c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-strlen.o)
+                0x0000000000000618       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000634       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000000000644       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000000000000660       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000000670       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000000000000068c       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000000068e       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000006b8       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
+                0x00000000000006ac       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000000000006e4       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x00000000000006ca       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
  .ARM.attributes
-                0x0000000000000710       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x00000000000006f6       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000000000000073c       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000722       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
  .ARM.attributes
-                0x0000000000000768       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
+                0x0000000000000740       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x0000000000000794       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .ARM.attributes
-                0x00000000000007c0       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x00000000000007ec       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
- .ARM.attributes
-                0x000000000000080a       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .ARM.attributes
-                0x0000000000000828       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .ARM.attributes
-                0x0000000000000846       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
- .ARM.attributes
-                0x0000000000000864       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
- .ARM.attributes
-                0x0000000000000890       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
- .ARM.attributes
-                0x00000000000008bc       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
- .ARM.attributes
-                0x00000000000008da       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
- .ARM.attributes
-                0x00000000000008f8       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
+                0x000000000000075e       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/crtn.o
 OUTPUT(Simulator_HID_CUSTOM.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
@@ -6264,32 +6150,32 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_macro   0x0000000000018062       0x1c ./USB_DEVICE/App/usbd_desc.o
  .debug_macro   0x000000000001807e      0x41b ./USB_DEVICE/Target/usbd_conf.o
 
-.debug_line     0x0000000000000000    0x14955
- .debug_line    0x0000000000000000      0xe89 ./Core/Src/main.o
- .debug_line    0x0000000000000e89      0x809 ./Core/Src/stm32l0xx_hal_msp.o
- .debug_line    0x0000000000001692      0x7f0 ./Core/Src/stm32l0xx_it.o
- .debug_line    0x0000000000001e82      0x534 ./Core/Src/sysmem.o
- .debug_line    0x00000000000023b6      0x824 ./Core/Src/system_stm32l0xx.o
- .debug_line    0x0000000000002bda       0x89 ./Core/Startup/startup_stm32l073cztx.o
- .debug_line    0x0000000000002c63      0xac7 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
- .debug_line    0x000000000000372a     0x11d0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
- .debug_line    0x00000000000048fa      0x949 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.o
- .debug_line    0x0000000000005243      0xb95 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
- .debug_line    0x0000000000005dd8      0xb6c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
- .debug_line    0x0000000000006944     0x1371 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
- .debug_line    0x0000000000007cb5      0x8e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
- .debug_line    0x000000000000859d      0xf53 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
- .debug_line    0x00000000000094f0      0xe76 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
- .debug_line    0x000000000000a366     0x2e1a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
- .debug_line    0x000000000000d180      0xfa3 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
- .debug_line    0x000000000000e123      0xd68 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
- .debug_line    0x000000000000ee8b      0xe8d ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_line    0x000000000000fd18     0x10a9 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_line    0x0000000000010dc1      0xb23 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_line    0x00000000000118e4      0xaf6 ./USB_DEVICE/App/usb_device.o
- .debug_line    0x00000000000123da      0xaee ./USB_DEVICE/App/usbd_custom_hid_if.o
- .debug_line    0x0000000000012ec8      0xbac ./USB_DEVICE/App/usbd_desc.o
- .debug_line    0x0000000000013a74      0xee1 ./USB_DEVICE/Target/usbd_conf.o
+.debug_line     0x0000000000000000    0x149ad
+ .debug_line    0x0000000000000000      0xee1 ./Core/Src/main.o
+ .debug_line    0x0000000000000ee1      0x809 ./Core/Src/stm32l0xx_hal_msp.o
+ .debug_line    0x00000000000016ea      0x7f0 ./Core/Src/stm32l0xx_it.o
+ .debug_line    0x0000000000001eda      0x534 ./Core/Src/sysmem.o
+ .debug_line    0x000000000000240e      0x824 ./Core/Src/system_stm32l0xx.o
+ .debug_line    0x0000000000002c32       0x89 ./Core/Startup/startup_stm32l073cztx.o
+ .debug_line    0x0000000000002cbb      0xac7 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_line    0x0000000000003782     0x11d0 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
+ .debug_line    0x0000000000004952      0x949 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.o
+ .debug_line    0x000000000000529b      0xb95 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_line    0x0000000000005e30      0xb6c ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_line    0x000000000000699c     0x1371 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd.o
+ .debug_line    0x0000000000007d0d      0x8e8 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pcd_ex.o
+ .debug_line    0x00000000000085f5      0xf53 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_line    0x0000000000009548      0xe76 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_line    0x000000000000a3be     0x2e1a ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
+ .debug_line    0x000000000000d1d8      0xfa3 ./Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usb.o
+ .debug_line    0x000000000000e17b      0xd68 ./Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.o
+ .debug_line    0x000000000000eee3      0xe8d ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_line    0x000000000000fd70     0x10a9 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_line    0x0000000000010e19      0xb23 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_line    0x000000000001193c      0xaf6 ./USB_DEVICE/App/usb_device.o
+ .debug_line    0x0000000000012432      0xaee ./USB_DEVICE/App/usbd_custom_hid_if.o
+ .debug_line    0x0000000000012f20      0xbac ./USB_DEVICE/App/usbd_desc.o
+ .debug_line    0x0000000000013acc      0xee1 ./USB_DEVICE/Target/usbd_conf.o
 
 .debug_str      0x0000000000000000    0x86cf4
  .debug_str     0x0000000000000000    0x832ca ./Core/Src/main.o
@@ -6370,7 +6256,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .comment       0x0000000000000053       0x54 ./USB_DEVICE/App/usbd_desc.o
  .comment       0x0000000000000053       0x54 ./USB_DEVICE/Target/usbd_conf.o
 
-.debug_frame    0x0000000000000000     0x34e8
+.debug_frame    0x0000000000000000     0x3318
  .debug_frame   0x0000000000000000       0xc8 ./Core/Src/main.o
  .debug_frame   0x00000000000000c8       0xac ./Core/Src/stm32l0xx_hal_msp.o
  .debug_frame   0x0000000000000174       0xb8 ./Core/Src/stm32l0xx_it.o
@@ -6402,17 +6288,9 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_frame   0x00000000000030c8       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-freer.o)
  .debug_frame   0x00000000000030f4       0x30 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
  .debug_frame   0x0000000000003124       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000003150       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000003198       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000000031d8       0x74 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x000000000000324c       0x54 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000032a0       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
- .debug_frame   0x00000000000032e8       0xb0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000003398       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000000000033b8       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000000033e0       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000003408       0x30 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000003438       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000003458       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000003478       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
- .debug_frame   0x00000000000034ac       0x3c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000003150       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000003190       0x48 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000031d8       0xb0 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000003288       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000000032a8       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_frame   0x00000000000032dc       0x3c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
