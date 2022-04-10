@@ -273,15 +273,13 @@ int main(void)
 	  ADC_VAL[4] = (ADC_VAL[4]*255)/104;
 	  if (ADC_VAL[4] > 255 & ADC_VAL[4] < 50000) ADC_VAL[4] = 255;
 
-	  /*********** Attribution des valeurs analogique aux différents axes ***********/
-
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
 	  pumahid.z = ADC_VAL[2];
 	  pumahid.rx = ADC_VAL[3];
 	  pumahid.ry = ADC_VAL[4];
 
-	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));	// Envoie des valeurs par USB
+	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
 	  HAL_Delay(10);
 
