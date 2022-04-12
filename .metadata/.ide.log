@@ -4960,3 +4960,14 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Aug 30 
 2022-04-11 16:58:02,068 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2415mS.
 2022-04-11 16:58:02,069 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
 2022-04-11 16:58:02,073 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-04-12 09:00:42,164 [INFO] Activator:177 - 
+
+
+2022-04-12 09:00:42,168 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-12 09:00:47,846 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-04-12 09:04:11,937 [INFO] Activator:177 - 
+
+
+2022-04-12 09:04:11,942 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-12 09:04:19,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-04-12 09:04:24,831 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
