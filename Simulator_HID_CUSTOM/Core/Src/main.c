@@ -52,8 +52,6 @@ pumaHID pumahid;
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define VREFINT_CAL_ADDR ((uint16_t*)(uint32_t)0x1FFFF7BA)
-#define ADC_IRQ ADC1_IRQn
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -68,10 +66,6 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 extern USBD_CUSTOM_HID_HandleTypeDef hUsbDeviceFS;
-
-unsigned char i = 0;
-char adcUpdated;
-float Vdd;
 
 GPIO_PinState BP_1;
 GPIO_PinState BP_3;
@@ -105,7 +99,8 @@ static void MX_GPIO_Init(void);
 static void MX_ADC_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+uint32_t* conversion_adc(void);
+char lecture_bp_fct(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -138,6 +133,15 @@ int main(void)
 	pumahid.rx = 0x0000;
 	pumahid.ry = 0x0000;
 
+	typedef enum{
+		init,
+		lecture_bp,
+		conversion,
+		lecture_pot,
+		envoie_usb
+	}Simulateur;
+	Simulateur simulateur = init;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -164,7 +168,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
-  HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);
+  HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);		// Calibration de l'ADC
+  HAL_Delay(100);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -172,6 +177,10 @@ int main(void)
   while (1)
   {
 
+	  /*if (USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid)) != USBD_OK)
+	  {
+		  Error_Handler();
+	  }*/
 
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);				// Entrée CH pour le débouncer
 
@@ -205,7 +214,7 @@ int main(void)
 
 	  /******************** CONVERSION DES DONNEES ANALOGIQUE ********************/
 
-	  HAL_ADC_Start(&hadc);									// Scan des entrées ADC
+	  HAL_ADC_Start(&hadc);								// Scan des entrées ADC
 	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);					// ADC channel 0
 	  ADC_VAL[1] = HAL_ADC_GetValue(&hadc);					// ADC channel 1
 	  ADC_VAL[2] = HAL_ADC_GetValue(&hadc);					// ADC channel 4
@@ -213,7 +222,6 @@ int main(void)
 	  ADC_VAL[4] = HAL_ADC_GetValue(&hadc);					// ADC channel 6
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);		// Fin de conversion
 	  HAL_ADC_Stop(&hadc);									// Stop la conversion
-
 
 	  if (hat_north == 0) pumahid.hat0 = 0x00;				// Appuie sur chapeau nord
 	  else if (hat_west == 0) pumahid.hat0 = 0x06;			// Appuie sur chapeau ouest
@@ -273,7 +281,7 @@ int main(void)
 	  ADC_VAL[4] = (ADC_VAL[4]*255)/104;
 	  if (ADC_VAL[4] > 255 & ADC_VAL[4] < 50000) ADC_VAL[4] = 255;
 
-	  /*********** Attribution des valeurs analogique aux différents axes ***********/
+	  /*********** Attribution des valeurs analogiques aux différents axes ***********/
 
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
@@ -476,7 +484,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(LED_V_GPIO_Port, LED_V_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_RESET);
@@ -503,12 +511,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PA10 */
-  GPIO_InitStruct.Pin = GPIO_PIN_10;
+  /*Configure GPIO pin : LED_V_Pin */
+  GPIO_InitStruct.Pin = LED_V_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(LED_V_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : EN_Pin */
   GPIO_InitStruct.Pin = EN_Pin;
@@ -521,6 +529,56 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+char lecture_bp_fct(void)
+{
+	char valide;
+	/******************** LECTURE DES BOUTONS POUSSOIRS ********************/
+
+	/************ BOUTON SUR MANCHE ************/
+
+	BP_1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);			// Lecture bouton 1
+	BP_3 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);			// Lecture bouton 3
+	hat_east = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4);		// Lecture chapeau est
+
+	hat_north = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3);		// Lecture chapeau nord
+	hat_west = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15);		// Lecture chapeau ouest
+
+	BP_2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9);			// Lecture bouton 2
+	BP_4 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);			// Lecture bouton 4
+	hat_south = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_15);		// Lecture chapeau sud
+
+	/************ BOUTON SUR CONLLECTIVE ************/
+
+	BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);			// Lecture bouton 5 rouge
+	BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);			// Lecture bouton 6 rouge
+
+	BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);			// Lecture switch rouge position haut
+	BP_8 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);			// Lecture switch rouge position bas
+
+	BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);			// Lecture swtich noir config 1 position haut
+	BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);			// Lecture switch noir config 1 position bas
+	BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);			// Lecture switch noir config 2 position haut
+	BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);			// Lecture switch noir config 2 position bas
+	valide = 1;
+
+	return valide;
+}
+
+
+uint32_t* conversion_adc(void)
+{
+	uint32_t valeur_adc[5];
+
+	valeur_adc[0] = HAL_ADC_GetValue(&hadc);
+	valeur_adc[1] = HAL_ADC_GetValue(&hadc);
+	valeur_adc[2] = HAL_ADC_GetValue(&hadc);
+	valeur_adc[3] = HAL_ADC_GetValue(&hadc);
+	valeur_adc[4] = HAL_ADC_GetValue(&hadc);
+	HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
+	HAL_ADC_Stop(&hadc);
+
+	return valeur_adc;
+}
 /* USER CODE END 4 */
 
 /**

@@ -89,6 +89,8 @@ void Error_Handler(void);
 #define BP4_GPIO_Port GPIOA
 #define BP2_Pin GPIO_PIN_9
 #define BP2_GPIO_Port GPIOA
+#define LED_V_Pin GPIO_PIN_10
+#define LED_V_GPIO_Port GPIOA
 #define HAT_WEST_Pin GPIO_PIN_15
 #define HAT_WEST_GPIO_Port GPIOA
 #define HAT_NORTH_Pin GPIO_PIN_3
