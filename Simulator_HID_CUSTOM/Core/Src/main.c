@@ -133,15 +133,6 @@ int main(void)
 	pumahid.rx = 0x0000;
 	pumahid.ry = 0x0000;
 
-	typedef enum{
-		init,
-		lecture_bp,
-		conversion,
-		lecture_pot,
-		envoie_usb
-	}Simulateur;
-	Simulateur simulateur = init;
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -169,18 +160,13 @@ int main(void)
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);		// Calibration de l'ADC
-  HAL_Delay(100);
+  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-	  /*if (USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid)) != USBD_OK)
-	  {
-		  Error_Handler();
-	  }*/
 
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);				// Entrée CH pour le débouncer
 

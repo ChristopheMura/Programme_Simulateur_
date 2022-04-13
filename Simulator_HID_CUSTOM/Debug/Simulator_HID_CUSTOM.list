@@ -7,43 +7,43 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00009a3c  080000c0  080000c0  000100c0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       00000154  08009afc  08009afc  00019afc  2**2
+  2 .rodata       00000150  08009afc  08009afc  00019afc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  08009c50  08009c50  000201fc  2**0
+  3 .ARM.extab    00000000  08009c4c  08009c4c  000201fc  2**0
                   CONTENTS
-  4 .ARM          00000008  08009c50  08009c50  00019c50  2**2
+  4 .ARM          00000008  08009c4c  08009c4c  00019c4c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .preinit_array 00000000  08009c58  08009c58  000201fc  2**0
+  5 .preinit_array 00000000  08009c54  08009c54  000201fc  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  08009c58  08009c58  00019c58  2**2
+  6 .init_array   00000004  08009c54  08009c54  00019c54  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  7 .fini_array   00000004  08009c5c  08009c5c  00019c5c  2**2
+  7 .fini_array   00000004  08009c58  08009c58  00019c58  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .data         000001fc  20000000  08009c60  00020000  2**2
+  8 .data         000001fc  20000000  08009c5c  00020000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          00000efc  200001fc  08009e5c  000201fc  2**2
+  9 .bss          000016fc  200001fc  08009e58  000201fc  2**2
                   ALLOC
- 10 ._user_heap_stack 00000600  200010f8  08009e5c  000210f8  2**0
+ 10 ._user_heap_stack 00000600  200018f8  08009e58  000218f8  2**0
                   ALLOC
  11 .ARM.attributes 00000028  00000000  00000000  000201fc  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00018d83  00000000  00000000  00020224  2**0
+ 12 .debug_info   00018d3b  00000000  00000000  00020224  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 000036b1  00000000  00000000  00038fa7  2**0
+ 13 .debug_abbrev 000036b1  00000000  00000000  00038f5f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000e40  00000000  00000000  0003c658  2**3
+ 14 .debug_aranges 00000e40  00000000  00000000  0003c610  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000ce8  00000000  00000000  0003d498  2**3
+ 15 .debug_ranges 00000ce8  00000000  00000000  0003d450  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000184a5  00000000  00000000  0003e180  2**0
+ 16 .debug_macro  000184b3  00000000  00000000  0003e138  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00014a66  00000000  00000000  00056625  2**0
+ 17 .debug_line   00014a71  00000000  00000000  000565eb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00086d3e  00000000  00000000  0006b08b  2**0
+ 18 .debug_str    00086cfa  00000000  00000000  0006b05c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000f1dc9  2**0
+ 19 .comment      00000053  00000000  00000000  000f1d56  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003358  00000000  00000000  000f1e1c  2**2
+ 20 .debug_frame  00003358  00000000  00000000  000f1dac  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -560,469 +560,462 @@ int main(void)
 	char msg[80];
 
 	pumahid.hat0 = 0x00;
- 80004a2:	4bc3      	ldr	r3, [pc, #780]	; (80007b0 <main+0x314>)
+ 80004a2:	4bc2      	ldr	r3, [pc, #776]	; (80007ac <main+0x310>)
  80004a4:	2200      	movs	r2, #0
  80004a6:	701a      	strb	r2, [r3, #0]
 	pumahid.hat1 = 0x00;
- 80004a8:	4bc1      	ldr	r3, [pc, #772]	; (80007b0 <main+0x314>)
+ 80004a8:	4bc0      	ldr	r3, [pc, #768]	; (80007ac <main+0x310>)
  80004aa:	2200      	movs	r2, #0
  80004ac:	705a      	strb	r2, [r3, #1]
 	pumahid.hat2 = 0x00;
- 80004ae:	4bc0      	ldr	r3, [pc, #768]	; (80007b0 <main+0x314>)
+ 80004ae:	4bbf      	ldr	r3, [pc, #764]	; (80007ac <main+0x310>)
  80004b0:	2200      	movs	r2, #0
  80004b2:	709a      	strb	r2, [r3, #2]
 	pumahid.key3 = 0x00;
- 80004b4:	4bbe      	ldr	r3, [pc, #760]	; (80007b0 <main+0x314>)
+ 80004b4:	4bbd      	ldr	r3, [pc, #756]	; (80007ac <main+0x310>)
  80004b6:	2200      	movs	r2, #0
  80004b8:	70da      	strb	r2, [r3, #3]
 	pumahid.but0 = 0x00;
- 80004ba:	4bbd      	ldr	r3, [pc, #756]	; (80007b0 <main+0x314>)
+ 80004ba:	4bbc      	ldr	r3, [pc, #752]	; (80007ac <main+0x310>)
  80004bc:	2200      	movs	r2, #0
  80004be:	711a      	strb	r2, [r3, #4]
 	pumahid.but1 = 0x00;
- 80004c0:	4bbb      	ldr	r3, [pc, #748]	; (80007b0 <main+0x314>)
+ 80004c0:	4bba      	ldr	r3, [pc, #744]	; (80007ac <main+0x310>)
  80004c2:	2200      	movs	r2, #0
  80004c4:	715a      	strb	r2, [r3, #5]
 	pumahid.but2 = 0x00;
- 80004c6:	4bba      	ldr	r3, [pc, #744]	; (80007b0 <main+0x314>)
+ 80004c6:	4bb9      	ldr	r3, [pc, #740]	; (80007ac <main+0x310>)
  80004c8:	2200      	movs	r2, #0
  80004ca:	719a      	strb	r2, [r3, #6]
 	pumahid.but3 = 0x00;
- 80004cc:	4bb8      	ldr	r3, [pc, #736]	; (80007b0 <main+0x314>)
+ 80004cc:	4bb7      	ldr	r3, [pc, #732]	; (80007ac <main+0x310>)
  80004ce:	2200      	movs	r2, #0
  80004d0:	71da      	strb	r2, [r3, #7]
 	pumahid.x = 0x0000;
- 80004d2:	4bb7      	ldr	r3, [pc, #732]	; (80007b0 <main+0x314>)
+ 80004d2:	4bb6      	ldr	r3, [pc, #728]	; (80007ac <main+0x310>)
  80004d4:	2200      	movs	r2, #0
  80004d6:	811a      	strh	r2, [r3, #8]
 	pumahid.y = 0x0000;
- 80004d8:	4bb5      	ldr	r3, [pc, #724]	; (80007b0 <main+0x314>)
+ 80004d8:	4bb4      	ldr	r3, [pc, #720]	; (80007ac <main+0x310>)
  80004da:	2200      	movs	r2, #0
  80004dc:	815a      	strh	r2, [r3, #10]
 	pumahid.z = 0x0000;
- 80004de:	4bb4      	ldr	r3, [pc, #720]	; (80007b0 <main+0x314>)
+ 80004de:	4bb3      	ldr	r3, [pc, #716]	; (80007ac <main+0x310>)
  80004e0:	2200      	movs	r2, #0
  80004e2:	819a      	strh	r2, [r3, #12]
 	pumahid.rx = 0x0000;
- 80004e4:	4bb2      	ldr	r3, [pc, #712]	; (80007b0 <main+0x314>)
+ 80004e4:	4bb1      	ldr	r3, [pc, #708]	; (80007ac <main+0x310>)
  80004e6:	2200      	movs	r2, #0
  80004e8:	81da      	strh	r2, [r3, #14]
 	pumahid.ry = 0x0000;
- 80004ea:	4bb1      	ldr	r3, [pc, #708]	; (80007b0 <main+0x314>)
+ 80004ea:	4bb0      	ldr	r3, [pc, #704]	; (80007ac <main+0x310>)
  80004ec:	2200      	movs	r2, #0
  80004ee:	821a      	strh	r2, [r3, #16]
-		lecture_bp,
-		conversion,
-		lecture_pot,
-		envoie_usb
-	}Simulateur;
-	Simulateur simulateur = init;
- 80004f0:	2367      	movs	r3, #103	; 0x67
- 80004f2:	18fb      	adds	r3, r7, r3
- 80004f4:	2200      	movs	r2, #0
- 80004f6:	701a      	strb	r2, [r3, #0]
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
- 80004f8:	f000 fdd8 	bl	80010ac <HAL_Init>
+ 80004f0:	f000 fddc 	bl	80010ac <HAL_Init>
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
 
   /* Configure the system clock */
   SystemClock_Config();
- 80004fc:	f000 fad0 	bl	8000aa0 <SystemClock_Config>
+ 80004f4:	f000 fad4 	bl	8000aa0 <SystemClock_Config>
   /* USER CODE BEGIN SysInit */
 
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
- 8000500:	f000 fc18 	bl	8000d34 <MX_GPIO_Init>
+ 80004f8:	f000 fc1c 	bl	8000d34 <MX_GPIO_Init>
   MX_ADC_Init();
- 8000504:	f000 fb46 	bl	8000b94 <MX_ADC_Init>
+ 80004fc:	f000 fb4a 	bl	8000b94 <MX_ADC_Init>
   MX_USART2_UART_Init();
- 8000508:	f000 fbe4 	bl	8000cd4 <MX_USART2_UART_Init>
+ 8000500:	f000 fbe8 	bl	8000cd4 <MX_USART2_UART_Init>
   MX_USB_DEVICE_Init();
- 800050c:	f008 fd3c 	bl	8008f88 <MX_USB_DEVICE_Init>
+ 8000504:	f008 fd40 	bl	8008f88 <MX_USB_DEVICE_Init>
   /* USER CODE BEGIN 2 */
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
- 8000510:	2380      	movs	r3, #128	; 0x80
- 8000512:	00d9      	lsls	r1, r3, #3
- 8000514:	23a0      	movs	r3, #160	; 0xa0
- 8000516:	05db      	lsls	r3, r3, #23
- 8000518:	2201      	movs	r2, #1
- 800051a:	0018      	movs	r0, r3
- 800051c:	f001 fdfd 	bl	800211a <HAL_GPIO_WritePin>
+ 8000508:	2380      	movs	r3, #128	; 0x80
+ 800050a:	00d9      	lsls	r1, r3, #3
+ 800050c:	23a0      	movs	r3, #160	; 0xa0
+ 800050e:	05db      	lsls	r3, r3, #23
+ 8000510:	2201      	movs	r2, #1
+ 8000512:	0018      	movs	r0, r3
+ 8000514:	f001 fe01 	bl	800211a <HAL_GPIO_WritePin>
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
- 8000520:	2380      	movs	r3, #128	; 0x80
- 8000522:	009b      	lsls	r3, r3, #2
- 8000524:	48a3      	ldr	r0, [pc, #652]	; (80007b4 <main+0x318>)
- 8000526:	2200      	movs	r2, #0
- 8000528:	0019      	movs	r1, r3
- 800052a:	f001 fdf6 	bl	800211a <HAL_GPIO_WritePin>
+ 8000518:	2380      	movs	r3, #128	; 0x80
+ 800051a:	009b      	lsls	r3, r3, #2
+ 800051c:	48a4      	ldr	r0, [pc, #656]	; (80007b0 <main+0x314>)
+ 800051e:	2200      	movs	r2, #0
+ 8000520:	0019      	movs	r1, r3
+ 8000522:	f001 fdfa 	bl	800211a <HAL_GPIO_WritePin>
   HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);		// Calibration de l'ADC
- 800052e:	4ba2      	ldr	r3, [pc, #648]	; (80007b8 <main+0x31c>)
- 8000530:	2100      	movs	r1, #0
- 8000532:	0018      	movs	r0, r3
- 8000534:	f001 fada 	bl	8001aec <HAL_ADCEx_Calibration_Start>
-  HAL_Delay(100);
- 8000538:	2064      	movs	r0, #100	; 0x64
- 800053a:	f000 fe27 	bl	800118c <HAL_Delay>
-	  /*if (USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid)) != USBD_OK)
-	  {
-		  Error_Handler();
-	  }*/
+ 8000526:	4ba3      	ldr	r3, [pc, #652]	; (80007b4 <main+0x318>)
+ 8000528:	2100      	movs	r1, #0
+ 800052a:	0018      	movs	r0, r3
+ 800052c:	f001 fade 	bl	8001aec <HAL_ADCEx_Calibration_Start>
+  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+ 8000530:	499e      	ldr	r1, [pc, #632]	; (80007ac <main+0x310>)
+ 8000532:	4ba1      	ldr	r3, [pc, #644]	; (80007b8 <main+0x31c>)
+ 8000534:	2212      	movs	r2, #18
+ 8000536:	0018      	movs	r0, r3
+ 8000538:	f007 fa4e 	bl	80079d8 <USBD_CUSTOM_HID_SendReport>
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
 
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);				// Entrée CH pour le débouncer
- 800053e:	2380      	movs	r3, #128	; 0x80
- 8000540:	005b      	lsls	r3, r3, #1
- 8000542:	4a9c      	ldr	r2, [pc, #624]	; (80007b4 <main+0x318>)
- 8000544:	0019      	movs	r1, r3
- 8000546:	0010      	movs	r0, r2
- 8000548:	f001 fdca 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800054c:	0003      	movs	r3, r0
- 800054e:	001a      	movs	r2, r3
- 8000550:	4b9a      	ldr	r3, [pc, #616]	; (80007bc <main+0x320>)
- 8000552:	701a      	strb	r2, [r3, #0]
+ 800053c:	2380      	movs	r3, #128	; 0x80
+ 800053e:	005b      	lsls	r3, r3, #1
+ 8000540:	4a9b      	ldr	r2, [pc, #620]	; (80007b0 <main+0x314>)
+ 8000542:	0019      	movs	r1, r3
+ 8000544:	0010      	movs	r0, r2
+ 8000546:	f001 fdcb 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800054a:	0003      	movs	r3, r0
+ 800054c:	001a      	movs	r2, r3
+ 800054e:	4b9b      	ldr	r3, [pc, #620]	; (80007bc <main+0x320>)
+ 8000550:	701a      	strb	r2, [r3, #0]
 
 	  /******************** LECTURE DES BOUTONS POUSSOIRS ********************/
 
 	  /************ BOUTON SUR MANCHE ************/
 
 	  BP_1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);			// Lecture bouton 1
- 8000554:	4b97      	ldr	r3, [pc, #604]	; (80007b4 <main+0x318>)
- 8000556:	2140      	movs	r1, #64	; 0x40
- 8000558:	0018      	movs	r0, r3
- 800055a:	f001 fdc1 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800055e:	0003      	movs	r3, r0
- 8000560:	001a      	movs	r2, r3
- 8000562:	4b97      	ldr	r3, [pc, #604]	; (80007c0 <main+0x324>)
- 8000564:	701a      	strb	r2, [r3, #0]
+ 8000552:	4b97      	ldr	r3, [pc, #604]	; (80007b0 <main+0x314>)
+ 8000554:	2140      	movs	r1, #64	; 0x40
+ 8000556:	0018      	movs	r0, r3
+ 8000558:	f001 fdc2 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800055c:	0003      	movs	r3, r0
+ 800055e:	001a      	movs	r2, r3
+ 8000560:	4b97      	ldr	r3, [pc, #604]	; (80007c0 <main+0x324>)
+ 8000562:	701a      	strb	r2, [r3, #0]
 	  BP_3 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);			// Lecture bouton 3
- 8000566:	4b93      	ldr	r3, [pc, #588]	; (80007b4 <main+0x318>)
- 8000568:	2120      	movs	r1, #32
- 800056a:	0018      	movs	r0, r3
- 800056c:	f001 fdb8 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000570:	0003      	movs	r3, r0
- 8000572:	001a      	movs	r2, r3
- 8000574:	4b93      	ldr	r3, [pc, #588]	; (80007c4 <main+0x328>)
- 8000576:	701a      	strb	r2, [r3, #0]
+ 8000564:	4b92      	ldr	r3, [pc, #584]	; (80007b0 <main+0x314>)
+ 8000566:	2120      	movs	r1, #32
+ 8000568:	0018      	movs	r0, r3
+ 800056a:	f001 fdb9 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800056e:	0003      	movs	r3, r0
+ 8000570:	001a      	movs	r2, r3
+ 8000572:	4b94      	ldr	r3, [pc, #592]	; (80007c4 <main+0x328>)
+ 8000574:	701a      	strb	r2, [r3, #0]
 	  hat_east = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4);		// Lecture chapeau est
- 8000578:	4b8e      	ldr	r3, [pc, #568]	; (80007b4 <main+0x318>)
- 800057a:	2110      	movs	r1, #16
- 800057c:	0018      	movs	r0, r3
- 800057e:	f001 fdaf 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000582:	0003      	movs	r3, r0
- 8000584:	001a      	movs	r2, r3
- 8000586:	4b90      	ldr	r3, [pc, #576]	; (80007c8 <main+0x32c>)
- 8000588:	701a      	strb	r2, [r3, #0]
+ 8000576:	4b8e      	ldr	r3, [pc, #568]	; (80007b0 <main+0x314>)
+ 8000578:	2110      	movs	r1, #16
+ 800057a:	0018      	movs	r0, r3
+ 800057c:	f001 fdb0 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000580:	0003      	movs	r3, r0
+ 8000582:	001a      	movs	r2, r3
+ 8000584:	4b90      	ldr	r3, [pc, #576]	; (80007c8 <main+0x32c>)
+ 8000586:	701a      	strb	r2, [r3, #0]
 
 	  hat_north = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3);		// Lecture chapeau nord
- 800058a:	4b8a      	ldr	r3, [pc, #552]	; (80007b4 <main+0x318>)
- 800058c:	2108      	movs	r1, #8
- 800058e:	0018      	movs	r0, r3
- 8000590:	f001 fda6 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000594:	0003      	movs	r3, r0
- 8000596:	001a      	movs	r2, r3
- 8000598:	4b8c      	ldr	r3, [pc, #560]	; (80007cc <main+0x330>)
- 800059a:	701a      	strb	r2, [r3, #0]
+ 8000588:	4b89      	ldr	r3, [pc, #548]	; (80007b0 <main+0x314>)
+ 800058a:	2108      	movs	r1, #8
+ 800058c:	0018      	movs	r0, r3
+ 800058e:	f001 fda7 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000592:	0003      	movs	r3, r0
+ 8000594:	001a      	movs	r2, r3
+ 8000596:	4b8d      	ldr	r3, [pc, #564]	; (80007cc <main+0x330>)
+ 8000598:	701a      	strb	r2, [r3, #0]
 	  hat_west = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15);		// Lecture chapeau ouest
- 800059c:	2380      	movs	r3, #128	; 0x80
- 800059e:	021a      	lsls	r2, r3, #8
- 80005a0:	23a0      	movs	r3, #160	; 0xa0
- 80005a2:	05db      	lsls	r3, r3, #23
- 80005a4:	0011      	movs	r1, r2
- 80005a6:	0018      	movs	r0, r3
- 80005a8:	f001 fd9a 	bl	80020e0 <HAL_GPIO_ReadPin>
- 80005ac:	0003      	movs	r3, r0
- 80005ae:	001a      	movs	r2, r3
- 80005b0:	4b87      	ldr	r3, [pc, #540]	; (80007d0 <main+0x334>)
- 80005b2:	701a      	strb	r2, [r3, #0]
+ 800059a:	2380      	movs	r3, #128	; 0x80
+ 800059c:	021a      	lsls	r2, r3, #8
+ 800059e:	23a0      	movs	r3, #160	; 0xa0
+ 80005a0:	05db      	lsls	r3, r3, #23
+ 80005a2:	0011      	movs	r1, r2
+ 80005a4:	0018      	movs	r0, r3
+ 80005a6:	f001 fd9b 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 80005aa:	0003      	movs	r3, r0
+ 80005ac:	001a      	movs	r2, r3
+ 80005ae:	4b88      	ldr	r3, [pc, #544]	; (80007d0 <main+0x334>)
+ 80005b0:	701a      	strb	r2, [r3, #0]
 
 	  BP_2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9);			// Lecture bouton 2
- 80005b4:	2380      	movs	r3, #128	; 0x80
- 80005b6:	009a      	lsls	r2, r3, #2
- 80005b8:	23a0      	movs	r3, #160	; 0xa0
- 80005ba:	05db      	lsls	r3, r3, #23
- 80005bc:	0011      	movs	r1, r2
- 80005be:	0018      	movs	r0, r3
- 80005c0:	f001 fd8e 	bl	80020e0 <HAL_GPIO_ReadPin>
- 80005c4:	0003      	movs	r3, r0
- 80005c6:	001a      	movs	r2, r3
- 80005c8:	4b82      	ldr	r3, [pc, #520]	; (80007d4 <main+0x338>)
- 80005ca:	701a      	strb	r2, [r3, #0]
+ 80005b2:	2380      	movs	r3, #128	; 0x80
+ 80005b4:	009a      	lsls	r2, r3, #2
+ 80005b6:	23a0      	movs	r3, #160	; 0xa0
+ 80005b8:	05db      	lsls	r3, r3, #23
+ 80005ba:	0011      	movs	r1, r2
+ 80005bc:	0018      	movs	r0, r3
+ 80005be:	f001 fd8f 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 80005c2:	0003      	movs	r3, r0
+ 80005c4:	001a      	movs	r2, r3
+ 80005c6:	4b83      	ldr	r3, [pc, #524]	; (80007d4 <main+0x338>)
+ 80005c8:	701a      	strb	r2, [r3, #0]
 	  BP_4 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);			// Lecture bouton 4
- 80005cc:	2380      	movs	r3, #128	; 0x80
- 80005ce:	005a      	lsls	r2, r3, #1
- 80005d0:	23a0      	movs	r3, #160	; 0xa0
- 80005d2:	05db      	lsls	r3, r3, #23
- 80005d4:	0011      	movs	r1, r2
- 80005d6:	0018      	movs	r0, r3
- 80005d8:	f001 fd82 	bl	80020e0 <HAL_GPIO_ReadPin>
- 80005dc:	0003      	movs	r3, r0
- 80005de:	001a      	movs	r2, r3
- 80005e0:	4b7d      	ldr	r3, [pc, #500]	; (80007d8 <main+0x33c>)
- 80005e2:	701a      	strb	r2, [r3, #0]
+ 80005ca:	2380      	movs	r3, #128	; 0x80
+ 80005cc:	005a      	lsls	r2, r3, #1
+ 80005ce:	23a0      	movs	r3, #160	; 0xa0
+ 80005d0:	05db      	lsls	r3, r3, #23
+ 80005d2:	0011      	movs	r1, r2
+ 80005d4:	0018      	movs	r0, r3
+ 80005d6:	f001 fd83 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 80005da:	0003      	movs	r3, r0
+ 80005dc:	001a      	movs	r2, r3
+ 80005de:	4b7e      	ldr	r3, [pc, #504]	; (80007d8 <main+0x33c>)
+ 80005e0:	701a      	strb	r2, [r3, #0]
 	  hat_south = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_15);		// Lecture chapeau sud
- 80005e4:	2380      	movs	r3, #128	; 0x80
- 80005e6:	021b      	lsls	r3, r3, #8
- 80005e8:	4a72      	ldr	r2, [pc, #456]	; (80007b4 <main+0x318>)
- 80005ea:	0019      	movs	r1, r3
- 80005ec:	0010      	movs	r0, r2
- 80005ee:	f001 fd77 	bl	80020e0 <HAL_GPIO_ReadPin>
- 80005f2:	0003      	movs	r3, r0
- 80005f4:	001a      	movs	r2, r3
- 80005f6:	4b79      	ldr	r3, [pc, #484]	; (80007dc <main+0x340>)
- 80005f8:	701a      	strb	r2, [r3, #0]
+ 80005e2:	2380      	movs	r3, #128	; 0x80
+ 80005e4:	021b      	lsls	r3, r3, #8
+ 80005e6:	4a72      	ldr	r2, [pc, #456]	; (80007b0 <main+0x314>)
+ 80005e8:	0019      	movs	r1, r3
+ 80005ea:	0010      	movs	r0, r2
+ 80005ec:	f001 fd78 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 80005f0:	0003      	movs	r3, r0
+ 80005f2:	001a      	movs	r2, r3
+ 80005f4:	4b79      	ldr	r3, [pc, #484]	; (80007dc <main+0x340>)
+ 80005f6:	701a      	strb	r2, [r3, #0]
 
 	  /************ BOUTON SUR CONLLECTIVE ************/
 
 	  BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);			// Lecture bouton 5 rouge
- 80005fa:	2380      	movs	r3, #128	; 0x80
- 80005fc:	019b      	lsls	r3, r3, #6
- 80005fe:	4a6d      	ldr	r2, [pc, #436]	; (80007b4 <main+0x318>)
- 8000600:	0019      	movs	r1, r3
- 8000602:	0010      	movs	r0, r2
- 8000604:	f001 fd6c 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000608:	0003      	movs	r3, r0
- 800060a:	001a      	movs	r2, r3
- 800060c:	4b74      	ldr	r3, [pc, #464]	; (80007e0 <main+0x344>)
- 800060e:	701a      	strb	r2, [r3, #0]
+ 80005f8:	2380      	movs	r3, #128	; 0x80
+ 80005fa:	019b      	lsls	r3, r3, #6
+ 80005fc:	4a6c      	ldr	r2, [pc, #432]	; (80007b0 <main+0x314>)
+ 80005fe:	0019      	movs	r1, r3
+ 8000600:	0010      	movs	r0, r2
+ 8000602:	f001 fd6d 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000606:	0003      	movs	r3, r0
+ 8000608:	001a      	movs	r2, r3
+ 800060a:	4b75      	ldr	r3, [pc, #468]	; (80007e0 <main+0x344>)
+ 800060c:	701a      	strb	r2, [r3, #0]
 	  BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);			// Lecture bouton 6 rouge
- 8000610:	2380      	movs	r3, #128	; 0x80
- 8000612:	01db      	lsls	r3, r3, #7
- 8000614:	4a67      	ldr	r2, [pc, #412]	; (80007b4 <main+0x318>)
- 8000616:	0019      	movs	r1, r3
- 8000618:	0010      	movs	r0, r2
- 800061a:	f001 fd61 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800061e:	0003      	movs	r3, r0
- 8000620:	001a      	movs	r2, r3
- 8000622:	4b70      	ldr	r3, [pc, #448]	; (80007e4 <main+0x348>)
- 8000624:	701a      	strb	r2, [r3, #0]
+ 800060e:	2380      	movs	r3, #128	; 0x80
+ 8000610:	01db      	lsls	r3, r3, #7
+ 8000612:	4a67      	ldr	r2, [pc, #412]	; (80007b0 <main+0x314>)
+ 8000614:	0019      	movs	r1, r3
+ 8000616:	0010      	movs	r0, r2
+ 8000618:	f001 fd62 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800061c:	0003      	movs	r3, r0
+ 800061e:	001a      	movs	r2, r3
+ 8000620:	4b70      	ldr	r3, [pc, #448]	; (80007e4 <main+0x348>)
+ 8000622:	701a      	strb	r2, [r3, #0]
 
 	  BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);			// Lecture switch rouge position haut
- 8000626:	2380      	movs	r3, #128	; 0x80
- 8000628:	011b      	lsls	r3, r3, #4
- 800062a:	4a62      	ldr	r2, [pc, #392]	; (80007b4 <main+0x318>)
- 800062c:	0019      	movs	r1, r3
- 800062e:	0010      	movs	r0, r2
- 8000630:	f001 fd56 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000634:	0003      	movs	r3, r0
- 8000636:	001a      	movs	r2, r3
- 8000638:	4b6b      	ldr	r3, [pc, #428]	; (80007e8 <main+0x34c>)
- 800063a:	701a      	strb	r2, [r3, #0]
+ 8000624:	2380      	movs	r3, #128	; 0x80
+ 8000626:	011b      	lsls	r3, r3, #4
+ 8000628:	4a61      	ldr	r2, [pc, #388]	; (80007b0 <main+0x314>)
+ 800062a:	0019      	movs	r1, r3
+ 800062c:	0010      	movs	r0, r2
+ 800062e:	f001 fd57 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000632:	0003      	movs	r3, r0
+ 8000634:	001a      	movs	r2, r3
+ 8000636:	4b6c      	ldr	r3, [pc, #432]	; (80007e8 <main+0x34c>)
+ 8000638:	701a      	strb	r2, [r3, #0]
 	  BP_8 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);			// Lecture switch rouge position bas
- 800063c:	2380      	movs	r3, #128	; 0x80
- 800063e:	00db      	lsls	r3, r3, #3
- 8000640:	4a5c      	ldr	r2, [pc, #368]	; (80007b4 <main+0x318>)
- 8000642:	0019      	movs	r1, r3
- 8000644:	0010      	movs	r0, r2
- 8000646:	f001 fd4b 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800064a:	0003      	movs	r3, r0
- 800064c:	001a      	movs	r2, r3
- 800064e:	4b67      	ldr	r3, [pc, #412]	; (80007ec <main+0x350>)
- 8000650:	701a      	strb	r2, [r3, #0]
+ 800063a:	2380      	movs	r3, #128	; 0x80
+ 800063c:	00db      	lsls	r3, r3, #3
+ 800063e:	4a5c      	ldr	r2, [pc, #368]	; (80007b0 <main+0x314>)
+ 8000640:	0019      	movs	r1, r3
+ 8000642:	0010      	movs	r0, r2
+ 8000644:	f001 fd4c 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000648:	0003      	movs	r3, r0
+ 800064a:	001a      	movs	r2, r3
+ 800064c:	4b67      	ldr	r3, [pc, #412]	; (80007ec <main+0x350>)
+ 800064e:	701a      	strb	r2, [r3, #0]
 
 	  BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);			// Lecture swtich noir config 1 position haut
- 8000652:	4b58      	ldr	r3, [pc, #352]	; (80007b4 <main+0x318>)
- 8000654:	2104      	movs	r1, #4
- 8000656:	0018      	movs	r0, r3
- 8000658:	f001 fd42 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800065c:	0003      	movs	r3, r0
- 800065e:	001a      	movs	r2, r3
- 8000660:	4b63      	ldr	r3, [pc, #396]	; (80007f0 <main+0x354>)
- 8000662:	701a      	strb	r2, [r3, #0]
+ 8000650:	4b57      	ldr	r3, [pc, #348]	; (80007b0 <main+0x314>)
+ 8000652:	2104      	movs	r1, #4
+ 8000654:	0018      	movs	r0, r3
+ 8000656:	f001 fd43 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800065a:	0003      	movs	r3, r0
+ 800065c:	001a      	movs	r2, r3
+ 800065e:	4b64      	ldr	r3, [pc, #400]	; (80007f0 <main+0x354>)
+ 8000660:	701a      	strb	r2, [r3, #0]
 	  BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);			// Lecture switch noir config 1 position bas
- 8000664:	4b53      	ldr	r3, [pc, #332]	; (80007b4 <main+0x318>)
- 8000666:	2102      	movs	r1, #2
- 8000668:	0018      	movs	r0, r3
- 800066a:	f001 fd39 	bl	80020e0 <HAL_GPIO_ReadPin>
- 800066e:	0003      	movs	r3, r0
- 8000670:	001a      	movs	r2, r3
- 8000672:	4b60      	ldr	r3, [pc, #384]	; (80007f4 <main+0x358>)
- 8000674:	701a      	strb	r2, [r3, #0]
+ 8000662:	4b53      	ldr	r3, [pc, #332]	; (80007b0 <main+0x314>)
+ 8000664:	2102      	movs	r1, #2
+ 8000666:	0018      	movs	r0, r3
+ 8000668:	f001 fd3a 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800066c:	0003      	movs	r3, r0
+ 800066e:	001a      	movs	r2, r3
+ 8000670:	4b60      	ldr	r3, [pc, #384]	; (80007f4 <main+0x358>)
+ 8000672:	701a      	strb	r2, [r3, #0]
 	  BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);			// Lecture switch noir config 2 position haut
- 8000676:	4b4f      	ldr	r3, [pc, #316]	; (80007b4 <main+0x318>)
- 8000678:	2101      	movs	r1, #1
- 800067a:	0018      	movs	r0, r3
- 800067c:	f001 fd30 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000680:	0003      	movs	r3, r0
- 8000682:	001a      	movs	r2, r3
- 8000684:	4b5c      	ldr	r3, [pc, #368]	; (80007f8 <main+0x35c>)
- 8000686:	701a      	strb	r2, [r3, #0]
+ 8000674:	4b4e      	ldr	r3, [pc, #312]	; (80007b0 <main+0x314>)
+ 8000676:	2101      	movs	r1, #1
+ 8000678:	0018      	movs	r0, r3
+ 800067a:	f001 fd31 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 800067e:	0003      	movs	r3, r0
+ 8000680:	001a      	movs	r2, r3
+ 8000682:	4b5d      	ldr	r3, [pc, #372]	; (80007f8 <main+0x35c>)
+ 8000684:	701a      	strb	r2, [r3, #0]
 	  BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);			// Lecture switch noir config 2 position bas
- 8000688:	23a0      	movs	r3, #160	; 0xa0
- 800068a:	05db      	lsls	r3, r3, #23
- 800068c:	2180      	movs	r1, #128	; 0x80
- 800068e:	0018      	movs	r0, r3
- 8000690:	f001 fd26 	bl	80020e0 <HAL_GPIO_ReadPin>
- 8000694:	0003      	movs	r3, r0
- 8000696:	001a      	movs	r2, r3
- 8000698:	4b58      	ldr	r3, [pc, #352]	; (80007fc <main+0x360>)
- 800069a:	701a      	strb	r2, [r3, #0]
+ 8000686:	23a0      	movs	r3, #160	; 0xa0
+ 8000688:	05db      	lsls	r3, r3, #23
+ 800068a:	2180      	movs	r1, #128	; 0x80
+ 800068c:	0018      	movs	r0, r3
+ 800068e:	f001 fd27 	bl	80020e0 <HAL_GPIO_ReadPin>
+ 8000692:	0003      	movs	r3, r0
+ 8000694:	001a      	movs	r2, r3
+ 8000696:	4b59      	ldr	r3, [pc, #356]	; (80007fc <main+0x360>)
+ 8000698:	701a      	strb	r2, [r3, #0]
 
 	  /******************** CONVERSION DES DONNEES ANALOGIQUE ********************/
 
 	  HAL_ADC_Start(&hadc);								// Scan des entrées ADC
- 800069c:	4b46      	ldr	r3, [pc, #280]	; (80007b8 <main+0x31c>)
- 800069e:	0018      	movs	r0, r3
- 80006a0:	f000 ff0c 	bl	80014bc <HAL_ADC_Start>
+ 800069a:	4b46      	ldr	r3, [pc, #280]	; (80007b4 <main+0x318>)
+ 800069c:	0018      	movs	r0, r3
+ 800069e:	f000 ff0d 	bl	80014bc <HAL_ADC_Start>
 	  ADC_VAL[0] = HAL_ADC_GetValue(&hadc);					// ADC channel 0
- 80006a4:	4b44      	ldr	r3, [pc, #272]	; (80007b8 <main+0x31c>)
- 80006a6:	0018      	movs	r0, r3
- 80006a8:	f001 f838 	bl	800171c <HAL_ADC_GetValue>
- 80006ac:	0002      	movs	r2, r0
- 80006ae:	2450      	movs	r4, #80	; 0x50
- 80006b0:	193b      	adds	r3, r7, r4
- 80006b2:	601a      	str	r2, [r3, #0]
+ 80006a2:	4b44      	ldr	r3, [pc, #272]	; (80007b4 <main+0x318>)
+ 80006a4:	0018      	movs	r0, r3
+ 80006a6:	f001 f839 	bl	800171c <HAL_ADC_GetValue>
+ 80006aa:	0002      	movs	r2, r0
+ 80006ac:	2454      	movs	r4, #84	; 0x54
+ 80006ae:	193b      	adds	r3, r7, r4
+ 80006b0:	601a      	str	r2, [r3, #0]
 	  ADC_VAL[1] = HAL_ADC_GetValue(&hadc);					// ADC channel 1
- 80006b4:	4b40      	ldr	r3, [pc, #256]	; (80007b8 <main+0x31c>)
- 80006b6:	0018      	movs	r0, r3
- 80006b8:	f001 f830 	bl	800171c <HAL_ADC_GetValue>
- 80006bc:	0002      	movs	r2, r0
- 80006be:	193b      	adds	r3, r7, r4
- 80006c0:	605a      	str	r2, [r3, #4]
+ 80006b2:	4b40      	ldr	r3, [pc, #256]	; (80007b4 <main+0x318>)
+ 80006b4:	0018      	movs	r0, r3
+ 80006b6:	f001 f831 	bl	800171c <HAL_ADC_GetValue>
+ 80006ba:	0002      	movs	r2, r0
+ 80006bc:	193b      	adds	r3, r7, r4
+ 80006be:	605a      	str	r2, [r3, #4]
 	  ADC_VAL[2] = HAL_ADC_GetValue(&hadc);					// ADC channel 4
- 80006c2:	4b3d      	ldr	r3, [pc, #244]	; (80007b8 <main+0x31c>)
- 80006c4:	0018      	movs	r0, r3
- 80006c6:	f001 f829 	bl	800171c <HAL_ADC_GetValue>
- 80006ca:	0002      	movs	r2, r0
- 80006cc:	193b      	adds	r3, r7, r4
- 80006ce:	609a      	str	r2, [r3, #8]
+ 80006c0:	4b3c      	ldr	r3, [pc, #240]	; (80007b4 <main+0x318>)
+ 80006c2:	0018      	movs	r0, r3
+ 80006c4:	f001 f82a 	bl	800171c <HAL_ADC_GetValue>
+ 80006c8:	0002      	movs	r2, r0
+ 80006ca:	193b      	adds	r3, r7, r4
+ 80006cc:	609a      	str	r2, [r3, #8]
 	  ADC_VAL[3] = HAL_ADC_GetValue(&hadc);					// ADC channel 5
- 80006d0:	4b39      	ldr	r3, [pc, #228]	; (80007b8 <main+0x31c>)
- 80006d2:	0018      	movs	r0, r3
- 80006d4:	f001 f822 	bl	800171c <HAL_ADC_GetValue>
- 80006d8:	0002      	movs	r2, r0
- 80006da:	193b      	adds	r3, r7, r4
- 80006dc:	60da      	str	r2, [r3, #12]
+ 80006ce:	4b39      	ldr	r3, [pc, #228]	; (80007b4 <main+0x318>)
+ 80006d0:	0018      	movs	r0, r3
+ 80006d2:	f001 f823 	bl	800171c <HAL_ADC_GetValue>
+ 80006d6:	0002      	movs	r2, r0
+ 80006d8:	193b      	adds	r3, r7, r4
+ 80006da:	60da      	str	r2, [r3, #12]
 	  ADC_VAL[4] = HAL_ADC_GetValue(&hadc);					// ADC channel 6
- 80006de:	4b36      	ldr	r3, [pc, #216]	; (80007b8 <main+0x31c>)
- 80006e0:	0018      	movs	r0, r3
- 80006e2:	f001 f81b 	bl	800171c <HAL_ADC_GetValue>
- 80006e6:	0002      	movs	r2, r0
- 80006e8:	193b      	adds	r3, r7, r4
- 80006ea:	611a      	str	r2, [r3, #16]
+ 80006dc:	4b35      	ldr	r3, [pc, #212]	; (80007b4 <main+0x318>)
+ 80006de:	0018      	movs	r0, r3
+ 80006e0:	f001 f81c 	bl	800171c <HAL_ADC_GetValue>
+ 80006e4:	0002      	movs	r2, r0
+ 80006e6:	193b      	adds	r3, r7, r4
+ 80006e8:	611a      	str	r2, [r3, #16]
 	  HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);		// Fin de conversion
- 80006ec:	2301      	movs	r3, #1
- 80006ee:	425a      	negs	r2, r3
- 80006f0:	4b31      	ldr	r3, [pc, #196]	; (80007b8 <main+0x31c>)
- 80006f2:	0011      	movs	r1, r2
- 80006f4:	0018      	movs	r0, r3
- 80006f6:	f000 ff75 	bl	80015e4 <HAL_ADC_PollForConversion>
+ 80006ea:	2301      	movs	r3, #1
+ 80006ec:	425a      	negs	r2, r3
+ 80006ee:	4b31      	ldr	r3, [pc, #196]	; (80007b4 <main+0x318>)
+ 80006f0:	0011      	movs	r1, r2
+ 80006f2:	0018      	movs	r0, r3
+ 80006f4:	f000 ff76 	bl	80015e4 <HAL_ADC_PollForConversion>
 	  HAL_ADC_Stop(&hadc);									// Stop la conversion
- 80006fa:	4b2f      	ldr	r3, [pc, #188]	; (80007b8 <main+0x31c>)
- 80006fc:	0018      	movs	r0, r3
- 80006fe:	f000 ff31 	bl	8001564 <HAL_ADC_Stop>
+ 80006f8:	4b2e      	ldr	r3, [pc, #184]	; (80007b4 <main+0x318>)
+ 80006fa:	0018      	movs	r0, r3
+ 80006fc:	f000 ff32 	bl	8001564 <HAL_ADC_Stop>
 
 	  if (hat_north == 0) pumahid.hat0 = 0x00;				// Appuie sur chapeau nord
- 8000702:	4b32      	ldr	r3, [pc, #200]	; (80007cc <main+0x330>)
- 8000704:	781b      	ldrb	r3, [r3, #0]
- 8000706:	2b00      	cmp	r3, #0
- 8000708:	d103      	bne.n	8000712 <main+0x276>
- 800070a:	4b29      	ldr	r3, [pc, #164]	; (80007b0 <main+0x314>)
- 800070c:	2200      	movs	r2, #0
- 800070e:	701a      	strb	r2, [r3, #0]
- 8000710:	e01a      	b.n	8000748 <main+0x2ac>
+ 8000700:	4b32      	ldr	r3, [pc, #200]	; (80007cc <main+0x330>)
+ 8000702:	781b      	ldrb	r3, [r3, #0]
+ 8000704:	2b00      	cmp	r3, #0
+ 8000706:	d103      	bne.n	8000710 <main+0x274>
+ 8000708:	4b28      	ldr	r3, [pc, #160]	; (80007ac <main+0x310>)
+ 800070a:	2200      	movs	r2, #0
+ 800070c:	701a      	strb	r2, [r3, #0]
+ 800070e:	e01a      	b.n	8000746 <main+0x2aa>
 	  else if (hat_west == 0) pumahid.hat0 = 0x06;			// Appuie sur chapeau ouest
- 8000712:	4b2f      	ldr	r3, [pc, #188]	; (80007d0 <main+0x334>)
- 8000714:	781b      	ldrb	r3, [r3, #0]
- 8000716:	2b00      	cmp	r3, #0
- 8000718:	d103      	bne.n	8000722 <main+0x286>
- 800071a:	4b25      	ldr	r3, [pc, #148]	; (80007b0 <main+0x314>)
- 800071c:	2206      	movs	r2, #6
- 800071e:	701a      	strb	r2, [r3, #0]
- 8000720:	e012      	b.n	8000748 <main+0x2ac>
+ 8000710:	4b2f      	ldr	r3, [pc, #188]	; (80007d0 <main+0x334>)
+ 8000712:	781b      	ldrb	r3, [r3, #0]
+ 8000714:	2b00      	cmp	r3, #0
+ 8000716:	d103      	bne.n	8000720 <main+0x284>
+ 8000718:	4b24      	ldr	r3, [pc, #144]	; (80007ac <main+0x310>)
+ 800071a:	2206      	movs	r2, #6
+ 800071c:	701a      	strb	r2, [r3, #0]
+ 800071e:	e012      	b.n	8000746 <main+0x2aa>
 	  else if (hat_east == 0) pumahid.hat0 = 0x02;			// Appuie sur chapeau est
- 8000722:	4b29      	ldr	r3, [pc, #164]	; (80007c8 <main+0x32c>)
- 8000724:	781b      	ldrb	r3, [r3, #0]
- 8000726:	2b00      	cmp	r3, #0
- 8000728:	d103      	bne.n	8000732 <main+0x296>
- 800072a:	4b21      	ldr	r3, [pc, #132]	; (80007b0 <main+0x314>)
- 800072c:	2202      	movs	r2, #2
- 800072e:	701a      	strb	r2, [r3, #0]
- 8000730:	e00a      	b.n	8000748 <main+0x2ac>
+ 8000720:	4b29      	ldr	r3, [pc, #164]	; (80007c8 <main+0x32c>)
+ 8000722:	781b      	ldrb	r3, [r3, #0]
+ 8000724:	2b00      	cmp	r3, #0
+ 8000726:	d103      	bne.n	8000730 <main+0x294>
+ 8000728:	4b20      	ldr	r3, [pc, #128]	; (80007ac <main+0x310>)
+ 800072a:	2202      	movs	r2, #2
+ 800072c:	701a      	strb	r2, [r3, #0]
+ 800072e:	e00a      	b.n	8000746 <main+0x2aa>
 	  else if (hat_south == 0) pumahid.hat0 = 0x04;			// Appuie sur chapeau sud
- 8000732:	4b2a      	ldr	r3, [pc, #168]	; (80007dc <main+0x340>)
- 8000734:	781b      	ldrb	r3, [r3, #0]
- 8000736:	2b00      	cmp	r3, #0
- 8000738:	d103      	bne.n	8000742 <main+0x2a6>
- 800073a:	4b1d      	ldr	r3, [pc, #116]	; (80007b0 <main+0x314>)
- 800073c:	2204      	movs	r2, #4
- 800073e:	701a      	strb	r2, [r3, #0]
- 8000740:	e002      	b.n	8000748 <main+0x2ac>
+ 8000730:	4b2a      	ldr	r3, [pc, #168]	; (80007dc <main+0x340>)
+ 8000732:	781b      	ldrb	r3, [r3, #0]
+ 8000734:	2b00      	cmp	r3, #0
+ 8000736:	d103      	bne.n	8000740 <main+0x2a4>
+ 8000738:	4b1c      	ldr	r3, [pc, #112]	; (80007ac <main+0x310>)
+ 800073a:	2204      	movs	r2, #4
+ 800073c:	701a      	strb	r2, [r3, #0]
+ 800073e:	e002      	b.n	8000746 <main+0x2aa>
 	  else pumahid.hat0 = 0x07;
- 8000742:	4b1b      	ldr	r3, [pc, #108]	; (80007b0 <main+0x314>)
- 8000744:	2207      	movs	r2, #7
- 8000746:	701a      	strb	r2, [r3, #0]
+ 8000740:	4b1a      	ldr	r3, [pc, #104]	; (80007ac <main+0x310>)
+ 8000742:	2207      	movs	r2, #7
+ 8000744:	701a      	strb	r2, [r3, #0]
 
 	  if (BP_1 == 0) pumahid.but0 = 0x01;					// Appuie sur bouton 1
- 8000748:	4b1d      	ldr	r3, [pc, #116]	; (80007c0 <main+0x324>)
- 800074a:	781b      	ldrb	r3, [r3, #0]
- 800074c:	2b00      	cmp	r3, #0
- 800074e:	d103      	bne.n	8000758 <main+0x2bc>
- 8000750:	4b17      	ldr	r3, [pc, #92]	; (80007b0 <main+0x314>)
- 8000752:	2201      	movs	r2, #1
- 8000754:	711a      	strb	r2, [r3, #4]
- 8000756:	e01a      	b.n	800078e <main+0x2f2>
+ 8000746:	4b1e      	ldr	r3, [pc, #120]	; (80007c0 <main+0x324>)
+ 8000748:	781b      	ldrb	r3, [r3, #0]
+ 800074a:	2b00      	cmp	r3, #0
+ 800074c:	d103      	bne.n	8000756 <main+0x2ba>
+ 800074e:	4b17      	ldr	r3, [pc, #92]	; (80007ac <main+0x310>)
+ 8000750:	2201      	movs	r2, #1
+ 8000752:	711a      	strb	r2, [r3, #4]
+ 8000754:	e01a      	b.n	800078c <main+0x2f0>
 	  else if (BP_3 == 0) pumahid.but0 = 0x02;				// Appuie sur bouton 3
- 8000758:	4b1a      	ldr	r3, [pc, #104]	; (80007c4 <main+0x328>)
- 800075a:	781b      	ldrb	r3, [r3, #0]
- 800075c:	2b00      	cmp	r3, #0
- 800075e:	d103      	bne.n	8000768 <main+0x2cc>
- 8000760:	4b13      	ldr	r3, [pc, #76]	; (80007b0 <main+0x314>)
- 8000762:	2202      	movs	r2, #2
- 8000764:	711a      	strb	r2, [r3, #4]
- 8000766:	e012      	b.n	800078e <main+0x2f2>
+ 8000756:	4b1b      	ldr	r3, [pc, #108]	; (80007c4 <main+0x328>)
+ 8000758:	781b      	ldrb	r3, [r3, #0]
+ 800075a:	2b00      	cmp	r3, #0
+ 800075c:	d103      	bne.n	8000766 <main+0x2ca>
+ 800075e:	4b13      	ldr	r3, [pc, #76]	; (80007ac <main+0x310>)
+ 8000760:	2202      	movs	r2, #2
+ 8000762:	711a      	strb	r2, [r3, #4]
+ 8000764:	e012      	b.n	800078c <main+0x2f0>
 	  else if (BP_2 == 0) pumahid.but0 = 0x04;				// Appuie sur bouton 2
- 8000768:	4b1a      	ldr	r3, [pc, #104]	; (80007d4 <main+0x338>)
- 800076a:	781b      	ldrb	r3, [r3, #0]
- 800076c:	2b00      	cmp	r3, #0
- 800076e:	d103      	bne.n	8000778 <main+0x2dc>
- 8000770:	4b0f      	ldr	r3, [pc, #60]	; (80007b0 <main+0x314>)
- 8000772:	2204      	movs	r2, #4
- 8000774:	711a      	strb	r2, [r3, #4]
- 8000776:	e00a      	b.n	800078e <main+0x2f2>
+ 8000766:	4b1b      	ldr	r3, [pc, #108]	; (80007d4 <main+0x338>)
+ 8000768:	781b      	ldrb	r3, [r3, #0]
+ 800076a:	2b00      	cmp	r3, #0
+ 800076c:	d103      	bne.n	8000776 <main+0x2da>
+ 800076e:	4b0f      	ldr	r3, [pc, #60]	; (80007ac <main+0x310>)
+ 8000770:	2204      	movs	r2, #4
+ 8000772:	711a      	strb	r2, [r3, #4]
+ 8000774:	e00a      	b.n	800078c <main+0x2f0>
 	  else if (BP_4 == 0) pumahid.but0 = 0X08;				// Appuie sur bouton 4
- 8000778:	4b17      	ldr	r3, [pc, #92]	; (80007d8 <main+0x33c>)
- 800077a:	781b      	ldrb	r3, [r3, #0]
- 800077c:	2b00      	cmp	r3, #0
- 800077e:	d103      	bne.n	8000788 <main+0x2ec>
- 8000780:	4b0b      	ldr	r3, [pc, #44]	; (80007b0 <main+0x314>)
- 8000782:	2208      	movs	r2, #8
- 8000784:	711a      	strb	r2, [r3, #4]
- 8000786:	e002      	b.n	800078e <main+0x2f2>
+ 8000776:	4b18      	ldr	r3, [pc, #96]	; (80007d8 <main+0x33c>)
+ 8000778:	781b      	ldrb	r3, [r3, #0]
+ 800077a:	2b00      	cmp	r3, #0
+ 800077c:	d103      	bne.n	8000786 <main+0x2ea>
+ 800077e:	4b0b      	ldr	r3, [pc, #44]	; (80007ac <main+0x310>)
+ 8000780:	2208      	movs	r2, #8
+ 8000782:	711a      	strb	r2, [r3, #4]
+ 8000784:	e002      	b.n	800078c <main+0x2f0>
 	  else pumahid.but0 = 0x10;
- 8000788:	4b09      	ldr	r3, [pc, #36]	; (80007b0 <main+0x314>)
- 800078a:	2210      	movs	r2, #16
- 800078c:	711a      	strb	r2, [r3, #4]
+ 8000786:	4b09      	ldr	r3, [pc, #36]	; (80007ac <main+0x310>)
+ 8000788:	2210      	movs	r2, #16
+ 800078a:	711a      	strb	r2, [r3, #4]
 
 	  if (BP_5 == 0) pumahid.but1 = 0x01;					// Appuie sur bouton 5
- 800078e:	4b14      	ldr	r3, [pc, #80]	; (80007e0 <main+0x344>)
- 8000790:	781b      	ldrb	r3, [r3, #0]
- 8000792:	2b00      	cmp	r3, #0
- 8000794:	d103      	bne.n	800079e <main+0x302>
- 8000796:	4b06      	ldr	r3, [pc, #24]	; (80007b0 <main+0x314>)
- 8000798:	2201      	movs	r2, #1
- 800079a:	715a      	strb	r2, [r3, #5]
- 800079c:	e033      	b.n	8000806 <main+0x36a>
+ 800078c:	4b14      	ldr	r3, [pc, #80]	; (80007e0 <main+0x344>)
+ 800078e:	781b      	ldrb	r3, [r3, #0]
+ 8000790:	2b00      	cmp	r3, #0
+ 8000792:	d103      	bne.n	800079c <main+0x300>
+ 8000794:	4b05      	ldr	r3, [pc, #20]	; (80007ac <main+0x310>)
+ 8000796:	2201      	movs	r2, #1
+ 8000798:	715a      	strb	r2, [r3, #5]
+ 800079a:	e034      	b.n	8000806 <main+0x36a>
 	  else if (BP_6 == 0) pumahid.but1 = 0x02;				// Appuie sur bouton 6
- 800079e:	4b11      	ldr	r3, [pc, #68]	; (80007e4 <main+0x348>)
- 80007a0:	781b      	ldrb	r3, [r3, #0]
- 80007a2:	2b00      	cmp	r3, #0
- 80007a4:	d12c      	bne.n	8000800 <main+0x364>
- 80007a6:	4b02      	ldr	r3, [pc, #8]	; (80007b0 <main+0x314>)
- 80007a8:	2202      	movs	r2, #2
- 80007aa:	715a      	strb	r2, [r3, #5]
- 80007ac:	e02b      	b.n	8000806 <main+0x36a>
- 80007ae:	46c0      	nop			; (mov r8, r8)
- 80007b0:	20000238 	.word	0x20000238
- 80007b4:	50000400 	.word	0x50000400
- 80007b8:	200002d0 	.word	0x200002d0
+ 800079c:	4b11      	ldr	r3, [pc, #68]	; (80007e4 <main+0x348>)
+ 800079e:	781b      	ldrb	r3, [r3, #0]
+ 80007a0:	2b00      	cmp	r3, #0
+ 80007a2:	d12d      	bne.n	8000800 <main+0x364>
+ 80007a4:	4b01      	ldr	r3, [pc, #4]	; (80007ac <main+0x310>)
+ 80007a6:	2202      	movs	r2, #2
+ 80007a8:	715a      	strb	r2, [r3, #5]
+ 80007aa:	e02c      	b.n	8000806 <main+0x36a>
+ 80007ac:	20000238 	.word	0x20000238
+ 80007b0:	50000400 	.word	0x50000400
+ 80007b4:	200002d0 	.word	0x200002d0
+ 80007b8:	20000330 	.word	0x20000330
  80007bc:	2000022a 	.word	0x2000022a
  80007c0:	20000231 	.word	0x20000231
  80007c4:	20000236 	.word	0x20000236
@@ -1074,7 +1067,7 @@ int main(void)
 
 
 	  ADC_VAL[0] -= 1725;											// AXE X
- 800082a:	2150      	movs	r1, #80	; 0x50
+ 800082a:	2154      	movs	r1, #84	; 0x54
  800082c:	187b      	adds	r3, r7, r1
  800082e:	681b      	ldr	r3, [r3, #0]
  8000830:	4a92      	ldr	r2, [pc, #584]	; (8000a7c <main+0x5e0>)
@@ -1091,7 +1084,7 @@ int main(void)
  8000844:	2200      	movs	r2, #0
  8000846:	601a      	str	r2, [r3, #0]
 	  ADC_VAL[0] = (ADC_VAL[0]*255)/511;
- 8000848:	2450      	movs	r4, #80	; 0x50
+ 8000848:	2454      	movs	r4, #84	; 0x54
  800084a:	193b      	adds	r3, r7, r4
  800084c:	681a      	ldr	r2, [r3, #0]
  800084e:	0013      	movs	r3, r2
@@ -1128,7 +1121,7 @@ int main(void)
  800088c:	601a      	str	r2, [r3, #0]
 
 	  ADC_VAL[1] -= 1766;											// AXE Y
- 800088e:	2150      	movs	r1, #80	; 0x50
+ 800088e:	2154      	movs	r1, #84	; 0x54
  8000890:	187b      	adds	r3, r7, r1
  8000892:	685b      	ldr	r3, [r3, #4]
  8000894:	4a7d      	ldr	r2, [pc, #500]	; (8000a8c <main+0x5f0>)
@@ -1145,7 +1138,7 @@ int main(void)
  80008a8:	2200      	movs	r2, #0
  80008aa:	605a      	str	r2, [r3, #4]
 	  ADC_VAL[1] = (ADC_VAL[1]*255)/490;
- 80008ac:	2450      	movs	r4, #80	; 0x50
+ 80008ac:	2454      	movs	r4, #84	; 0x54
  80008ae:	193b      	adds	r3, r7, r4
  80008b0:	685a      	ldr	r2, [r3, #4]
  80008b2:	0013      	movs	r3, r2
@@ -1183,7 +1176,7 @@ int main(void)
  80008f2:	605a      	str	r2, [r3, #4]
 
 	  ADC_VAL[2] -= 1850;											// COLLECTIVE AXE Z
- 80008f4:	2150      	movs	r1, #80	; 0x50
+ 80008f4:	2154      	movs	r1, #84	; 0x54
  80008f6:	187b      	adds	r3, r7, r1
  80008f8:	689b      	ldr	r3, [r3, #8]
  80008fa:	4a65      	ldr	r2, [pc, #404]	; (8000a90 <main+0x5f4>)
@@ -1200,7 +1193,7 @@ int main(void)
  800090e:	2200      	movs	r2, #0
  8000910:	609a      	str	r2, [r3, #8]
 	  ADC_VAL[2] = (ADC_VAL[2]*255)/700;
- 8000912:	2450      	movs	r4, #80	; 0x50
+ 8000912:	2454      	movs	r4, #84	; 0x54
  8000914:	193b      	adds	r3, r7, r4
  8000916:	689a      	ldr	r2, [r3, #8]
  8000918:	0013      	movs	r3, r2
@@ -1238,7 +1231,7 @@ int main(void)
  8000958:	609a      	str	r2, [r3, #8]
 
 	  ADC_VAL[3] -= 3912;											// PEDAL X ROTATION
- 800095a:	2150      	movs	r1, #80	; 0x50
+ 800095a:	2154      	movs	r1, #84	; 0x54
  800095c:	187b      	adds	r3, r7, r1
  800095e:	68db      	ldr	r3, [r3, #12]
  8000960:	4a4c      	ldr	r2, [pc, #304]	; (8000a94 <main+0x5f8>)
@@ -1255,7 +1248,7 @@ int main(void)
  8000974:	2200      	movs	r2, #0
  8000976:	60da      	str	r2, [r3, #12]
 	  ADC_VAL[3] = (ADC_VAL[3]*255)/38;
- 8000978:	2450      	movs	r4, #80	; 0x50
+ 8000978:	2454      	movs	r4, #84	; 0x54
  800097a:	193b      	adds	r3, r7, r4
  800097c:	68da      	ldr	r2, [r3, #12]
  800097e:	0013      	movs	r3, r2
@@ -1292,7 +1285,7 @@ int main(void)
  80009bc:	60da      	str	r2, [r3, #12]
 
 	  ADC_VAL[4] -= 2264;											// COLLECTIVE Y ROTATION
- 80009be:	2150      	movs	r1, #80	; 0x50
+ 80009be:	2154      	movs	r1, #84	; 0x54
  80009c0:	187b      	adds	r3, r7, r1
  80009c2:	691b      	ldr	r3, [r3, #16]
  80009c4:	4a34      	ldr	r2, [pc, #208]	; (8000a98 <main+0x5fc>)
@@ -1309,7 +1302,7 @@ int main(void)
  80009d8:	2200      	movs	r2, #0
  80009da:	611a      	str	r2, [r3, #16]
 	  ADC_VAL[4] = (ADC_VAL[4]*255)/104;
- 80009dc:	2450      	movs	r4, #80	; 0x50
+ 80009dc:	2454      	movs	r4, #84	; 0x54
  80009de:	193b      	adds	r3, r7, r4
  80009e0:	691a      	ldr	r2, [r3, #16]
  80009e2:	0013      	movs	r3, r2
@@ -1348,7 +1341,7 @@ int main(void)
 	  /*********** Attribution des valeurs analogiques aux différents axes ***********/
 
 	  pumahid.x = ADC_VAL[0];
- 8000a22:	2150      	movs	r1, #80	; 0x50
+ 8000a22:	2154      	movs	r1, #84	; 0x54
  8000a24:	187b      	adds	r3, r7, r1
  8000a26:	681b      	ldr	r3, [r3, #0]
  8000a28:	b29a      	uxth	r2, r3
@@ -1390,7 +1383,7 @@ int main(void)
  8000a62:	200a      	movs	r0, #10
  8000a64:	f000 fb92 	bl	800118c <HAL_Delay>
 	  CH = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);				// Entrée CH pour le débouncer
- 8000a68:	e569      	b.n	800053e <main+0xa2>
+ 8000a68:	e568      	b.n	800053c <main+0xa0>
  8000a6a:	46c0      	nop			; (mov r8, r8)
  8000a6c:	20000238 	.word	0x20000238
  8000a70:	20000229 	.word	0x20000229
@@ -2430,7 +2423,7 @@ void USB_IRQHandler(void)
  8000fd6:	46bd      	mov	sp, r7
  8000fd8:	bd80      	pop	{r7, pc}
  8000fda:	46c0      	nop			; (mov r8, r8)
- 8000fdc:	20000df4 	.word	0x20000df4
+ 8000fdc:	200015f4 	.word	0x200015f4
 
 08000fe0 <_sbrk>:
  *
@@ -2512,7 +2505,7 @@ void *_sbrk(ptrdiff_t incr)
  800103c:	20005000 	.word	0x20005000
  8001040:	00000400 	.word	0x00000400
  8001044:	20000218 	.word	0x20000218
- 8001048:	200010f8 	.word	0x200010f8
+ 8001048:	200018f8 	.word	0x200018f8
 
 0800104c <SystemInit>:
   * @brief  Setup the microcontroller system.
@@ -2624,11 +2617,11 @@ LoopForever:
   ldr r1, =_edata
  8001098:	200001fc 	.word	0x200001fc
   ldr r2, =_sidata
- 800109c:	08009c60 	.word	0x08009c60
+ 800109c:	08009c5c 	.word	0x08009c5c
   ldr r2, =_sbss
  80010a0:	200001fc 	.word	0x200001fc
   ldr r4, =_ebss
- 80010a4:	200010f8 	.word	0x200010f8
+ 80010a4:	200018f8 	.word	0x200018f8
 
 080010a8 <ADC1_COMP_IRQHandler>:
  * @retval : None
@@ -11018,7 +11011,7 @@ HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
  8004148:	fffeffff 	.word	0xfffeffff
  800414c:	fffbffff 	.word	0xfffbffff
  8004150:	ffffe0ff 	.word	0xffffe0ff
- 8004154:	08009b54 	.word	0x08009b54
+ 8004154:	08009b50 	.word	0x08009b50
  8004158:	20000000 	.word	0x20000000
  800415c:	20000004 	.word	0x20000004
  8004160:	ffff1fff 	.word	0xffff1fff
@@ -12300,7 +12293,7 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, ui
  8004828:	40021000 	.word	0x40021000
  800482c:	fffff8ff 	.word	0xfffff8ff
  8004830:	ffffc7ff 	.word	0xffffc7ff
- 8004834:	08009b54 	.word	0x08009b54
+ 8004834:	08009b50 	.word	0x08009b50
  8004838:	20000000 	.word	0x20000000
  800483c:	20000004 	.word	0x20000004
 
@@ -12525,7 +12518,7 @@ uint32_t HAL_RCC_GetSysClockFreq(void)
  800497c:	003d0900 	.word	0x003d0900
  8004980:	00f42400 	.word	0x00f42400
  8004984:	007a1200 	.word	0x007a1200
- 8004988:	08009b6c 	.word	0x08009b6c
+ 8004988:	08009b68 	.word	0x08009b68
 
 0800498c <HAL_RCC_GetHCLKFreq>:
   * @note   The SystemCoreClock CMSIS variable is used to store System Clock Frequency
@@ -12574,7 +12567,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  80049c0:	bd80      	pop	{r7, pc}
  80049c2:	46c0      	nop			; (mov r8, r8)
  80049c4:	40021000 	.word	0x40021000
- 80049c8:	08009b64 	.word	0x08009b64
+ 80049c8:	08009b60 	.word	0x08009b60
 
 080049cc <HAL_RCC_GetPCLK2Freq>:
   * @note   Each time PCLK2 changes, this function must be called to update the
@@ -12604,7 +12597,7 @@ uint32_t HAL_RCC_GetPCLK2Freq(void)
  80049ec:	bd80      	pop	{r7, pc}
  80049ee:	46c0      	nop			; (mov r8, r8)
  80049f0:	40021000 	.word	0x40021000
- 80049f4:	08009b64 	.word	0x08009b64
+ 80049f4:	08009b60 	.word	0x08009b60
 
 080049f8 <HAL_RCCEx_PeriphCLKConfig>:
   * @retval HAL status
@@ -14158,11 +14151,11 @@ HAL_StatusTypeDef UART_SetConfig(UART_HandleTypeDef *huart)
  80052ea:	b00e      	add	sp, #56	; 0x38
  80052ec:	bdb0      	pop	{r4, r5, r7, pc}
  80052ee:	46c0      	nop			; (mov r8, r8)
- 80052f0:	08009b78 	.word	0x08009b78
+ 80052f0:	08009b74 	.word	0x08009b74
  80052f4:	40021000 	.word	0x40021000
  80052f8:	003d0900 	.word	0x003d0900
  80052fc:	00f42400 	.word	0x00f42400
- 8005300:	08009b9c 	.word	0x08009b9c
+ 8005300:	08009b98 	.word	0x08009b98
 
 08005304 <UART_AdvFeatureConfig>:
   * @brief Configure the UART peripheral advanced features.
@@ -20029,7 +20022,7 @@ static uint8_t  USBD_CUSTOM_HID_Setup(USBD_HandleTypeDef *pdev,
  80079ca:	46bd      	mov	sp, r7
  80079cc:	b008      	add	sp, #32
  80079ce:	bd80      	pop	{r7, pc}
- 80079d0:	08009bc0 	.word	0x08009bc0
+ 80079d0:	08009bbc 	.word	0x08009bbc
  80079d4:	200000c8 	.word	0x200000c8
 
 080079d8 <USBD_CUSTOM_HID_SendReport>:
@@ -21642,7 +21635,7 @@ USBD_StatusTypeDef  USBD_StdDevReq(USBD_HandleTypeDef *pdev,
  8008216:	b004      	add	sp, #16
  8008218:	bd80      	pop	{r7, pc}
  800821a:	46c0      	nop			; (mov r8, r8)
- 800821c:	08009bf0 	.word	0x08009bf0
+ 800821c:	08009bec 	.word	0x08009bec
 
 08008220 <USBD_StdItfReq>:
 * @param  req: usb request
@@ -22978,8 +22971,8 @@ static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev,
  8008992:	46bd      	mov	sp, r7
  8008994:	b004      	add	sp, #16
  8008996:	bd80      	pop	{r7, pc}
- 8008998:	08009c18 	.word	0x08009c18
- 800899c:	08009c38 	.word	0x08009c38
+ 8008998:	08009c14 	.word	0x08009c14
+ 800899c:	08009c34 	.word	0x08009c34
 
 080089a0 <USBD_SetAddress>:
 * @param  req: usb request
@@ -23445,11 +23438,11 @@ static void USBD_GetStatus(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
 
 #if (USBD_SELF_POWERED == 1U)
       pdev->dev_config_status = USB_CONFIG_SELF_POWERED;
- 8008c34:	687b      	ldr	r3, [r7, #4]
- 8008c36:	2201      	movs	r2, #1
- 8008c38:	60da      	str	r2, [r3, #12]
 #else
       pdev->dev_config_status = 0U;
+ 8008c34:	687b      	ldr	r3, [r7, #4]
+ 8008c36:	2200      	movs	r2, #0
+ 8008c38:	60da      	str	r2, [r3, #12]
 #endif
 
       if (pdev->dev_remote_wakeup)
@@ -24348,7 +24341,7 @@ uint8_t * USBD_FS_ManufacturerStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *l
  80090d0:	b002      	add	sp, #8
  80090d2:	bd80      	pop	{r7, pc}
  80090d4:	200005f4 	.word	0x200005f4
- 80090d8:	08009b14 	.word	0x08009b14
+ 80090d8:	08009b10 	.word	0x08009b10
 
 080090dc <USBD_FS_SerialStrDescriptor>:
   * @param  speed : Current device speed
@@ -24433,7 +24426,7 @@ uint8_t * USBD_FS_ConfigStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length)
  800913c:	bd80      	pop	{r7, pc}
  800913e:	46c0      	nop			; (mov r8, r8)
  8009140:	200005f4 	.word	0x200005f4
- 8009144:	08009b28 	.word	0x08009b28
+ 8009144:	08009b24 	.word	0x08009b24
 
 08009148 <USBD_FS_InterfaceStrDescriptor>:
   * @param  speed : Current device speed
@@ -24481,7 +24474,7 @@ uint8_t * USBD_FS_InterfaceStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *leng
  8009180:	bd80      	pop	{r7, pc}
  8009182:	46c0      	nop			; (mov r8, r8)
  8009184:	200005f4 	.word	0x200005f4
- 8009188:	08009b3c 	.word	0x08009b3c
+ 8009188:	08009b38 	.word	0x08009b38
 
 0800918c <Get_SerialNum>:
   * @brief  Create the serial number string descriptor
@@ -25092,7 +25085,7 @@ USBD_StatusTypeDef USBD_LL_Init(USBD_HandleTypeDef *pdev)
  80094e6:	46bd      	mov	sp, r7
  80094e8:	b002      	add	sp, #8
  80094ea:	bd80      	pop	{r7, pc}
- 80094ec:	20000df4 	.word	0x20000df4
+ 80094ec:	200015f4 	.word	0x200015f4
  80094f0:	40005c00 	.word	0x40005c00
 
 080094f4 <USBD_LL_Start>:
@@ -25794,10 +25787,10 @@ USBD_StatusTypeDef USBD_Get_USB_Status(HAL_StatusTypeDef hal_status)
  80098fe:	4798      	blx	r3
  8009900:	3601      	adds	r6, #1
  8009902:	e7f2      	b.n	80098ea <__libc_init_array+0x1e>
- 8009904:	08009c58 	.word	0x08009c58
- 8009908:	08009c58 	.word	0x08009c58
- 800990c:	08009c58 	.word	0x08009c58
- 8009910:	08009c5c 	.word	0x08009c5c
+ 8009904:	08009c54 	.word	0x08009c54
+ 8009908:	08009c54 	.word	0x08009c54
+ 800990c:	08009c54 	.word	0x08009c54
+ 8009910:	08009c58 	.word	0x08009c58
 
 08009914 <malloc>:
  8009914:	b510      	push	{r4, lr}
@@ -26006,7 +25999,7 @@ USBD_StatusTypeDef USBD_Get_USB_Status(HAL_StatusTypeDef hal_status)
  8009ab6:	6023      	str	r3, [r4, #0]
  8009ab8:	bd70      	pop	{r4, r5, r6, pc}
  8009aba:	46c0      	nop			; (mov r8, r8)
- 8009abc:	200010e8 	.word	0x200010e8
+ 8009abc:	200018e8 	.word	0x200018e8
 
 08009ac0 <__malloc_lock>:
  8009ac0:	b510      	push	{r4, lr}
@@ -26014,7 +26007,7 @@ USBD_StatusTypeDef USBD_Get_USB_Status(HAL_StatusTypeDef hal_status)
  8009ac4:	f000 f80c 	bl	8009ae0 <__retarget_lock_acquire_recursive>
  8009ac8:	bd10      	pop	{r4, pc}
  8009aca:	46c0      	nop			; (mov r8, r8)
- 8009acc:	200010f0 	.word	0x200010f0
+ 8009acc:	200018f0 	.word	0x200018f0
 
 08009ad0 <__malloc_unlock>:
  8009ad0:	b510      	push	{r4, lr}
@@ -26022,7 +26015,7 @@ USBD_StatusTypeDef USBD_Get_USB_Status(HAL_StatusTypeDef hal_status)
  8009ad4:	f000 f805 	bl	8009ae2 <__retarget_lock_release_recursive>
  8009ad8:	bd10      	pop	{r4, pc}
  8009ada:	46c0      	nop			; (mov r8, r8)
- 8009adc:	200010f0 	.word	0x200010f0
+ 8009adc:	200018f0 	.word	0x200018f0
 
 08009ae0 <__retarget_lock_acquire_recursive>:
  8009ae0:	4770      	bx	lr
