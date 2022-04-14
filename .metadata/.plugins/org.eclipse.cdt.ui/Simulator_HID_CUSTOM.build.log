@@ -1,99 +1,10 @@
-13:54:10 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
+14:01:30 **** Incremental Build of configuration Debug for project Simulator_HID_CUSTOM ****
 make -j7 all 
-arm-none-eabi-gcc "../USB_DEVICE/App/usbd_custom_hid_if.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"USB_DEVICE/App/usbd_custom_hid_if.d" -MT"USB_DEVICE/App/usbd_custom_hid_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_DEVICE/App/usbd_custom_hid_if.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../USB_DEVICE/App/usbd_custom_hid_if.c:139:3: warning: initialization of 'int8_t (*)(uint8_t *)' {aka 'signed char (*)(unsigned char *)'} from incompatible pointer type 'int8_t (*)(uint8_t,  uint8_t)' {aka 'signed char (*)(unsigned char,  unsigned char)'} [-Wincompatible-pointer-types]
-  139 |   CUSTOM_HID_OutEvent_FS
-      |   ^~~~~~~~~~~~~~~~~~~~~~
-../USB_DEVICE/App/usbd_custom_hid_if.c:139:3: note: (near initialization for 'USBD_CustomHID_fops_FS.OutEvent')
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:163:30: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  163 |   USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
-      |                              ^~~~~~~~~~~~~
-      |                              |
-      |                              USBD_CUSTOM_HID_HandleTypeDef * {aka struct <anonymous> *}
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:140:56: note: expected 'USBD_HandleTypeDef *' {aka 'struct _USBD_HandleTypeDef *'} but argument is of type 'USBD_CUSTOM_HID_HandleTypeDef *' {aka 'struct <anonymous> *'}
-  140 | uint8_t USBD_CUSTOM_HID_SendReport(USBD_HandleTypeDef *pdev,
-      |                                    ~~~~~~~~~~~~~~~~~~~~^~~~
-../Core/Src/main.c:163:45: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  163 |   USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
-      |                                             ^~~~~~~~
-      |                                             |
-      |                                             pumaHID * {aka struct <anonymous> *}
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:141:45: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'pumaHID *' {aka 'struct <anonymous> *'}
-  141 |                                    uint8_t *report,
-      |                                    ~~~~~~~~~^~~~~~
-../Core/Src/main.c:246:19: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
-  246 |    if (ADC_VAL[0] < 0 | ADC_VAL[0] > 60000) ADC_VAL[0] = 0;
-      |        ~~~~~~~~~~~^~~
-../Core/Src/main.c:248:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  248 |    if (ADC_VAL[0] > 255 & ADC_VAL[0] < 50000) ADC_VAL[0] = 255;
-      |        ~~~~~~~~~~~^~~~~
-../Core/Src/main.c:251:19: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
-  251 |    if (ADC_VAL[1] < 0 | ADC_VAL[1] > 60000) ADC_VAL[1] = 0;
-      |        ~~~~~~~~~~~^~~
-../Core/Src/main.c:253:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  253 |    if (ADC_VAL[1] > 255 & ADC_VAL[1] < 50000) ADC_VAL[1] = 255;
-      |        ~~~~~~~~~~~^~~~~
-../Core/Src/main.c:256:19: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
-  256 |    if (ADC_VAL[2] < 0 | ADC_VAL[2] > 60000) ADC_VAL[2] = 0;
-      |        ~~~~~~~~~~~^~~
-../Core/Src/main.c:258:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  258 |    if (ADC_VAL[2] > 255 & ADC_VAL[2] < 50000) ADC_VAL[2] = 255;
-      |        ~~~~~~~~~~~^~~~~
-../Core/Src/main.c:261:19: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
-  261 |    if (ADC_VAL[3] < 0 | ADC_VAL[3] > 60000) ADC_VAL[3] = 0;
-      |        ~~~~~~~~~~~^~~
-../Core/Src/main.c:263:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  263 |    if (ADC_VAL[3] > 255 & ADC_VAL[3] < 50000) ADC_VAL[3] = 255;
-      |        ~~~~~~~~~~~^~~~~
-../Core/Src/main.c:266:19: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
-  266 |    if (ADC_VAL[4] < 0 | ADC_VAL[4] > 60000) ADC_VAL[4] = 0;
-      |        ~~~~~~~~~~~^~~
-../Core/Src/main.c:268:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  268 |    if (ADC_VAL[4] > 255 & ADC_VAL[4] < 50000) ADC_VAL[4] = 255;
-      |        ~~~~~~~~~~~^~~~~
-../Core/Src/main.c:278:31: warning: passing argument 1 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  278 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid)); // Envoie des valeurs par USB
-      |                               ^~~~~~~~~~~~~
-      |                               |
-      |                               USBD_CUSTOM_HID_HandleTypeDef * {aka struct <anonymous> *}
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:140:56: note: expected 'USBD_HandleTypeDef *' {aka 'struct _USBD_HandleTypeDef *'} but argument is of type 'USBD_CUSTOM_HID_HandleTypeDef *' {aka 'struct <anonymous> *'}
-  140 | uint8_t USBD_CUSTOM_HID_SendReport(USBD_HandleTypeDef *pdev,
-      |                                    ~~~~~~~~~~~~~~~~~~~~^~~~
-../Core/Src/main.c:278:46: warning: passing argument 2 of 'USBD_CUSTOM_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  278 |    USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid)); // Envoie des valeurs par USB
-      |                                              ^~~~~~~~
-      |                                              |
-      |                                              pumaHID * {aka struct <anonymous> *}
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h:141:45: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'pumaHID *' {aka 'struct <anonymous> *'}
-  141 |                                    uint8_t *report,
-      |                                    ~~~~~~~~~^~~~~~
-../Core/Src/main.c:120:7: warning: unused variable 'msg' [-Wunused-variable]
-  120 |  char msg[80];
-      |       ^~~
-../Core/Src/main.c: In function 'conversion_adc':
-../Core/Src/main.c:566:9: warning: function returns address of local variable [-Wreturn-local-addr]
-  566 |  return valeur_adc;
-      |         ^~~~~~~~~~
-arm-none-eabi-gcc -o "Simulator_HID_CUSTOM.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulator_HID_CUSTOM/STM32L073CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Simulator_HID_CUSTOM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Simulator_HID_CUSTOM.elf
- 
 arm-none-eabi-size   Simulator_HID_CUSTOM.elf 
-arm-none-eabi-objdump -h -S  Simulator_HID_CUSTOM.elf  > "Simulator_HID_CUSTOM.list"
-arm-none-eabi-objcopy  -O binary  Simulator_HID_CUSTOM.elf  "Simulator_HID_CUSTOM.bin"
    text	   data	    bss	    dec	    hex	filename
-  40020	    516	   7420	  47956	   bb54	Simulator_HID_CUSTOM.elf
+  40068	    508	   7508	  48084	   bbd4	Simulator_HID_CUSTOM.elf
 Finished building: default.size.stdout
  
-Finished building: Simulator_HID_CUSTOM.bin
- 
-Finished building: Simulator_HID_CUSTOM.list
- 
 
-13:54:11 Build Finished. 0 errors, 17 warnings. (took 1s.1ms)
+14:01:31 Build Finished. 0 errors, 0 warnings. (took 304ms)
 

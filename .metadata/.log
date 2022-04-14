@@ -503,3 +503,22 @@ C Model Exception: C Model Status [Element usbd_custom_hid_if.c does not exist.]
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-04-12 10:30:24.339
 !MESSAGE Element usbd_custom_hid_if.c does not exist.
+!SESSION 2022-04-13 14:34:20.860 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/christophemura/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/christophemura/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-04-13 14:34:45.129
+!MESSAGE Log4j initialized with config file /Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-04-13 14:34:52.855
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-13 14:55:56.491
+!MESSAGE Indexed 'Test_USB_F446RE' (22 sources, 82 headers) in 3.22 sec: 5,005 declarations; 26,388 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0064%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-13 15:33:38.318
+!MESSAGE Indexed 'test_USB' (22 sources, 82 headers) in 1.9 sec: 4,549 declarations; 25,049 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0068%)

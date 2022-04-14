@@ -23,7 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_customhid.h"
-#include "stm32l0xx_it.h"
+//#include "stm32l0xx_it.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,8 +31,8 @@
 
 typedef struct{
 	uint8_t hat0;
-	uint8_t hat1;
-	uint8_t hat2;
+	//uint8_t hat1;
+	//uint8_t hat2;
 	uint8_t key3;
 	uint8_t but0;
 	uint8_t but1;
@@ -41,8 +41,8 @@ typedef struct{
 	uint16_t x;
 	uint16_t y;
 	uint16_t z;
-	uint16_t rx;
-	uint16_t ry;
+	//uint16_t rx;
+	//uint16_t ry;
 }pumaHID;
 
 pumaHID pumahid;
@@ -120,8 +120,8 @@ int main(void)
 	char msg[80];
 
 	pumahid.hat0 = 0x00;
-	pumahid.hat1 = 0x00;
-	pumahid.hat2 = 0x00;
+	//pumahid.hat1 = 0x00;
+	//pumahid.hat2 = 0x00;
 	pumahid.key3 = 0x00;
 	pumahid.but0 = 0x00;
 	pumahid.but1 = 0x00;
@@ -130,8 +130,8 @@ int main(void)
 	pumahid.x = 0x0000;
 	pumahid.y = 0x0000;
 	pumahid.z = 0x0000;
-	pumahid.rx = 0x0000;
-	pumahid.ry = 0x0000;
+	//pumahid.rx = 0x0000;
+	//pumahid.ry = 0x0000;
 
   /* USER CODE END 1 */
 
@@ -160,7 +160,7 @@ int main(void)
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);		// Calibration de l'ADC
-  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
+  //USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -272,8 +272,8 @@ int main(void)
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
 	  pumahid.z = ADC_VAL[2];
-	  pumahid.rx = ADC_VAL[3];
-	  pumahid.ry = ADC_VAL[4];
+	  //pumahid.rx = ADC_VAL[3];
+	  //pumahid.ry = ADC_VAL[4];
 
 	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));	// Envoie des valeurs par USB
 
@@ -475,8 +475,8 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : BP30_Pin BP4_Pin BP2_Pin HAT_WEST_Pin */
-  GPIO_InitStruct.Pin = BP30_Pin|BP4_Pin|BP2_Pin|HAT_WEST_Pin;
+  /*Configure GPIO pins : BP30_Pin BP4_Pin HAT_WEST_Pin */
+  GPIO_InitStruct.Pin = BP30_Pin|BP4_Pin|HAT_WEST_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -496,6 +496,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BP2_Pin */
+  GPIO_InitStruct.Pin = BP2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(BP2_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : LED_V_Pin */
   GPIO_InitStruct.Pin = LED_V_Pin;
