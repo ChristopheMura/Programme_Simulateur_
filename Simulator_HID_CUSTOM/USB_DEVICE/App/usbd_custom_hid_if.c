@@ -63,7 +63,7 @@
   */
 
 /* USER CODE BEGIN PRIVATE_DEFINES */
-uint8_t buffer[0x55];
+
 /* USER CODE END PRIVATE_DEFINES */
 
 /**
@@ -97,15 +97,15 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 		0xA1, 0x01,        // Collection (Application)
 		0x05, 0x01,        //   Usage Page (Generic Desktop Ctrls)
 		0x09, 0x39,        //   Usage (Hat switch)
-		//0x09, 0x39,        //   Usage (Hat switch)
-		//0x09, 0x39,        //   Usage (Hat switch)
+		0x09, 0x39,        //   Usage (Hat switch)
+		0x09, 0x39,        //   Usage (Hat switch)
 		0x15, 0x00,        //   Logical Minimum (0)
 		0x25, 0x07,        //   Logical Maximum (7)
 		0x35, 0x00,        //   Physical Minimum (0)
 		0x46, 0x3B, 0x01,  //   Physical Maximum (315)
 		0x65, 0x14,        //   Unit (System: English Rotation, Length: Centimeter)
 		0x75, 0x08,        //   Report Size (8)
-		0x95, 0x01,        //   Report Count (3)
+		0x95, 0x03,        //   Report Count (3)
 		0x81, 0x02,        //   Input (Data,Var,Abs,No Wrap,Linear,Preferred State,No Null Position)
 		0x05, 0x09,        //   Usage Page (Button)
 		0x19, 0x01,        //   Usage Minimum (0x01)
@@ -126,9 +126,9 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 		0x09, 0x30,        //     Usage (X)
 		0x09, 0x31,        //     Usage (Y)
 		0x09, 0x32,        //     Usage (Z)
-		//0x09, 0x33,        //     Usage (Rx)
-		//0x09, 0x34,        //     Usage (Ry)
-		0x95, 0x03,        //     Report Count (5)
+		0x09, 0x33,        //     Usage (Rx)
+		0x09, 0x34,        //     Usage (Ry)
+		0x95, 0x05,        //     Report Count (5)
 		0x81, 0x02,        //     Input (Data,Var,Abs,No Wrap,Linear,Preferred State,No Null Position)
 		0xC0,              //   End Collection
 		//0xC0,              // End Collection
@@ -216,8 +216,6 @@ static int8_t CUSTOM_HID_DeInit_FS(void)
 static int8_t CUSTOM_HID_OutEvent_FS(uint8_t *state)
 {
   /* USER CODE BEGIN 6 */
-	memcpy(buffer, state, 0x55);
-	USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, buffer, sizeof(state));
   return (USBD_OK);
   /* USER CODE END 6 */
 }

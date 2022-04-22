@@ -31,8 +31,8 @@
 
 typedef struct{
 	uint8_t hat0;
-	//uint8_t hat1;
-	//uint8_t hat2;
+	uint8_t hat1;
+	uint8_t hat2;
 	uint8_t key3;
 	uint8_t but0;
 	uint8_t but1;
@@ -41,8 +41,8 @@ typedef struct{
 	uint16_t x;
 	uint16_t y;
 	uint16_t z;
-	//uint16_t rx;
-	//uint16_t ry;
+	uint16_t rx;
+	uint16_t ry;
 }pumaHID;
 
 pumaHID pumahid;
@@ -66,6 +66,7 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 extern USBD_CUSTOM_HID_HandleTypeDef hUsbDeviceFS;
+//extern USBD_CUSTOM_HID_ItfTypeDef hUsbDeviceFS;
 
 GPIO_PinState BP_1;
 GPIO_PinState BP_3;
@@ -99,8 +100,7 @@ static void MX_GPIO_Init(void);
 static void MX_ADC_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-uint32_t* conversion_adc(void);
-char lecture_bp_fct(void);
+void envoi(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -120,8 +120,8 @@ int main(void)
 	char msg[80];
 
 	pumahid.hat0 = 0x00;
-	//pumahid.hat1 = 0x00;
-	//pumahid.hat2 = 0x00;
+	pumahid.hat1 = 0x00;
+	pumahid.hat2 = 0x00;
 	pumahid.key3 = 0x00;
 	pumahid.but0 = 0x00;
 	pumahid.but1 = 0x00;
@@ -130,8 +130,8 @@ int main(void)
 	pumahid.x = 0x0000;
 	pumahid.y = 0x0000;
 	pumahid.z = 0x0000;
-	//pumahid.rx = 0x0000;
-	//pumahid.ry = 0x0000;
+	pumahid.rx = 0x0000;
+	pumahid.ry = 0x0000;
 
   /* USER CODE END 1 */
 
@@ -160,7 +160,6 @@ int main(void)
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
   HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED);		// Calibration de l'ADC
-  //USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -225,21 +224,12 @@ int main(void)
 	  else if (BP_6 == 0) pumahid.but1 = 0x02;				// Appuie sur bouton 6
 	  else pumahid.but1 = 0x04;
 
-
+	  /******************** Gestion des communitateurs ********************/
 	  if (BP_7 == 0)
 	  {
 		  if (BP_11 == 0) pumahid.but2 = 0x01;
-		  if (BP_20 == 0) pumahid.but2 = 0x02; // À revoir
+		  if (BP_20 == 0) pumahid.but2 = 0x02;
 	  }
-	  /*if (BP_7 == 0 & BP_11 == 0) pumahid.but2 = 0x01;			// Appuie sur bouton 7
-	  else if (BP_7 == 0 & BP_30 == 0) pumahid.but2 == 0x02;		// Appuie sur bouton 8
-	  else pumahid.but2 = 0x04;*/
-
-	  /*if (BP_20 == 1) pumahid.but3 = 1;
-	  else if (BP_11 == 1) pumahid.but3 = 2;
-	  else if (BP_21 == 1) pumahid.but3 = 3;
-	  else if (BP_30 == 1) pumahid.but3 = 4;
-	  else pumahid.but3 = 5;*/
 
 
 	  ADC_VAL[0] -= 1725;											// AXE X
@@ -272,14 +262,16 @@ int main(void)
 	  pumahid.x = ADC_VAL[0];
 	  pumahid.y = ADC_VAL[1];
 	  pumahid.z = ADC_VAL[2];
-	  //pumahid.rx = ADC_VAL[3];
-	  //pumahid.ry = ADC_VAL[4];
+	  pumahid.rx = ADC_VAL[3];
+	  pumahid.ry = ADC_VAL[4];
 
-	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));	// Envoie des valeurs par USB
+	  /*********** Envoie des valeurs par USB ***********/
+	  USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, &pumahid, sizeof(pumahid));
 
 	  HAL_Delay(10);
 
-	  //sprintf(msg, " PEDAL X = %hu | COLLECTIVE = %hu\n", /*ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], */ADC_VAL[3], ADC_VAL[1]);
+	  /*********** Envoie des valeurs en UART ***********/
+	  //sprintf(msg, " PEDAL X = %hu | COLLECTIVE = %hu\n", /*ADC_VAL[0], ADC_VAL[1], ADC_VAL[2], */ADC_VAL[3], ADC_VAL[4]);
 	  //HAL_UART_Transmit(&huart2, &msg, strlen(msg), HAL_MAX_DELAY);
 
     /* USER CODE END WHILE */
@@ -521,56 +513,6 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
-char lecture_bp_fct(void)
-{
-	char valide;
-	/******************** LECTURE DES BOUTONS POUSSOIRS ********************/
-
-	/************ BOUTON SUR MANCHE ************/
-
-	BP_1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);			// Lecture bouton 1
-	BP_3 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);			// Lecture bouton 3
-	hat_east = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4);		// Lecture chapeau est
-
-	hat_north = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3);		// Lecture chapeau nord
-	hat_west = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15);		// Lecture chapeau ouest
-
-	BP_2 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9);			// Lecture bouton 2
-	BP_4 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8);			// Lecture bouton 4
-	hat_south = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_15);		// Lecture chapeau sud
-
-	/************ BOUTON SUR CONLLECTIVE ************/
-
-	BP_5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);			// Lecture bouton 5 rouge
-	BP_6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);			// Lecture bouton 6 rouge
-
-	BP_7 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);			// Lecture switch rouge position haut
-	BP_8 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);			// Lecture switch rouge position bas
-
-	BP_20 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_2);			// Lecture swtich noir config 1 position haut
-	BP_11 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1);			// Lecture switch noir config 1 position bas
-	BP_21 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);			// Lecture switch noir config 2 position haut
-	BP_30 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7);			// Lecture switch noir config 2 position bas
-	valide = 1;
-
-	return valide;
-}
-
-
-uint32_t* conversion_adc(void)
-{
-	uint32_t valeur_adc[5];
-
-	valeur_adc[0] = HAL_ADC_GetValue(&hadc);
-	valeur_adc[1] = HAL_ADC_GetValue(&hadc);
-	valeur_adc[2] = HAL_ADC_GetValue(&hadc);
-	valeur_adc[3] = HAL_ADC_GetValue(&hadc);
-	valeur_adc[4] = HAL_ADC_GetValue(&hadc);
-	HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
-	HAL_ADC_Stop(&hadc);
-
-	return valeur_adc;
-}
 /* USER CODE END 4 */
 
 /**

@@ -1,8 +1,6 @@
 main.c:115:5:main	120	static
-main.c:296:6:SystemClock_Config	136	static
-main.c:347:13:MX_ADC_Init	16	static
-main.c:429:13:MX_USART2_UART_Init	8	static
-main.c:464:13:MX_GPIO_Init	48	static
-main.c:524:6:lecture_bp_fct	16	static
-main.c:560:11:conversion_adc	32	static
-main.c:580:6:Error_Handler	8	static,ignoring_inline_asm
+main.c:297:6:SystemClock_Config	136	static
+main.c:348:13:MX_ADC_Init	16	static
+main.c:430:13:MX_USART2_UART_Init	8	static
+main.c:465:13:MX_GPIO_Init	48	static
+main.c:531:6:Error_Handler	8	static,ignoring_inline_asm

@@ -1,0 +1,20 @@
+16:38:22 **** Incremental Build of configuration Debug for project Simulateur_USB_HID ****
+make -j7 all 
+arm-none-eabi-gcc "/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Drivers/STM32L0xx_HAL_Driver/Inc -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I/Users/christophemura/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.1/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/USB_Device_Library/usbd_hid.d" -MT"Middlewares/USB_Device_Library/usbd_hid.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/USB_Device_Library/usbd_hid.o"
+arm-none-eabi-gcc -o "Simulateur_USB_HID.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/christophemura/Documents/IUT/S4/Programme/Programme_Simulateur/Simulateur_USB_HID/STM32L073CZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Simulateur_USB_HID.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Simulateur_USB_HID.elf
+ 
+arm-none-eabi-size   Simulateur_USB_HID.elf 
+arm-none-eabi-objdump -h -S  Simulateur_USB_HID.elf  > "Simulateur_USB_HID.list"
+arm-none-eabi-objcopy  -O binary  Simulateur_USB_HID.elf  "Simulateur_USB_HID.bin"
+   text	   data	    bss	    dec	    hex	filename
+  34348	    376	   3720	  38444	   962c	Simulateur_USB_HID.elf
+Finished building: default.size.stdout
+ 
+Finished building: Simulateur_USB_HID.bin
+ 
+Finished building: Simulateur_USB_HID.list
+ 
+
+16:38:23 Build Finished. 0 errors, 0 warnings. (took 1s.309ms)
+
